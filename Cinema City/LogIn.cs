@@ -16,5 +16,18 @@ namespace Cinema_City
         {
             InitializeComponent();
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            if(username.Text =="admin" && password.Text == "220813")
+            {
+                this.Hide();
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+            } else
+            {
+                MessageBox.Show("Wrong Credential");
+            }
+        }
     }
 }

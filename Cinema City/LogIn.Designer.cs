@@ -69,10 +69,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(510, 75);
+            this.pictureBox1.Location = new System.Drawing.Point(382, 61);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(645, 645);
+            this.pictureBox1.Size = new System.Drawing.Size(484, 524);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -85,12 +85,13 @@
             this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.IconColor = System.Drawing.Color.Black;
             this.exitBtn.IconSize = 15F;
-            this.exitBtn.Location = new System.Drawing.Point(1108, 12);
+            this.exitBtn.Location = new System.Drawing.Point(831, 10);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.exitBtn.Size = new System.Drawing.Size(30, 30);
+            this.exitBtn.Size = new System.Drawing.Size(22, 24);
             this.exitBtn.TabIndex = 1;
             // 
             // minimizeBtn
@@ -102,12 +103,13 @@
             this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.minimizeBtn.IconColor = System.Drawing.Color.Black;
             this.minimizeBtn.IconSize = 15F;
-            this.minimizeBtn.Location = new System.Drawing.Point(1068, 12);
+            this.minimizeBtn.Location = new System.Drawing.Point(801, 10);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.minimizeBtn.Name = "minimizeBtn";
             this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
             this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.minimizeBtn.Size = new System.Drawing.Size(30, 30);
+            this.minimizeBtn.Size = new System.Drawing.Size(22, 24);
             this.minimizeBtn.TabIndex = 1;
             // 
             // panel1
@@ -117,8 +119,9 @@
             this.panel1.Controls.Add(this.username);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(473, 646);
+            this.panel1.Size = new System.Drawing.Size(355, 525);
             this.panel1.TabIndex = 2;
             // 
             // loginBtn
@@ -158,7 +161,8 @@
             this.loginBtn.IdleIconLeftImage = null;
             this.loginBtn.IdleIconRightImage = null;
             this.loginBtn.IndicateFocus = false;
-            this.loginBtn.Location = new System.Drawing.Point(139, 372);
+            this.loginBtn.Location = new System.Drawing.Point(104, 302);
+            this.loginBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginBtn.Name = "loginBtn";
             stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             stateProperties1.BorderRadius = 35;
@@ -178,11 +182,12 @@
             stateProperties2.IconLeftImage = null;
             stateProperties2.IconRightImage = null;
             this.loginBtn.OnPressedState = stateProperties2;
-            this.loginBtn.Size = new System.Drawing.Size(174, 45);
+            this.loginBtn.Size = new System.Drawing.Size(130, 37);
             this.loginBtn.TabIndex = 1;
             this.loginBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.loginBtn.TextMarginLeft = 0;
             this.loginBtn.UseDefaultRadiusAndThickness = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // password
             // 
@@ -212,9 +217,10 @@
             this.password.IconRight = null;
             this.password.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.password.Lines = new string[0];
-            this.password.Location = new System.Drawing.Point(105, 268);
+            this.password.Location = new System.Drawing.Point(79, 218);
+            this.password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.password.MaxLength = 32767;
-            this.password.MinimumSize = new System.Drawing.Size(100, 35);
+            this.password.MinimumSize = new System.Drawing.Size(75, 28);
             this.password.Modified = false;
             this.password.Multiline = false;
             this.password.Name = "password";
@@ -247,7 +253,7 @@
             this.password.SelectionLength = 0;
             this.password.SelectionStart = 0;
             this.password.ShortcutsEnabled = true;
-            this.password.Size = new System.Drawing.Size(243, 45);
+            this.password.Size = new System.Drawing.Size(182, 37);
             this.password.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.password.TabIndex = 0;
             this.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -286,9 +292,10 @@
             this.username.IconRight = null;
             this.username.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.username.Lines = new string[0];
-            this.username.Location = new System.Drawing.Point(105, 164);
+            this.username.Location = new System.Drawing.Point(79, 133);
+            this.username.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.username.MaxLength = 32767;
-            this.username.MinimumSize = new System.Drawing.Size(100, 35);
+            this.username.MinimumSize = new System.Drawing.Size(75, 28);
             this.username.Modified = false;
             this.username.Multiline = false;
             this.username.Name = "username";
@@ -321,7 +328,7 @@
             this.username.SelectionLength = 0;
             this.username.SelectionStart = 0;
             this.username.ShortcutsEnabled = true;
-            this.username.Size = new System.Drawing.Size(243, 45);
+            this.username.Size = new System.Drawing.Size(182, 37);
             this.username.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.username.TabIndex = 0;
             this.username.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -334,15 +341,16 @@
             // 
             // logIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(1150, 646);
+            this.ClientSize = new System.Drawing.Size(862, 525);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.minimizeBtn);
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "logIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log In";
