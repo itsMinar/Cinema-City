@@ -19,15 +19,24 @@ namespace Cinema_City
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            if(username.Text =="admin" && password.Text == "220813")
+            if (username.Text != String.Empty && password.Text != String.Empty)
             {
-                this.Hide();
-                Dashboard dashboard = new Dashboard();
-                dashboard.Show();
-            } else
-            {
-                MessageBox.Show("Wrong Credential");
+                if (username.Text == "admin" && password.Text == "220813")
+                {
+                    this.Hide();
+                    Dashboard dashboard = new Dashboard();
+                    dashboard.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Wrong Credentials");
+                }
             }
+            else
+            {
+                MessageBox.Show("Please insert Credentials");
+            }
+            
         }
     }
 }
