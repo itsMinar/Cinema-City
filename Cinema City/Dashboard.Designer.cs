@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.dashboardElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.dashboardDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
@@ -56,13 +57,13 @@
             this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.minimizeBtn.IconColor = System.Drawing.Color.Black;
             this.minimizeBtn.IconSize = 15F;
-            this.minimizeBtn.Location = new System.Drawing.Point(799, 11);
-            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Location = new System.Drawing.Point(1065, 14);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.minimizeBtn.Name = "minimizeBtn";
             this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
             this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.minimizeBtn.Size = new System.Drawing.Size(22, 24);
+            this.minimizeBtn.Size = new System.Drawing.Size(29, 30);
             this.minimizeBtn.TabIndex = 2;
             // 
             // exitBtn
@@ -73,25 +74,26 @@
             this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.IconColor = System.Drawing.Color.Black;
             this.exitBtn.IconSize = 15F;
-            this.exitBtn.Location = new System.Drawing.Point(829, 11);
-            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Location = new System.Drawing.Point(1105, 14);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.exitBtn.Size = new System.Drawing.Size(22, 24);
+            this.exitBtn.Size = new System.Drawing.Size(29, 30);
             this.exitBtn.TabIndex = 3;
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(862, 525);
+            this.ClientSize = new System.Drawing.Size(1149, 646);
             this.Controls.Add(this.minimizeBtn);
             this.Controls.Add(this.exitBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
