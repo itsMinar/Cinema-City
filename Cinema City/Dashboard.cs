@@ -16,5 +16,16 @@ namespace Cinema_City
         {
             InitializeComponent();
         }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are You Sure?", "Logout", MessageBoxButtons.YesNo);
+            if(dialogResult == DialogResult.Yes)
+            {
+                logIn loginPage = new logIn();
+                loginPage.Show();
+                this.Hide();
+            }
+        }
     }
 }

@@ -36,95 +36,86 @@
     <ApplicationIcon>MainLogo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.Core.dll</HintPath>
+    <Reference Include="Bunifu.Core">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.Core.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPages">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Bunifu_UI\Bunifu_UI_v1.5.3.dll</HintPath>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Guna_UI\Guna.UI.dll</HintPath>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\1\Guna.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\M1N4R\Desktop\UI Framework\Guna_UI2\Guna.UI2.dll</HintPath>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\2\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
