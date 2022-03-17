@@ -56,7 +56,7 @@
             // 
             // loginElipse
             // 
-            this.loginElipse.ElipseRadius = 15;
+            this.loginElipse.ElipseRadius = 30;
             this.loginElipse.TargetControl = this;
             // 
             // loginDragControl1
