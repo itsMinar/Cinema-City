@@ -14,14 +14,11 @@ namespace Cinema_City.User_Controls
     public partial class Add_Movies : UserControl
     {
         string Tht { get; set; }
+        string Tm { get; set; }
+
         public Add_Movies()
         {
             InitializeComponent();
-        }
-
-        private void Add_Movies_Load(object sender, EventArgs e)
-        {
-            timeBox.ShowUpDown = true;
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
@@ -37,7 +34,7 @@ namespace Cinema_City.User_Controls
 
         private void addMovieBtn_Click(object sender, EventArgs e)
         {
-            if(Tht != null)
+            if(Tht != null && Tm != null)
             {
                 try
                 {
@@ -45,7 +42,7 @@ namespace Cinema_City.User_Controls
                     string year = yearBox.Text;
                     string lang = langBox.Text;
                     string theatre = theatreBox.SelectedItem.ToString();
-                    string time = timeBox.Value.ToString("HH:mm:ss");
+                    string time = timeBox.SelectedItem.ToString();
 
                     Image img = imgBox.Image;
                     byte[] arr;
@@ -66,10 +63,11 @@ namespace Cinema_City.User_Controls
                         temp_lang = dr["language"].ToString();
                         temp_theatre = dr["theatre_name"].ToString();
                         temp_time = dr["show_time"].ToString();
-                        if (temp_name == name && temp_year == year && temp_lang == lang && temp_theatre == theatre && temp_time == time)
-                        {
+
+                        if (temp_theatre == theatre && temp_time == time)
+                            {
                             dataExist = true;
-                            MessageBox.Show("Movie Already Exist");
+                            MessageBox.Show("Theatre is Booked", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             break;
                         }
                     }
@@ -77,7 +75,7 @@ namespace Cinema_City.User_Controls
 
                     if (dataExist == false)
                     {
-                        if (name != String.Empty && year != String.Empty && lang != String.Empty && time != String.Empty && img != null)
+                        if (name != String.Empty && year != String.Empty && lang != String.Empty && img != null)
                         {
                             SqlCommand cmd2 = new SqlCommand("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES(@name, @year, @language, @poster, @theatre, @time)", con);
                             cmd2.Parameters.AddWithValue("@name", name);
@@ -88,19 +86,23 @@ namespace Cinema_City.User_Controls
                             cmd2.Parameters.AddWithValue("@time", time);
 
                             cmd2.ExecuteNonQuery();
-                            MessageBox.Show("Movie Added");
+                            MessageBox.Show("Movie Added", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             con.Close();
+
+                            nameBox.Text = String.Empty;
+                            yearBox.Text = String.Empty;
+                            langBox.Text = String.Empty;
+                            imgBox.Image = null;
                         }
                         else
                         {
-                            MessageBox.Show("Something Missing");
+                            MessageBox.Show("Something is Missing", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                     else
                     {
 
                     }
-
                 }
                 catch (Exception ex)
                 {
@@ -108,7 +110,7 @@ namespace Cinema_City.User_Controls
                 }
             } else
             {
-                MessageBox.Show("Select Theatre");
+                MessageBox.Show("Select Theatre and Show Time", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -117,6 +119,14 @@ namespace Cinema_City.User_Controls
             if (theatreBox.SelectedItem != null)
             {
                 Tht = theatreBox.SelectedItem.ToString();
+            }
+        }
+
+        private void timeBox_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (timeBox.SelectedItem != null)
+            {
+                Tm = timeBox.SelectedItem.ToString();
             }
         }
     }

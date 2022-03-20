@@ -29,12 +29,14 @@ namespace Cinema_City
         {
             dashboardBtn.Checked = false;
             addMoviesBtn.Checked = false;
+            runningMoviesBtn.Checked = false;
         }
 
         private void hideallUserControl()
         {
             user_Dashboard1.Visible = false;
             add_Movies1.Visible = false;
+            running_Movies1.Visible=false;
         }
         private void showUserControl(UserControl x, Guna2Button y)
         {
@@ -64,6 +66,11 @@ namespace Cinema_City
         private void addMoviesBtn_Click(object sender, EventArgs e)
         {
             showUserControl(add_Movies1, addMoviesBtn);
+        }
+
+        private void runningMoviesBtn_Click(object sender, EventArgs e)
+        {
+            showUserControl(running_Movies1, runningMoviesBtn);
         }
     }
 }
