@@ -121,30 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="password.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAALYAAAAlCAYAAADvAhPpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFMSURBVHhe7dy9SgNBFIbhuQyxiho0iooi/kRHYyMIQcj+
-        gY1epGCb3koXCQER1lqRYGNjsXrINAt7Ac7He+ApFma6l2Gr4xhGeqpBsfDkk/uJTz/ezooaiIU1W/pk
-        XA3SXsh5Phb1s08+bzeO673ubr3Y2QSiYc1er/frh/7ovRG3vdQWddslIBYXa/t1eZJMQ9bOvZxm36vL
-        262HgZjYr0nI2jn7aDsExIawIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmw
-        IYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIakR9qvPfzpL7O5D/Bphlz59HPYOWg8CsbB1
-        wrYrO2Rt+7Gz8/HR1WxrZaf1AvDf2bbgu8PhbOLzImQ9n8rnl1OffdlTDsTGVmH/vdY3IWeGURznfgEs
-        ygZK33OonAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="username.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAALYAAAAlCAYAAADvAhPpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFMSURBVHhe7dy9SgNBFIbhuQyxiho0iooi/kRHYyMIQcj+
-        gY1epGCb3koXCQER1lqRYGNjsXrINAt7Ac7He+ApFma6l2Gr4xhGeqpBsfDkk/uJTz/ezooaiIU1W/pk
-        XA3SXsh5Phb1s08+bzeO673ubr3Y2QSiYc1er/frh/7ovRG3vdQWddslIBYXa/t1eZJMQ9bOvZxm36vL
-        262HgZjYr0nI2jn7aDsExIawIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmw
-        IYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIYmwIakR9qvPfzpL7O5D/Bphlz59HPYOWg8CsbB1
-        wrYrO2Rt+7Gz8/HR1WxrZaf1AvDf2bbgu8PhbOLzImQ9n8rnl1OffdlTDsTGVmH/vdY3IWeGURznfgEs
-        ygZK33OonAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnMAAAIcCAYAAACdEiiBAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -2400,7 +2376,13 @@
         BAQEAQgICAgCEBAQEAQgICDwueP/AxI3QOPtJmcWAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="loginDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>161, 17</value>
+  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 17</value>
+  </metadata>
+  <metadata name="guna2DragControl2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>331, 17</value>
+  </metadata>
+  <metadata name="guna2DragControl3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>519, 17</value>
   </metadata>
 </root>

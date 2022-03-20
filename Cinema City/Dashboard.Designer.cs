@@ -42,11 +42,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.user_Dashboard1 = new Cinema_City.User_Controls.user_Dashboard();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.add_Movies1 = new Cinema_City.User_Controls.Add_Movies();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // dashboardElipse
@@ -116,7 +120,7 @@
             this.analyticsBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.analyticsBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.analyticsBtn.HoverState.Parent = this.analyticsBtn;
-            this.analyticsBtn.Location = new System.Drawing.Point(34, 436);
+            this.analyticsBtn.Location = new System.Drawing.Point(34, 438);
             this.analyticsBtn.Margin = new System.Windows.Forms.Padding(0);
             this.analyticsBtn.Name = "analyticsBtn";
             this.analyticsBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -166,7 +170,7 @@
             this.updateMoviesBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.updateMoviesBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.updateMoviesBtn.HoverState.Parent = this.updateMoviesBtn;
-            this.updateMoviesBtn.Location = new System.Drawing.Point(34, 394);
+            this.updateMoviesBtn.Location = new System.Drawing.Point(34, 395);
             this.updateMoviesBtn.Margin = new System.Windows.Forms.Padding(0);
             this.updateMoviesBtn.Name = "updateMoviesBtn";
             this.updateMoviesBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -224,6 +228,7 @@
             this.addMoviesBtn.Size = new System.Drawing.Size(116, 32);
             this.addMoviesBtn.TabIndex = 7;
             this.addMoviesBtn.Text = "Add Movies";
+            this.addMoviesBtn.Click += new System.EventHandler(this.addMoviesBtn_Click);
             // 
             // dashboardBtn
             // 
@@ -249,6 +254,7 @@
             this.dashboardBtn.Size = new System.Drawing.Size(116, 32);
             this.dashboardBtn.TabIndex = 7;
             this.dashboardBtn.Text = "Dashboard";
+            this.dashboardBtn.Click += new System.EventHandler(this.dashboardBtn_Click);
             // 
             // label2
             // 
@@ -285,28 +291,45 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this;
-            this.bunifuDragControl1.Vertical = true;
-            // 
-            // bunifuDragControl2
-            // 
-            this.bunifuDragControl2.Fixed = true;
-            this.bunifuDragControl2.Horizontal = true;
-            this.bunifuDragControl2.TargetControl = this.panel1;
-            this.bunifuDragControl2.Vertical = true;
-            // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.add_Movies1);
+            this.panel2.Controls.Add(this.user_Dashboard1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(174, 0);
+            this.panel2.Location = new System.Drawing.Point(173, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(832, 630);
+            this.panel2.Size = new System.Drawing.Size(833, 630);
             this.panel2.TabIndex = 6;
+            // 
+            // user_Dashboard1
+            // 
+            this.user_Dashboard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.user_Dashboard1.Location = new System.Drawing.Point(13, 10);
+            this.user_Dashboard1.Margin = new System.Windows.Forms.Padding(2);
+            this.user_Dashboard1.Name = "user_Dashboard1";
+            this.user_Dashboard1.Size = new System.Drawing.Size(810, 610);
+            this.user_Dashboard1.TabIndex = 0;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.TargetControl = this.panel1;
+            // 
+            // guna2DragControl3
+            // 
+            this.guna2DragControl3.TargetControl = this.panel2;
+            // 
+            // add_Movies1
+            // 
+            this.add_Movies1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.add_Movies1.Location = new System.Drawing.Point(13, 10);
+            this.add_Movies1.Name = "add_Movies1";
+            this.add_Movies1.Size = new System.Drawing.Size(810, 610);
+            this.add_Movies1.TabIndex = 1;
             // 
             // Dashboard
             // 
@@ -322,9 +345,11 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -334,17 +359,20 @@
         private Bunifu.Framework.UI.BunifuElipse dashboardElipse;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button dashboardBtn;
-        private Guna.UI2.WinForms.Guna2Button analyticsBtn;
         private Guna.UI2.WinForms.Guna2Button bookingBtn;
         private Guna.UI2.WinForms.Guna2Button updateMoviesBtn;
         private Guna.UI2.WinForms.Guna2Button runningMoviesBtn;
         private Guna.UI2.WinForms.Guna2Button addMoviesBtn;
         private Guna.UI2.WinForms.Guna2Button logoutBtn;
         private System.Windows.Forms.Panel panel2;
+        private Guna.UI2.WinForms.Guna2Button analyticsBtn;
+        private User_Controls.user_Dashboard user_Dashboard1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
+        private User_Controls.Add_Movies add_Movies1;
     }
 }

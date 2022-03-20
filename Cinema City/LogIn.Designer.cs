@@ -30,23 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(logIn));
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             this.loginElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.loginDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.password = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.username = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.loginBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.username = new Guna.UI2.WinForms.Guna2TextBox();
+            this.password = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -55,13 +49,6 @@
             // 
             this.loginElipse.ElipseRadius = 30;
             this.loginElipse.TargetControl = this;
-            // 
-            // loginDragControl1
-            // 
-            this.loginDragControl1.Fixed = true;
-            this.loginDragControl1.Horizontal = true;
-            this.loginDragControl1.TargetControl = this;
-            this.loginDragControl1.Vertical = true;
             // 
             // pictureBox1
             // 
@@ -111,165 +98,16 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.loginBtn);
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.password);
             this.panel1.Controls.Add(this.username);
+            this.panel1.Controls.Add(this.loginBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(355, 525);
             this.panel1.TabIndex = 2;
-            // 
-            // password
-            // 
-            this.password.AcceptsReturn = false;
-            this.password.AcceptsTab = false;
-            this.password.AnimationSpeed = 200;
-            this.password.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.password.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.password.BackColor = System.Drawing.Color.Transparent;
-            this.password.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("password.BackgroundImage")));
-            this.password.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.password.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.password.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.password.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.password.BorderRadius = 6;
-            this.password.BorderThickness = 1;
-            this.password.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.password.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.password.DefaultText = "";
-            this.password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
-            this.password.ForeColor = System.Drawing.Color.White;
-            this.password.HideSelection = true;
-            this.password.IconLeft = null;
-            this.password.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.password.IconPadding = 10;
-            this.password.IconRight = null;
-            this.password.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.password.Lines = new string[0];
-            this.password.Location = new System.Drawing.Point(79, 218);
-            this.password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.password.MaxLength = 32767;
-            this.password.MinimumSize = new System.Drawing.Size(75, 28);
-            this.password.Modified = false;
-            this.password.Multiline = false;
-            this.password.Name = "password";
-            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.password.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.Empty;
-            stateProperties10.FillColor = System.Drawing.Color.White;
-            stateProperties10.ForeColor = System.Drawing.Color.Empty;
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.password.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.password.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            stateProperties12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
-            stateProperties12.ForeColor = System.Drawing.Color.White;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.password.OnIdleState = stateProperties12;
-            this.password.PasswordChar = '●';
-            this.password.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.password.PlaceholderText = "Password";
-            this.password.ReadOnly = false;
-            this.password.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.password.SelectedText = "";
-            this.password.SelectionLength = 0;
-            this.password.SelectionStart = 0;
-            this.password.ShortcutsEnabled = true;
-            this.password.Size = new System.Drawing.Size(182, 37);
-            this.password.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.password.TabIndex = 0;
-            this.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.password.TextMarginBottom = 0;
-            this.password.TextMarginLeft = 5;
-            this.password.TextMarginTop = 0;
-            this.password.TextPlaceholder = "Password";
-            this.password.UseSystemPasswordChar = true;
-            this.password.WordWrap = true;
-            // 
-            // username
-            // 
-            this.username.AcceptsReturn = false;
-            this.username.AcceptsTab = false;
-            this.username.AnimationSpeed = 200;
-            this.username.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.username.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.username.BackColor = System.Drawing.Color.Transparent;
-            this.username.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("username.BackgroundImage")));
-            this.username.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.username.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.username.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.username.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.username.BorderRadius = 6;
-            this.username.BorderThickness = 1;
-            this.username.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.username.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.username.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.username.DefaultText = "";
-            this.username.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
-            this.username.ForeColor = System.Drawing.Color.White;
-            this.username.HideSelection = true;
-            this.username.IconLeft = null;
-            this.username.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.username.IconPadding = 10;
-            this.username.IconRight = null;
-            this.username.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.username.Lines = new string[0];
-            this.username.Location = new System.Drawing.Point(79, 133);
-            this.username.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.username.MaxLength = 32767;
-            this.username.MinimumSize = new System.Drawing.Size(75, 28);
-            this.username.Modified = false;
-            this.username.Multiline = false;
-            this.username.Name = "username";
-            stateProperties13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.username.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.Empty;
-            stateProperties14.FillColor = System.Drawing.Color.White;
-            stateProperties14.ForeColor = System.Drawing.Color.Empty;
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.username.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.username.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            stateProperties16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
-            stateProperties16.ForeColor = System.Drawing.Color.White;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.username.OnIdleState = stateProperties16;
-            this.username.PasswordChar = '\0';
-            this.username.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.username.PlaceholderText = "USERNAME";
-            this.username.ReadOnly = false;
-            this.username.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.username.SelectedText = "";
-            this.username.SelectionLength = 0;
-            this.username.SelectionStart = 0;
-            this.username.ShortcutsEnabled = true;
-            this.username.Size = new System.Drawing.Size(182, 37);
-            this.username.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.username.TabIndex = 0;
-            this.username.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.username.TextMarginBottom = 0;
-            this.username.TextMarginLeft = 5;
-            this.username.TextMarginTop = 0;
-            this.username.TextPlaceholder = "USERNAME";
-            this.username.UseSystemPasswordChar = false;
-            this.username.WordWrap = true;
             // 
             // loginBtn
             // 
@@ -298,6 +136,85 @@
             this.loginBtn.Text = "LOGIN";
             this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.TargetControl = this.panel1;
+            // 
+            // guna2DragControl3
+            // 
+            this.guna2DragControl3.TargetControl = this.pictureBox1;
+            // 
+            // username
+            // 
+            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
+            this.username.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
+            this.username.BorderRadius = 6;
+            this.username.BorderThickness = 2;
+            this.username.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.username.DefaultText = "";
+            this.username.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.username.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.username.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.username.DisabledState.Parent = this.username;
+            this.username.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.username.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
+            this.username.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.username.FocusedState.FillColor = System.Drawing.Color.Transparent;
+            this.username.FocusedState.Parent = this.username;
+            this.username.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username.ForeColor = System.Drawing.Color.White;
+            this.username.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.username.HoverState.Parent = this.username;
+            this.username.Location = new System.Drawing.Point(85, 144);
+            this.username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.username.Name = "username";
+            this.username.PasswordChar = '\0';
+            this.username.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.username.PlaceholderText = "USERNAME";
+            this.username.SelectedText = "";
+            this.username.ShadowDecoration.Parent = this.username;
+            this.username.Size = new System.Drawing.Size(182, 37);
+            this.username.TabIndex = 9;
+            this.username.TextOffset = new System.Drawing.Point(5, 0);
+            // 
+            // password
+            // 
+            this.password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
+            this.password.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
+            this.password.BorderRadius = 6;
+            this.password.BorderThickness = 2;
+            this.password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.password.DefaultText = "";
+            this.password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.password.DisabledState.Parent = this.password;
+            this.password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(44)))));
+            this.password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.password.FocusedState.FillColor = System.Drawing.Color.Transparent;
+            this.password.FocusedState.Parent = this.password;
+            this.password.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password.ForeColor = System.Drawing.Color.White;
+            this.password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.password.HoverState.Parent = this.password;
+            this.password.Location = new System.Drawing.Point(85, 223);
+            this.password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.password.Name = "password";
+            this.password.PasswordChar = '\0';
+            this.password.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.password.PlaceholderText = "PASSWORD";
+            this.password.SelectedText = "";
+            this.password.ShadowDecoration.Parent = this.password;
+            this.password.Size = new System.Drawing.Size(182, 37);
+            this.password.TabIndex = 9;
+            this.password.TextOffset = new System.Drawing.Point(5, 0);
+            this.password.UseSystemPasswordChar = true;
+            // 
             // logIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -323,14 +240,16 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuElipse loginElipse;
-        private Bunifu.Framework.UI.BunifuDragControl loginDragControl1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI.WinForms.GunaControlBox exitBtn;
         private Guna.UI.WinForms.GunaControlBox minimizeBtn;
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox username;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox password;
         private Guna.UI2.WinForms.Guna2Button loginBtn;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
+        private Guna.UI2.WinForms.Guna2TextBox username;
+        private Guna.UI2.WinForms.Guna2TextBox password;
     }
 }
 

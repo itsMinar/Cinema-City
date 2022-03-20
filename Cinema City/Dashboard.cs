@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,33 @@ namespace Cinema_City
             InitializeComponent();
         }
 
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            hideallUserControl();
+            uncheckAllButton();
+            showUserControl(user_Dashboard1, dashboardBtn);
+        }
+
+        private void uncheckAllButton()
+        {
+            dashboardBtn.Checked = false;
+            addMoviesBtn.Checked = false;
+        }
+
+        private void hideallUserControl()
+        {
+            user_Dashboard1.Visible = false;
+            add_Movies1.Visible = false;
+        }
+        private void showUserControl(UserControl x, Guna2Button y)
+        {
+            hideallUserControl();
+            uncheckAllButton();
+            y.Checked = true;
+            x.Visible = true;
+            x.BringToFront();
+        }
+
         private void logoutBtn_Click(object sender, EventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show("Are You Sure?", "Logout", MessageBoxButtons.YesNo);
@@ -26,6 +54,16 @@ namespace Cinema_City
                 loginPage.Show();
                 this.Hide();
             }
+        }
+
+        private void dashboardBtn_Click(object sender, EventArgs e)
+        {
+            showUserControl(user_Dashboard1, dashboardBtn);
+        }
+
+        private void addMoviesBtn_Click(object sender, EventArgs e)
+        {
+            showUserControl(add_Movies1, addMoviesBtn);
         }
     }
 }
