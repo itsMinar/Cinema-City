@@ -19,27 +19,27 @@ namespace Cinema_City
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            if (username.Text != String.Empty && password.Text != String.Empty)
-            {
-                if (username.Text == "admin" && password.Text == "220813")
-                {
-                    this.Hide();
-                    Dashboard dashboard = new Dashboard();
-                    dashboard.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Wrong Username or Password", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Username & Password Required", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            //if (username.Text != String.Empty && password.Text != String.Empty)
+            //{
+            //    if (username.Text == "admin" && password.Text == "220813")
+            //    {
+            //        this.Hide();
+            //        Dashboard dashboard = new Dashboard();
+            //        dashboard.Show();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Wrong Username or Password", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Username & Password Required", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //}
 
-            //this.Hide();
-            //Dashboard dashboard = new Dashboard();
-            //dashboard.Show();
+            this.Hide();
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
 
         }
     }

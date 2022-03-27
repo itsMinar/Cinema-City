@@ -5,21 +5,22 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Cinema_City
 {
     internal class DBFunctions
     {
-        protected SqlConnection getConnection()
+        protected SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=X530FN\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True";
+            con.ConnectionString = @"Data Source=MMM\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True";
             return con;
         }
 
         public DataTable getData(string query)
         {
-            SqlConnection con = getConnection();
+            SqlConnection con = GetConnection();
             con.Open();
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader dr = cmd.ExecuteReader();
@@ -30,13 +31,42 @@ namespace Cinema_City
             return dt;
         }
 
-        public void setData(string query)
+        //Method to Get Data from Database (SELECT)
+        public SqlDataReader GetData(string query)
         {
-            SqlConnection con = getConnection();
-            con.Open();
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.ExecuteNonQuery();
-            con.Close();
+            SqlConnection con = GetConnection();
+
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                return cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            return null;
+        }
+
+        //Method for Set Data in Database (INSERT, UPDATE, DELETE)
+        public void SetData(string query)
+        {
+            SqlConnection con = GetConnection();
+
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
         }
     }
 }

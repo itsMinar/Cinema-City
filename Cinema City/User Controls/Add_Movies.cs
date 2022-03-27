@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,8 @@ namespace Cinema_City.User_Controls
 {
     public partial class Add_Movies : UserControl
     {
+        DBFunctions db = new DBFunctions();
+
         string Tht { get; set; }
         string Tm { get; set; }
 
@@ -45,17 +48,15 @@ namespace Cinema_City.User_Controls
                     string time = timeBox.SelectedItem.ToString();
 
                     Image img = imgBox.Image;
-                    byte[] arr;
+                    byte[] imgArr;
                     ImageConverter converter = new ImageConverter();
-                    arr = (byte[])converter.ConvertTo(img, typeof(byte[]));
+                    imgArr = (byte[])converter.ConvertTo(img, typeof(byte[]));
 
                     string temp_name, temp_year, temp_lang, temp_theatre, temp_time;
                     bool dataExist = false;
 
-                    SqlConnection con = new SqlConnection(@"Data Source=X530FN\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True");
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand("SELECT * FROM Movies", con);
-                    SqlDataReader dr = cmd.ExecuteReader();
+                    SqlDataReader dr = db.GetData("SELECT * FROM Movies");
+
                     while (dr.Read())
                     {
                         temp_name = dr["name"].ToString();
@@ -65,7 +66,7 @@ namespace Cinema_City.User_Controls
                         temp_time = dr["show_time"].ToString();
 
                         if (temp_theatre == theatre && temp_time == time)
-                            {
+                        {
                             dataExist = true;
                             MessageBox.Show("Theatre is Booked", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             break;
@@ -77,15 +78,21 @@ namespace Cinema_City.User_Controls
                     {
                         if (name != String.Empty && year != String.Empty && lang != String.Empty && img != null)
                         {
+                            SqlConnection con = new SqlConnection(@"Data Source=MMM\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True");
+                            con.Open();
+
                             SqlCommand cmd2 = new SqlCommand("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES(@name, @year, @language, @poster, @theatre, @time)", con);
                             cmd2.Parameters.AddWithValue("@name", name);
                             cmd2.Parameters.AddWithValue("@year", year);
                             cmd2.Parameters.AddWithValue("@language", lang);
-                            cmd2.Parameters.AddWithValue("@poster", arr);
+                            cmd2.Parameters.AddWithValue("@poster", imgArr);
                             cmd2.Parameters.AddWithValue("@theatre", theatre);
                             cmd2.Parameters.AddWithValue("@time", time);
 
                             cmd2.ExecuteNonQuery();
+
+                            //db.SetData("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES('" + name + "', '" + year + "', '" + lang + "', '" + imgArr + "', '" + theatre + "', '" + time + "')");
+
                             MessageBox.Show("Movie Added", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             con.Close();
 
@@ -98,10 +105,6 @@ namespace Cinema_City.User_Controls
                         {
                             MessageBox.Show("Something is Missing", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
-                    }
-                    else
-                    {
-
                     }
                 }
                 catch (Exception ex)
