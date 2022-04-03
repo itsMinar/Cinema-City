@@ -93,7 +93,7 @@ namespace Cinema_City.User_Controls
 
                             //db.SetData("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES('" + name + "', '" + year + "', '" + lang + "', '" + imgArr + "', '" + theatre + "', '" + time + "')");
 
-                            MessageBox.Show("Movie Added", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Movie Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             con.Close();
 
                             nameBox.Text = String.Empty;

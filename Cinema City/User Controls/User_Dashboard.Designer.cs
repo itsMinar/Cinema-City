@@ -43,10 +43,13 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.datePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -81,9 +84,9 @@
             this.datePanel.Controls.Add(this.date);
             this.datePanel.Controls.Add(this.day);
             this.datePanel.Controls.Add(this.pictureBox1);
-            this.datePanel.Location = new System.Drawing.Point(476, 15);
+            this.datePanel.Location = new System.Drawing.Point(493, 19);
             this.datePanel.Name = "datePanel";
-            this.datePanel.Size = new System.Drawing.Size(303, 148);
+            this.datePanel.Size = new System.Drawing.Size(286, 148);
             this.datePanel.TabIndex = 0;
             // 
             // month
@@ -91,7 +94,7 @@
             this.month.AutoSize = true;
             this.month.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.month.ForeColor = System.Drawing.Color.Transparent;
-            this.month.Location = new System.Drawing.Point(169, 104);
+            this.month.Location = new System.Drawing.Point(163, 104);
             this.month.Name = "month";
             this.month.Size = new System.Drawing.Size(90, 31);
             this.month.TabIndex = 1;
@@ -102,7 +105,7 @@
             this.date.AutoSize = true;
             this.date.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date.ForeColor = System.Drawing.Color.Transparent;
-            this.date.Location = new System.Drawing.Point(184, 54);
+            this.date.Location = new System.Drawing.Point(178, 54);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(88, 41);
             this.date.TabIndex = 1;
@@ -113,7 +116,7 @@
             this.day.AutoSize = true;
             this.day.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day.ForeColor = System.Drawing.Color.Transparent;
-            this.day.Location = new System.Drawing.Point(169, 14);
+            this.day.Location = new System.Drawing.Point(163, 14);
             this.day.Name = "day";
             this.day.Size = new System.Drawing.Size(58, 31);
             this.day.TabIndex = 1;
@@ -146,6 +149,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.guna2PictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 173);
             this.panel2.Name = "panel2";
@@ -155,6 +159,17 @@
             // guna2DragControl2
             // 
             this.guna2DragControl2.TargetControl = this.panel2;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.Location = new System.Drawing.Point(274, 78);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(564, 368);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // user_Dashboard
             // 
@@ -172,6 +187,8 @@
             this.datePanel.ResumeLayout(false);
             this.datePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,5 +208,6 @@
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
