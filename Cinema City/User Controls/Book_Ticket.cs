@@ -21,7 +21,7 @@ namespace Cinema_City.User_Controls
 
         string seatSelection;
 
-        float totalAmount = 0, perSeatAmount = 250;
+        float totalAmount = 0, perSeatAmount = 400;
         public Book_Ticket()
         {
             InitializeComponent();
@@ -115,20 +115,27 @@ namespace Cinema_City.User_Controls
                     }
 
                     //Generating a ticket for the passenger
+                    Random random = new Random();
+                    string ticketNumber = "(" + selectedTheatre + ")-" + random.Next(10000, 20000).ToString();
+
                     if (reservedID != "")
                     {
-                        Random random = new Random();
-                        string ticketNumber = "(" + selectedTheatre + ")-" + random.Next(10000, 20000).ToString();
                         string purchasedTime = DateTime.Now.ToString("hh:mm tt");
                         string purchasedDate = DateTime.Now.ToString("yyyy-MM-dd");
                         db.SetData("INSERT INTO Ticket VALUES('" + ticketNumber + "','" + purchasedTime + "','" + purchasedDate + "','" + totalAmount + "','" + reservedID + "')");
                     }
 
                     MessageBox.Show("Purchase Completed for " + customerName, "RESERVED SUCCESSFUL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    Ticket ticket = new Ticket(selectedMovie, selectedTheatre, ticketNumber, selectedShowTime, seatSelection, datePicker.Value.ToString("dd/MM/yyyy"), totalAmount.ToString());
+
                     cName.Text = "";
                     cNumber.Text = "";
                     totalAmount = 0;
-                    totalPrice.Text = "Loading...";
+                    totalPrice.Text = "0 TAKA";
+
+                    ticket.ShowDialog();
+
                     showSeats();
                 }
             }
@@ -397,7 +404,7 @@ namespace Cinema_City.User_Controls
                 button[i].Checked = false;
                 seatSelection = "";
                 seatNumber.Text = seatSelection;
-                button[i].Cursor = Cursors.Default;
+                button[i].Cursor = Cursors.Hand;
             }
         }
 

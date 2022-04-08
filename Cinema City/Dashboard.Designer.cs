@@ -35,12 +35,9 @@
             this.logoutBtn = new Guna.UI2.WinForms.Guna2Button();
             this.analyticsBtn = new Guna.UI2.WinForms.Guna2Button();
             this.bookingBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.updateMoviesBtn = new Guna.UI2.WinForms.Guna2Button();
             this.runningMoviesBtn = new Guna.UI2.WinForms.Guna2Button();
             this.addMoviesBtn = new Guna.UI2.WinForms.Guna2Button();
             this.dashboardBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.book_Ticket1 = new Cinema_City.User_Controls.Book_Ticket();
@@ -65,12 +62,9 @@
             this.panel1.Controls.Add(this.logoutBtn);
             this.panel1.Controls.Add(this.analyticsBtn);
             this.panel1.Controls.Add(this.bookingBtn);
-            this.panel1.Controls.Add(this.updateMoviesBtn);
             this.panel1.Controls.Add(this.runningMoviesBtn);
             this.panel1.Controls.Add(this.addMoviesBtn);
             this.panel1.Controls.Add(this.dashboardBtn);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -122,7 +116,7 @@
             this.analyticsBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.analyticsBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.analyticsBtn.HoverState.Parent = this.analyticsBtn;
-            this.analyticsBtn.Location = new System.Drawing.Point(34, 438);
+            this.analyticsBtn.Location = new System.Drawing.Point(34, 421);
             this.analyticsBtn.Margin = new System.Windows.Forms.Padding(0);
             this.analyticsBtn.Name = "analyticsBtn";
             this.analyticsBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -147,7 +141,7 @@
             this.bookingBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.bookingBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.bookingBtn.HoverState.Parent = this.bookingBtn;
-            this.bookingBtn.Location = new System.Drawing.Point(34, 240);
+            this.bookingBtn.Location = new System.Drawing.Point(34, 291);
             this.bookingBtn.Margin = new System.Windows.Forms.Padding(0);
             this.bookingBtn.Name = "bookingBtn";
             this.bookingBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -156,31 +150,6 @@
             this.bookingBtn.TabIndex = 7;
             this.bookingBtn.Text = "Book Tickets";
             this.bookingBtn.Click += new System.EventHandler(this.bookingBtn_Click);
-            // 
-            // updateMoviesBtn
-            // 
-            this.updateMoviesBtn.BackColor = System.Drawing.Color.Transparent;
-            this.updateMoviesBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.updateMoviesBtn.BorderRadius = 12;
-            this.updateMoviesBtn.BorderThickness = 2;
-            this.updateMoviesBtn.CheckedState.Parent = this.updateMoviesBtn;
-            this.updateMoviesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.updateMoviesBtn.CustomBorderThickness = new System.Windows.Forms.Padding(1);
-            this.updateMoviesBtn.CustomImages.Parent = this.updateMoviesBtn;
-            this.updateMoviesBtn.FillColor = System.Drawing.Color.Transparent;
-            this.updateMoviesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.updateMoviesBtn.ForeColor = System.Drawing.Color.White;
-            this.updateMoviesBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.updateMoviesBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.updateMoviesBtn.HoverState.Parent = this.updateMoviesBtn;
-            this.updateMoviesBtn.Location = new System.Drawing.Point(34, 395);
-            this.updateMoviesBtn.Margin = new System.Windows.Forms.Padding(0);
-            this.updateMoviesBtn.Name = "updateMoviesBtn";
-            this.updateMoviesBtn.PressedColor = System.Drawing.Color.Firebrick;
-            this.updateMoviesBtn.ShadowDecoration.Parent = this.updateMoviesBtn;
-            this.updateMoviesBtn.Size = new System.Drawing.Size(116, 32);
-            this.updateMoviesBtn.TabIndex = 7;
-            this.updateMoviesBtn.Text = "Update Movies";
             // 
             // runningMoviesBtn
             // 
@@ -198,7 +167,7 @@
             this.runningMoviesBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.runningMoviesBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.runningMoviesBtn.HoverState.Parent = this.runningMoviesBtn;
-            this.runningMoviesBtn.Location = new System.Drawing.Point(34, 196);
+            this.runningMoviesBtn.Location = new System.Drawing.Point(34, 226);
             this.runningMoviesBtn.Margin = new System.Windows.Forms.Padding(0);
             this.runningMoviesBtn.Name = "runningMoviesBtn";
             this.runningMoviesBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -224,7 +193,7 @@
             this.addMoviesBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.addMoviesBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.addMoviesBtn.HoverState.Parent = this.addMoviesBtn;
-            this.addMoviesBtn.Location = new System.Drawing.Point(34, 352);
+            this.addMoviesBtn.Location = new System.Drawing.Point(34, 356);
             this.addMoviesBtn.Margin = new System.Windows.Forms.Padding(0);
             this.addMoviesBtn.Name = "addMoviesBtn";
             this.addMoviesBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -250,7 +219,7 @@
             this.dashboardBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.dashboardBtn.HoverState.Parent = this.dashboardBtn;
-            this.dashboardBtn.Location = new System.Drawing.Point(34, 152);
+            this.dashboardBtn.Location = new System.Drawing.Point(34, 161);
             this.dashboardBtn.Margin = new System.Windows.Forms.Padding(0);
             this.dashboardBtn.Name = "dashboardBtn";
             this.dashboardBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -259,30 +228,6 @@
             this.dashboardBtn.TabIndex = 7;
             this.dashboardBtn.Text = "Dashboard";
             this.dashboardBtn.Click += new System.EventHandler(this.dashboardBtn_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(38, 318);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Settings";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(38, 116);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 16);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Main Menu";
             // 
             // pictureBox1
             // 
@@ -370,7 +315,6 @@
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -382,11 +326,8 @@
         private Bunifu.Framework.UI.BunifuElipse dashboardElipse;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button dashboardBtn;
         private Guna.UI2.WinForms.Guna2Button bookingBtn;
-        private Guna.UI2.WinForms.Guna2Button updateMoviesBtn;
         private Guna.UI2.WinForms.Guna2Button runningMoviesBtn;
         private Guna.UI2.WinForms.Guna2Button addMoviesBtn;
         private Guna.UI2.WinForms.Guna2Button logoutBtn;
