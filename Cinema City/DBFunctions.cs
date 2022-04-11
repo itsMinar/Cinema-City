@@ -11,7 +11,7 @@ namespace Cinema_City
 {
     internal class DBFunctions
     {
-        protected SqlConnection GetConnection()
+        public SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
             con.ConnectionString = @"Data Source=MMM\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True";

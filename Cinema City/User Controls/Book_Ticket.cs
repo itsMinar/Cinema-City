@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Cinema_City.User_Controls
 {
@@ -21,7 +22,7 @@ namespace Cinema_City.User_Controls
 
         string seatSelection;
 
-        float totalAmount = 0, perSeatAmount = 400;
+        float totalAmount = 0, basicSeatAmount = 300, vipSeatAmount = 500;
         public Book_Ticket()
         {
             InitializeComponent();
@@ -114,7 +115,7 @@ namespace Cinema_City.User_Controls
                         reservedID = reservationIDReader["reservation_ID"].ToString();
                     }
 
-                    //Generating a ticket for the passenger
+                    //Generating a ticket number
                     Random random = new Random();
                     string ticketNumber = "(" + selectedTheatre + ")-" + random.Next(10000, 20000).ToString();
 
@@ -125,7 +126,7 @@ namespace Cinema_City.User_Controls
                         db.SetData("INSERT INTO Ticket VALUES('" + ticketNumber + "','" + purchasedTime + "','" + purchasedDate + "','" + totalAmount + "','" + reservedID + "')");
                     }
 
-                    MessageBox.Show("Purchase Completed for " + customerName, "RESERVED SUCCESSFUL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Purchase Completed for " + customerName, "BOOKED SUCCESSFUL", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     Ticket ticket = new Ticket(selectedMovie, selectedTheatre, ticketNumber, selectedShowTime, seatSelection, datePicker.Value.ToString("dd/MM/yyyy"), totalAmount.ToString());
 
@@ -415,28 +416,55 @@ namespace Cinema_City.User_Controls
             button.Cursor = Cursors.No;
         }
 
-        //This function will help to generate the selections of seats
-        public void seatBtnToggle(Guna2Button button, string seat_no)
+        //This function will help to generate the selections of Basic Seats
+        public void basicSeatBtnToggle(Guna2Button button, string seat_no)
         {
             if (button.Checked == true)
             {
                 seatSelection += seat_no + ",";
-                totalAmount += perSeatAmount;
+                totalAmount += basicSeatAmount;
             }
             else
             {
                 seatSelection = seatSelection.Remove(seatSelection.IndexOf(seat_no), 3);
                 if (totalAmount > 0)
                 {
-                    totalAmount -= perSeatAmount;
+                    totalAmount -= basicSeatAmount;
                 }
             }
         }
 
-        private void seatClick(object sender, EventArgs e)
+        //This function will help to generate the selections of VIP Seats
+        public void vipSeatBtnToggle(Guna2Button button, string seat_no)
+        {
+            if (button.Checked == true)
+            {
+                seatSelection += seat_no + ",";
+                totalAmount += vipSeatAmount;
+            }
+            else
+            {
+                seatSelection = seatSelection.Remove(seatSelection.IndexOf(seat_no), 3);
+                if (totalAmount > 0)
+                {
+                    totalAmount -= vipSeatAmount;
+                }
+            }
+        }
+
+        private void basicSeatClick(object sender, EventArgs e)
         {
             Guna2Button button = (Guna2Button)sender;
-            seatBtnToggle(button, button.Text);
+            basicSeatBtnToggle(button, button.Text);
+            seatNumber.Text = seatSelection;
+
+            totalPrice.Text = totalAmount.ToString() + " TAKA";
+        }
+
+        private void vipSeatClick(object sender, EventArgs e)
+        {
+            Guna2Button button = (Guna2Button)sender;
+            vipSeatBtnToggle(button, button.Text);
             seatNumber.Text = seatSelection;
 
             totalPrice.Text = totalAmount.ToString() + " TAKA";

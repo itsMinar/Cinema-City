@@ -78,20 +78,18 @@ namespace Cinema_City.User_Controls
                     {
                         if (name != String.Empty && year != String.Empty && lang != String.Empty && img != null)
                         {
-                            SqlConnection con = new SqlConnection(@"Data Source=MMM\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True");
+                            SqlConnection con = db.GetConnection();
                             con.Open();
 
-                            SqlCommand cmd2 = new SqlCommand("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES(@name, @year, @language, @poster, @theatre, @time)", con);
-                            cmd2.Parameters.AddWithValue("@name", name);
-                            cmd2.Parameters.AddWithValue("@year", year);
-                            cmd2.Parameters.AddWithValue("@language", lang);
-                            cmd2.Parameters.AddWithValue("@poster", imgArr);
-                            cmd2.Parameters.AddWithValue("@theatre", theatre);
-                            cmd2.Parameters.AddWithValue("@time", time);
+                            SqlCommand cmd = new SqlCommand("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES(@name, @year, @language, @poster, @theatre, @time)", con);
+                            cmd.Parameters.AddWithValue("@name", name);
+                            cmd.Parameters.AddWithValue("@year", year);
+                            cmd.Parameters.AddWithValue("@language", lang);
+                            cmd.Parameters.AddWithValue("@poster", imgArr);
+                            cmd.Parameters.AddWithValue("@theatre", theatre);
+                            cmd.Parameters.AddWithValue("@time", time);
 
-                            cmd2.ExecuteNonQuery();
-
-                            //db.SetData("INSERT INTO Movies(name, release_year, language, poster, theatre_name, show_time) VALUES('" + name + "', '" + year + "', '" + lang + "', '" + imgArr + "', '" + theatre + "', '" + time + "')");
+                            cmd.ExecuteNonQuery();
 
                             MessageBox.Show("Movie Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             con.Close();

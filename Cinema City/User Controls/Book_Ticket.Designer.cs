@@ -110,6 +110,9 @@
             this.customerPanel = new System.Windows.Forms.Panel();
             this.confirmBtn = new Guna.UI2.WinForms.Guna2Button();
             this.cNumber = new Guna.UI2.WinForms.Guna2TextBox();
+            this.seatNumber = new System.Windows.Forms.Label();
+            this.totalPrice = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cName = new Guna.UI2.WinForms.Guna2TextBox();
@@ -125,9 +128,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.totalPrice = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.seatNumber = new System.Windows.Forms.Label();
             this.seatPanel.SuspendLayout();
             this.customerPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -244,7 +244,7 @@
             this.M8.Size = new System.Drawing.Size(40, 40);
             this.M8.TabIndex = 1;
             this.M8.Text = "M8";
-            this.M8.Click += new System.EventHandler(this.seatClick);
+            this.M8.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // R8
             // 
@@ -264,7 +264,7 @@
             this.R8.Size = new System.Drawing.Size(40, 40);
             this.R8.TabIndex = 1;
             this.R8.Text = "R8";
-            this.R8.Click += new System.EventHandler(this.seatClick);
+            this.R8.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // C8
             // 
@@ -284,7 +284,7 @@
             this.C8.Size = new System.Drawing.Size(37, 37);
             this.C8.TabIndex = 1;
             this.C8.Text = "C8";
-            this.C8.Click += new System.EventHandler(this.seatClick);
+            this.C8.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B8
             // 
@@ -304,7 +304,7 @@
             this.B8.Size = new System.Drawing.Size(37, 37);
             this.B8.TabIndex = 1;
             this.B8.Text = "B8";
-            this.B8.Click += new System.EventHandler(this.seatClick);
+            this.B8.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // A8
             // 
@@ -324,7 +324,7 @@
             this.A8.Size = new System.Drawing.Size(37, 37);
             this.A8.TabIndex = 1;
             this.A8.Text = "A8";
-            this.A8.Click += new System.EventHandler(this.seatClick);
+            this.A8.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M15
             // 
@@ -344,7 +344,7 @@
             this.M15.Size = new System.Drawing.Size(40, 40);
             this.M15.TabIndex = 1;
             this.M15.Text = "M15";
-            this.M15.Click += new System.EventHandler(this.seatClick);
+            this.M15.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // R15
             // 
@@ -364,7 +364,7 @@
             this.R15.Size = new System.Drawing.Size(40, 40);
             this.R15.TabIndex = 1;
             this.R15.Text = "R15";
-            this.R15.Click += new System.EventHandler(this.seatClick);
+            this.R15.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // C15
             // 
@@ -384,7 +384,7 @@
             this.C15.Size = new System.Drawing.Size(37, 37);
             this.C15.TabIndex = 1;
             this.C15.Text = "C15";
-            this.C15.Click += new System.EventHandler(this.seatClick);
+            this.C15.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B15
             // 
@@ -404,7 +404,7 @@
             this.B15.Size = new System.Drawing.Size(37, 37);
             this.B15.TabIndex = 1;
             this.B15.Text = "B15";
-            this.B15.Click += new System.EventHandler(this.seatClick);
+            this.B15.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M7
             // 
@@ -424,7 +424,7 @@
             this.M7.Size = new System.Drawing.Size(40, 40);
             this.M7.TabIndex = 1;
             this.M7.Text = "M7";
-            this.M7.Click += new System.EventHandler(this.seatClick);
+            this.M7.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A15
             // 
@@ -444,7 +444,7 @@
             this.A15.Size = new System.Drawing.Size(37, 37);
             this.A15.TabIndex = 1;
             this.A15.Text = "A15";
-            this.A15.Click += new System.EventHandler(this.seatClick);
+            this.A15.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R7
             // 
@@ -464,7 +464,7 @@
             this.R7.Size = new System.Drawing.Size(40, 40);
             this.R7.TabIndex = 1;
             this.R7.Text = "R7";
-            this.R7.Click += new System.EventHandler(this.seatClick);
+            this.R7.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // C7
             // 
@@ -484,7 +484,7 @@
             this.C7.Size = new System.Drawing.Size(37, 37);
             this.C7.TabIndex = 1;
             this.C7.Text = "C7";
-            this.C7.Click += new System.EventHandler(this.seatClick);
+            this.C7.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B7
             // 
@@ -504,7 +504,7 @@
             this.B7.Size = new System.Drawing.Size(37, 37);
             this.B7.TabIndex = 1;
             this.B7.Text = "B7";
-            this.B7.Click += new System.EventHandler(this.seatClick);
+            this.B7.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M12
             // 
@@ -524,7 +524,7 @@
             this.M12.Size = new System.Drawing.Size(40, 40);
             this.M12.TabIndex = 1;
             this.M12.Text = "M12";
-            this.M12.Click += new System.EventHandler(this.seatClick);
+            this.M12.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A7
             // 
@@ -544,7 +544,7 @@
             this.A7.Size = new System.Drawing.Size(37, 37);
             this.A7.TabIndex = 1;
             this.A7.Text = "A7";
-            this.A7.Click += new System.EventHandler(this.seatClick);
+            this.A7.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R12
             // 
@@ -564,7 +564,7 @@
             this.R12.Size = new System.Drawing.Size(40, 40);
             this.R12.TabIndex = 1;
             this.R12.Text = "R12";
-            this.R12.Click += new System.EventHandler(this.seatClick);
+            this.R12.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // C12
             // 
@@ -584,7 +584,7 @@
             this.C12.Size = new System.Drawing.Size(37, 37);
             this.C12.TabIndex = 1;
             this.C12.Text = "C12";
-            this.C12.Click += new System.EventHandler(this.seatClick);
+            this.C12.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B12
             // 
@@ -604,7 +604,7 @@
             this.B12.Size = new System.Drawing.Size(37, 37);
             this.B12.TabIndex = 1;
             this.B12.Text = "B12";
-            this.B12.Click += new System.EventHandler(this.seatClick);
+            this.B12.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M14
             // 
@@ -624,7 +624,7 @@
             this.M14.Size = new System.Drawing.Size(40, 40);
             this.M14.TabIndex = 1;
             this.M14.Text = "M14";
-            this.M14.Click += new System.EventHandler(this.seatClick);
+            this.M14.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A12
             // 
@@ -644,7 +644,7 @@
             this.A12.Size = new System.Drawing.Size(37, 37);
             this.A12.TabIndex = 1;
             this.A12.Text = "A12";
-            this.A12.Click += new System.EventHandler(this.seatClick);
+            this.A12.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R14
             // 
@@ -664,7 +664,7 @@
             this.R14.Size = new System.Drawing.Size(40, 40);
             this.R14.TabIndex = 1;
             this.R14.Text = "R14";
-            this.R14.Click += new System.EventHandler(this.seatClick);
+            this.R14.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // C14
             // 
@@ -684,7 +684,7 @@
             this.C14.Size = new System.Drawing.Size(37, 37);
             this.C14.TabIndex = 1;
             this.C14.Text = "C14";
-            this.C14.Click += new System.EventHandler(this.seatClick);
+            this.C14.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M4
             // 
@@ -704,7 +704,7 @@
             this.M4.Size = new System.Drawing.Size(40, 40);
             this.M4.TabIndex = 1;
             this.M4.Text = "M4";
-            this.M4.Click += new System.EventHandler(this.seatClick);
+            this.M4.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B14
             // 
@@ -724,7 +724,7 @@
             this.B14.Size = new System.Drawing.Size(37, 37);
             this.B14.TabIndex = 1;
             this.B14.Text = "B14";
-            this.B14.Click += new System.EventHandler(this.seatClick);
+            this.B14.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R4
             // 
@@ -744,7 +744,7 @@
             this.R4.Size = new System.Drawing.Size(40, 40);
             this.R4.TabIndex = 1;
             this.R4.Text = "R4";
-            this.R4.Click += new System.EventHandler(this.seatClick);
+            this.R4.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A14
             // 
@@ -764,7 +764,7 @@
             this.A14.Size = new System.Drawing.Size(37, 37);
             this.A14.TabIndex = 1;
             this.A14.Text = "A14";
-            this.A14.Click += new System.EventHandler(this.seatClick);
+            this.A14.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C4
             // 
@@ -784,7 +784,7 @@
             this.C4.Size = new System.Drawing.Size(37, 37);
             this.C4.TabIndex = 1;
             this.C4.Text = "C4";
-            this.C4.Click += new System.EventHandler(this.seatClick);
+            this.C4.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M11
             // 
@@ -804,7 +804,7 @@
             this.M11.Size = new System.Drawing.Size(40, 40);
             this.M11.TabIndex = 1;
             this.M11.Text = "M11";
-            this.M11.Click += new System.EventHandler(this.seatClick);
+            this.M11.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B4
             // 
@@ -824,7 +824,7 @@
             this.B4.Size = new System.Drawing.Size(37, 37);
             this.B4.TabIndex = 1;
             this.B4.Text = "B4";
-            this.B4.Click += new System.EventHandler(this.seatClick);
+            this.B4.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R11
             // 
@@ -844,7 +844,7 @@
             this.R11.Size = new System.Drawing.Size(40, 40);
             this.R11.TabIndex = 1;
             this.R11.Text = "R11";
-            this.R11.Click += new System.EventHandler(this.seatClick);
+            this.R11.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A4
             // 
@@ -864,7 +864,7 @@
             this.A4.Size = new System.Drawing.Size(37, 37);
             this.A4.TabIndex = 1;
             this.A4.Text = "A4";
-            this.A4.Click += new System.EventHandler(this.seatClick);
+            this.A4.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C11
             // 
@@ -884,7 +884,7 @@
             this.C11.Size = new System.Drawing.Size(37, 37);
             this.C11.TabIndex = 1;
             this.C11.Text = "C11";
-            this.C11.Click += new System.EventHandler(this.seatClick);
+            this.C11.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M6
             // 
@@ -904,7 +904,7 @@
             this.M6.Size = new System.Drawing.Size(40, 40);
             this.M6.TabIndex = 1;
             this.M6.Text = "M6";
-            this.M6.Click += new System.EventHandler(this.seatClick);
+            this.M6.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B11
             // 
@@ -924,7 +924,7 @@
             this.B11.Size = new System.Drawing.Size(37, 37);
             this.B11.TabIndex = 1;
             this.B11.Text = "B11";
-            this.B11.Click += new System.EventHandler(this.seatClick);
+            this.B11.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R6
             // 
@@ -944,7 +944,7 @@
             this.R6.Size = new System.Drawing.Size(40, 40);
             this.R6.TabIndex = 1;
             this.R6.Text = "R6";
-            this.R6.Click += new System.EventHandler(this.seatClick);
+            this.R6.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A11
             // 
@@ -964,7 +964,7 @@
             this.A11.Size = new System.Drawing.Size(37, 37);
             this.A11.TabIndex = 1;
             this.A11.Text = "A11";
-            this.A11.Click += new System.EventHandler(this.seatClick);
+            this.A11.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C6
             // 
@@ -984,7 +984,7 @@
             this.C6.Size = new System.Drawing.Size(37, 37);
             this.C6.TabIndex = 1;
             this.C6.Text = "C6";
-            this.C6.Click += new System.EventHandler(this.seatClick);
+            this.C6.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M13
             // 
@@ -1004,7 +1004,7 @@
             this.M13.Size = new System.Drawing.Size(40, 40);
             this.M13.TabIndex = 1;
             this.M13.Text = "M13";
-            this.M13.Click += new System.EventHandler(this.seatClick);
+            this.M13.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B6
             // 
@@ -1024,7 +1024,7 @@
             this.B6.Size = new System.Drawing.Size(37, 37);
             this.B6.TabIndex = 1;
             this.B6.Text = "B6";
-            this.B6.Click += new System.EventHandler(this.seatClick);
+            this.B6.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R13
             // 
@@ -1044,7 +1044,7 @@
             this.R13.Size = new System.Drawing.Size(40, 40);
             this.R13.TabIndex = 1;
             this.R13.Text = "R13";
-            this.R13.Click += new System.EventHandler(this.seatClick);
+            this.R13.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A6
             // 
@@ -1064,7 +1064,7 @@
             this.A6.Size = new System.Drawing.Size(37, 37);
             this.A6.TabIndex = 1;
             this.A6.Text = "A6";
-            this.A6.Click += new System.EventHandler(this.seatClick);
+            this.A6.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C13
             // 
@@ -1084,7 +1084,7 @@
             this.C13.Size = new System.Drawing.Size(37, 37);
             this.C13.TabIndex = 1;
             this.C13.Text = "C13";
-            this.C13.Click += new System.EventHandler(this.seatClick);
+            this.C13.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M3
             // 
@@ -1104,7 +1104,7 @@
             this.M3.Size = new System.Drawing.Size(40, 40);
             this.M3.TabIndex = 1;
             this.M3.Text = "M3";
-            this.M3.Click += new System.EventHandler(this.seatClick);
+            this.M3.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B13
             // 
@@ -1124,7 +1124,7 @@
             this.B13.Size = new System.Drawing.Size(37, 37);
             this.B13.TabIndex = 1;
             this.B13.Text = "B13";
-            this.B13.Click += new System.EventHandler(this.seatClick);
+            this.B13.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R3
             // 
@@ -1144,7 +1144,7 @@
             this.R3.Size = new System.Drawing.Size(40, 40);
             this.R3.TabIndex = 1;
             this.R3.Text = "R3";
-            this.R3.Click += new System.EventHandler(this.seatClick);
+            this.R3.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A13
             // 
@@ -1164,7 +1164,7 @@
             this.A13.Size = new System.Drawing.Size(37, 37);
             this.A13.TabIndex = 1;
             this.A13.Text = "A13";
-            this.A13.Click += new System.EventHandler(this.seatClick);
+            this.A13.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C3
             // 
@@ -1184,7 +1184,7 @@
             this.C3.Size = new System.Drawing.Size(37, 37);
             this.C3.TabIndex = 1;
             this.C3.Text = "C3";
-            this.C3.Click += new System.EventHandler(this.seatClick);
+            this.C3.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M10
             // 
@@ -1204,7 +1204,7 @@
             this.M10.Size = new System.Drawing.Size(40, 40);
             this.M10.TabIndex = 1;
             this.M10.Text = "M10";
-            this.M10.Click += new System.EventHandler(this.seatClick);
+            this.M10.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B3
             // 
@@ -1224,7 +1224,7 @@
             this.B3.Size = new System.Drawing.Size(37, 37);
             this.B3.TabIndex = 1;
             this.B3.Text = "B3";
-            this.B3.Click += new System.EventHandler(this.seatClick);
+            this.B3.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R10
             // 
@@ -1244,7 +1244,7 @@
             this.R10.Size = new System.Drawing.Size(40, 40);
             this.R10.TabIndex = 1;
             this.R10.Text = "R10";
-            this.R10.Click += new System.EventHandler(this.seatClick);
+            this.R10.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A3
             // 
@@ -1264,7 +1264,7 @@
             this.A3.Size = new System.Drawing.Size(37, 37);
             this.A3.TabIndex = 1;
             this.A3.Text = "A3";
-            this.A3.Click += new System.EventHandler(this.seatClick);
+            this.A3.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C10
             // 
@@ -1284,7 +1284,7 @@
             this.C10.Size = new System.Drawing.Size(37, 37);
             this.C10.TabIndex = 1;
             this.C10.Text = "C10";
-            this.C10.Click += new System.EventHandler(this.seatClick);
+            this.C10.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M5
             // 
@@ -1304,7 +1304,7 @@
             this.M5.Size = new System.Drawing.Size(40, 40);
             this.M5.TabIndex = 1;
             this.M5.Text = "M5";
-            this.M5.Click += new System.EventHandler(this.seatClick);
+            this.M5.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B10
             // 
@@ -1324,7 +1324,7 @@
             this.B10.Size = new System.Drawing.Size(37, 37);
             this.B10.TabIndex = 1;
             this.B10.Text = "B10";
-            this.B10.Click += new System.EventHandler(this.seatClick);
+            this.B10.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R5
             // 
@@ -1344,7 +1344,7 @@
             this.R5.Size = new System.Drawing.Size(40, 40);
             this.R5.TabIndex = 1;
             this.R5.Text = "R5";
-            this.R5.Click += new System.EventHandler(this.seatClick);
+            this.R5.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A10
             // 
@@ -1364,7 +1364,7 @@
             this.A10.Size = new System.Drawing.Size(37, 37);
             this.A10.TabIndex = 1;
             this.A10.Text = "A10";
-            this.A10.Click += new System.EventHandler(this.seatClick);
+            this.A10.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C5
             // 
@@ -1384,7 +1384,7 @@
             this.C5.Size = new System.Drawing.Size(37, 37);
             this.C5.TabIndex = 1;
             this.C5.Text = "C5";
-            this.C5.Click += new System.EventHandler(this.seatClick);
+            this.C5.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M9
             // 
@@ -1404,7 +1404,7 @@
             this.M9.Size = new System.Drawing.Size(40, 40);
             this.M9.TabIndex = 1;
             this.M9.Text = "M9";
-            this.M9.Click += new System.EventHandler(this.seatClick);
+            this.M9.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B5
             // 
@@ -1424,7 +1424,7 @@
             this.B5.Size = new System.Drawing.Size(37, 37);
             this.B5.TabIndex = 1;
             this.B5.Text = "B5";
-            this.B5.Click += new System.EventHandler(this.seatClick);
+            this.B5.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R9
             // 
@@ -1444,7 +1444,7 @@
             this.R9.Size = new System.Drawing.Size(40, 40);
             this.R9.TabIndex = 1;
             this.R9.Text = "R9";
-            this.R9.Click += new System.EventHandler(this.seatClick);
+            this.R9.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A5
             // 
@@ -1464,7 +1464,7 @@
             this.A5.Size = new System.Drawing.Size(37, 37);
             this.A5.TabIndex = 1;
             this.A5.Text = "A5";
-            this.A5.Click += new System.EventHandler(this.seatClick);
+            this.A5.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C9
             // 
@@ -1484,7 +1484,7 @@
             this.C9.Size = new System.Drawing.Size(37, 37);
             this.C9.TabIndex = 1;
             this.C9.Text = "C9";
-            this.C9.Click += new System.EventHandler(this.seatClick);
+            this.C9.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M2
             // 
@@ -1504,7 +1504,7 @@
             this.M2.Size = new System.Drawing.Size(40, 40);
             this.M2.TabIndex = 1;
             this.M2.Text = "M2";
-            this.M2.Click += new System.EventHandler(this.seatClick);
+            this.M2.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B9
             // 
@@ -1524,7 +1524,7 @@
             this.B9.Size = new System.Drawing.Size(37, 37);
             this.B9.TabIndex = 1;
             this.B9.Text = "B9";
-            this.B9.Click += new System.EventHandler(this.seatClick);
+            this.B9.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R2
             // 
@@ -1545,7 +1545,7 @@
             this.R2.Size = new System.Drawing.Size(40, 40);
             this.R2.TabIndex = 1;
             this.R2.Text = "R2";
-            this.R2.Click += new System.EventHandler(this.seatClick);
+            this.R2.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M1
             // 
@@ -1565,7 +1565,7 @@
             this.M1.Size = new System.Drawing.Size(40, 40);
             this.M1.TabIndex = 1;
             this.M1.Text = "M1";
-            this.M1.Click += new System.EventHandler(this.seatClick);
+            this.M1.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A9
             // 
@@ -1585,7 +1585,7 @@
             this.A9.Size = new System.Drawing.Size(37, 37);
             this.A9.TabIndex = 1;
             this.A9.Text = "A9";
-            this.A9.Click += new System.EventHandler(this.seatClick);
+            this.A9.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // R1
             // 
@@ -1606,7 +1606,7 @@
             this.R1.Size = new System.Drawing.Size(40, 40);
             this.R1.TabIndex = 1;
             this.R1.Text = "R1";
-            this.R1.Click += new System.EventHandler(this.seatClick);
+            this.R1.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // C2
             // 
@@ -1626,7 +1626,7 @@
             this.C2.Size = new System.Drawing.Size(37, 37);
             this.C2.TabIndex = 1;
             this.C2.Text = "C2";
-            this.C2.Click += new System.EventHandler(this.seatClick);
+            this.C2.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C1
             // 
@@ -1646,7 +1646,7 @@
             this.C1.Size = new System.Drawing.Size(37, 37);
             this.C1.TabIndex = 1;
             this.C1.Text = "C1";
-            this.C1.Click += new System.EventHandler(this.seatClick);
+            this.C1.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B2
             // 
@@ -1666,7 +1666,7 @@
             this.B2.Size = new System.Drawing.Size(37, 37);
             this.B2.TabIndex = 1;
             this.B2.Text = "B2";
-            this.B2.Click += new System.EventHandler(this.seatClick);
+            this.B2.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B1
             // 
@@ -1686,7 +1686,7 @@
             this.B1.Size = new System.Drawing.Size(37, 37);
             this.B1.TabIndex = 1;
             this.B1.Text = "B1";
-            this.B1.Click += new System.EventHandler(this.seatClick);
+            this.B1.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // A2
             // 
@@ -1706,7 +1706,7 @@
             this.A2.Size = new System.Drawing.Size(37, 37);
             this.A2.TabIndex = 1;
             this.A2.Text = "A2";
-            this.A2.Click += new System.EventHandler(this.seatClick);
+            this.A2.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // A1
             // 
@@ -1726,7 +1726,7 @@
             this.A1.Size = new System.Drawing.Size(37, 37);
             this.A1.TabIndex = 1;
             this.A1.Text = "A1";
-            this.A1.Click += new System.EventHandler(this.seatClick);
+            this.A1.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // customerPanel
             // 
@@ -1805,6 +1805,39 @@
             this.cNumber.Size = new System.Drawing.Size(175, 30);
             this.cNumber.TabIndex = 11;
             this.cNumber.TextOffset = new System.Drawing.Point(5, 0);
+            // 
+            // seatNumber
+            // 
+            this.seatNumber.AutoSize = true;
+            this.seatNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seatNumber.ForeColor = System.Drawing.Color.White;
+            this.seatNumber.Location = new System.Drawing.Point(147, 140);
+            this.seatNumber.Name = "seatNumber";
+            this.seatNumber.Size = new System.Drawing.Size(70, 19);
+            this.seatNumber.TabIndex = 0;
+            this.seatNumber.Text = "Loading...";
+            // 
+            // totalPrice
+            // 
+            this.totalPrice.AutoSize = true;
+            this.totalPrice.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPrice.ForeColor = System.Drawing.Color.White;
+            this.totalPrice.Location = new System.Drawing.Point(147, 178);
+            this.totalPrice.Name = "totalPrice";
+            this.totalPrice.Size = new System.Drawing.Size(70, 19);
+            this.totalPrice.TabIndex = 0;
+            this.totalPrice.Text = "Loading...";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(36, 140);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(99, 19);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Seat Numbers:";
             // 
             // label3
             // 
@@ -2065,39 +2098,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // totalPrice
-            // 
-            this.totalPrice.AutoSize = true;
-            this.totalPrice.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPrice.ForeColor = System.Drawing.Color.White;
-            this.totalPrice.Location = new System.Drawing.Point(147, 178);
-            this.totalPrice.Name = "totalPrice";
-            this.totalPrice.Size = new System.Drawing.Size(70, 19);
-            this.totalPrice.TabIndex = 0;
-            this.totalPrice.Text = "Loading...";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(36, 140);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 19);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Seat Numbers:";
-            // 
-            // seatNumber
-            // 
-            this.seatNumber.AutoSize = true;
-            this.seatNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seatNumber.ForeColor = System.Drawing.Color.White;
-            this.seatNumber.Location = new System.Drawing.Point(147, 140);
-            this.seatNumber.Name = "seatNumber";
-            this.seatNumber.Size = new System.Drawing.Size(70, 19);
-            this.seatNumber.TabIndex = 0;
-            this.seatNumber.Text = "Loading...";
             // 
             // Book_Ticket
             // 
