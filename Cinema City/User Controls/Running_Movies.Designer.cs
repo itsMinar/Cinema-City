@@ -45,6 +45,8 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.deleteBtn = new System.Windows.Forms.DataGridViewImageColumn();
+            this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
+            this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.runningMoviesGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,10 +102,9 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.runningMoviesGrid.DefaultCellStyle = dataGridViewCellStyle3;
-            this.runningMoviesGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.runningMoviesGrid.EnableHeadersVisualStyles = false;
             this.runningMoviesGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.runningMoviesGrid.Location = new System.Drawing.Point(0, 0);
+            this.runningMoviesGrid.Location = new System.Drawing.Point(0, 31);
             this.runningMoviesGrid.Name = "runningMoviesGrid";
             this.runningMoviesGrid.ReadOnly = true;
             this.runningMoviesGrid.RowHeadersVisible = false;
@@ -112,7 +113,7 @@
             this.runningMoviesGrid.RowTemplate.Height = 80;
             this.runningMoviesGrid.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.runningMoviesGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.runningMoviesGrid.Size = new System.Drawing.Size(810, 610);
+            this.runningMoviesGrid.Size = new System.Drawing.Size(810, 579);
             this.runningMoviesGrid.TabIndex = 0;
             this.runningMoviesGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt;
             this.runningMoviesGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
@@ -201,11 +202,48 @@
             this.deleteBtn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.deleteBtn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
+            // minimizeBtn
+            // 
+            this.minimizeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeBtn.AnimationHoverSpeed = 0.07F;
+            this.minimizeBtn.AnimationSpeed = 0.03F;
+            this.minimizeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
+            this.minimizeBtn.IconColor = System.Drawing.Color.Black;
+            this.minimizeBtn.IconSize = 12F;
+            this.minimizeBtn.Location = new System.Drawing.Point(758, 8);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Name = "minimizeBtn";
+            this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.TabIndex = 4;
+            // 
+            // exitBtn
+            // 
+            this.exitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBtn.AnimationHoverSpeed = 0.07F;
+            this.exitBtn.AnimationSpeed = 0.03F;
+            this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.IconColor = System.Drawing.Color.Black;
+            this.exitBtn.IconSize = 12F;
+            this.exitBtn.Location = new System.Drawing.Point(782, 8);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.TabIndex = 5;
+            // 
             // Running_Movies
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.minimizeBtn);
+            this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.runningMoviesGrid);
             this.Name = "Running_Movies";
             this.Size = new System.Drawing.Size(810, 610);
@@ -229,5 +267,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewImageColumn deleteBtn;
+        private Guna.UI.WinForms.GunaControlBox minimizeBtn;
+        private Guna.UI.WinForms.GunaControlBox exitBtn;
     }
 }

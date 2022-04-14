@@ -40,7 +40,6 @@ namespace Cinema_City
             this.Hide();
             Dashboard dashboard = new Dashboard();
             dashboard.Show();
-
         }
     }
 }

@@ -44,6 +44,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.addMovieBtn = new Guna.UI2.WinForms.Guna2Button();
             this.timeBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
+            this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -319,11 +321,48 @@
             this.timeBox.TabIndex = 12;
             this.timeBox.SelectedValueChanged += new System.EventHandler(this.timeBox_SelectedValueChanged);
             // 
+            // minimizeBtn
+            // 
+            this.minimizeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeBtn.AnimationHoverSpeed = 0.07F;
+            this.minimizeBtn.AnimationSpeed = 0.03F;
+            this.minimizeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
+            this.minimizeBtn.IconColor = System.Drawing.Color.Black;
+            this.minimizeBtn.IconSize = 12F;
+            this.minimizeBtn.Location = new System.Drawing.Point(757, 9);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Name = "minimizeBtn";
+            this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.TabIndex = 16;
+            // 
+            // exitBtn
+            // 
+            this.exitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBtn.AnimationHoverSpeed = 0.07F;
+            this.exitBtn.AnimationSpeed = 0.03F;
+            this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.IconColor = System.Drawing.Color.Black;
+            this.exitBtn.IconSize = 12F;
+            this.exitBtn.Location = new System.Drawing.Point(781, 9);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.TabIndex = 17;
+            // 
             // Add_Movies
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.minimizeBtn);
+            this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.addMovieBtn);
             this.Controls.Add(this.imgBox);
             this.Controls.Add(this.timeBox);
@@ -362,5 +401,7 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2Button addMovieBtn;
         private Guna.UI2.WinForms.Guna2ComboBox timeBox;
+        private Guna.UI.WinForms.GunaControlBox minimizeBtn;
+        private Guna.UI.WinForms.GunaControlBox exitBtn;
     }
 }

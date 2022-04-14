@@ -31,6 +31,7 @@ namespace Cinema_City
             addMoviesBtn.Checked = false;
             runningMoviesBtn.Checked = false;
             bookingBtn.Checked = false;
+            analyticsBtn.Checked = false;
         }
 
         private void hideallUserControl()
@@ -39,6 +40,7 @@ namespace Cinema_City
             add_Movies1.Visible = false;
             running_Movies1.Visible=false;
             book_Ticket1.Visible = false;
+            analytics1.Visible = false;
         }
         private void showUserControl(UserControl x, Guna2Button y)
         {
@@ -51,7 +53,7 @@ namespace Cinema_City
 
         private void logoutBtn_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are You Sure?", "Logout", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("Are You Sure?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if(dialogResult == DialogResult.Yes)
             {
                 logIn loginPage = new logIn();
@@ -78,6 +80,11 @@ namespace Cinema_City
         private void bookingBtn_Click(object sender, EventArgs e)
         {
             showUserControl(book_Ticket1, bookingBtn);
+        }
+
+        private void analyticsBtn_Click(object sender, EventArgs e)
+        {
+            showUserControl(analytics1, analyticsBtn);
         }
     }
 }

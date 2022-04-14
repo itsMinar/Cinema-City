@@ -32,6 +32,8 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.seatPanel = new System.Windows.Forms.Panel();
+            this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
+            this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             this.M8 = new Guna.UI2.WinForms.Guna2Button();
             this.R8 = new Guna.UI2.WinForms.Guna2Button();
             this.C8 = new Guna.UI2.WinForms.Guna2Button();
@@ -144,6 +146,8 @@
             // 
             // seatPanel
             // 
+            this.seatPanel.Controls.Add(this.minimizeBtn);
+            this.seatPanel.Controls.Add(this.exitBtn);
             this.seatPanel.Controls.Add(this.M8);
             this.seatPanel.Controls.Add(this.R8);
             this.seatPanel.Controls.Add(this.C8);
@@ -225,6 +229,41 @@
             this.seatPanel.Size = new System.Drawing.Size(810, 316);
             this.seatPanel.TabIndex = 0;
             this.seatPanel.Visible = false;
+            // 
+            // minimizeBtn
+            // 
+            this.minimizeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeBtn.AnimationHoverSpeed = 0.07F;
+            this.minimizeBtn.AnimationSpeed = 0.03F;
+            this.minimizeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
+            this.minimizeBtn.IconColor = System.Drawing.Color.Black;
+            this.minimizeBtn.IconSize = 12F;
+            this.minimizeBtn.Location = new System.Drawing.Point(756, 11);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Name = "minimizeBtn";
+            this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.TabIndex = 4;
+            // 
+            // exitBtn
+            // 
+            this.exitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBtn.AnimationHoverSpeed = 0.07F;
+            this.exitBtn.AnimationSpeed = 0.03F;
+            this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.IconColor = System.Drawing.Color.Black;
+            this.exitBtn.IconSize = 12F;
+            this.exitBtn.Location = new System.Drawing.Point(780, 11);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.TabIndex = 5;
             // 
             // M8
             // 
@@ -1824,9 +1863,9 @@
             this.totalPrice.ForeColor = System.Drawing.Color.White;
             this.totalPrice.Location = new System.Drawing.Point(147, 178);
             this.totalPrice.Name = "totalPrice";
-            this.totalPrice.Size = new System.Drawing.Size(70, 19);
+            this.totalPrice.Size = new System.Drawing.Size(63, 19);
             this.totalPrice.TabIndex = 0;
-            this.totalPrice.Text = "Loading...";
+            this.totalPrice.Text = "0 TAKA";
             // 
             // label8
             // 
@@ -2220,5 +2259,7 @@
         private System.Windows.Forms.Label totalPrice;
         private System.Windows.Forms.Label seatNumber;
         private System.Windows.Forms.Label label8;
+        private Guna.UI.WinForms.GunaControlBox minimizeBtn;
+        private Guna.UI.WinForms.GunaControlBox exitBtn;
     }
 }

@@ -40,13 +40,14 @@
             this.dashboardBtn = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.analytics1 = new Cinema_City.User_Controls.Analytics();
             this.book_Ticket1 = new Cinema_City.User_Controls.Book_Ticket();
             this.running_Movies1 = new Cinema_City.User_Controls.Running_Movies();
             this.add_Movies1 = new Cinema_City.User_Controls.Add_Movies();
             this.user_Dashboard1 = new Cinema_City.User_Controls.user_Dashboard();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -124,6 +125,7 @@
             this.analyticsBtn.Size = new System.Drawing.Size(116, 32);
             this.analyticsBtn.TabIndex = 7;
             this.analyticsBtn.Text = "Analytics";
+            this.analyticsBtn.Click += new System.EventHandler(this.analyticsBtn_Click);
             // 
             // bookingBtn
             // 
@@ -242,6 +244,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.analytics1);
             this.panel2.Controls.Add(this.book_Ticket1);
             this.panel2.Controls.Add(this.running_Movies1);
             this.panel2.Controls.Add(this.add_Movies1);
@@ -252,6 +255,26 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(833, 630);
             this.panel2.TabIndex = 6;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.TargetControl = this.panel1;
+            // 
+            // guna2DragControl3
+            // 
+            this.guna2DragControl3.TargetControl = this.panel2;
+            // 
+            // analytics1
+            // 
+            this.analytics1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.analytics1.Location = new System.Drawing.Point(10, 8);
+            this.analytics1.Name = "analytics1";
+            this.analytics1.Size = new System.Drawing.Size(810, 610);
+            this.analytics1.TabIndex = 4;
             // 
             // book_Ticket1
             // 
@@ -286,18 +309,6 @@
             this.user_Dashboard1.Name = "user_Dashboard1";
             this.user_Dashboard1.Size = new System.Drawing.Size(810, 610);
             this.user_Dashboard1.TabIndex = 0;
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this;
-            // 
-            // guna2DragControl2
-            // 
-            this.guna2DragControl2.TargetControl = this.panel1;
-            // 
-            // guna2DragControl3
-            // 
-            this.guna2DragControl3.TargetControl = this.panel2;
             // 
             // Dashboard
             // 
@@ -340,5 +351,6 @@
         private User_Controls.Add_Movies add_Movies1;
         private User_Controls.Running_Movies running_Movies1;
         private User_Controls.Book_Ticket book_Ticket1;
+        private User_Controls.Analytics analytics1;
     }
 }

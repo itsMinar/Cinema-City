@@ -38,7 +38,7 @@ namespace Cinema_City.User_Controls
             selectedTheatre = theatreComboBox.Text;
             selectedShowTime = showTimeComboBox.Text;
 
-            var reader = db.GetData("SELECT * FROM Movies");
+            var reader = db.GetData("SELECT * FROM Movies WHERE name = '" + selectedMovie + "' AND theatre_name = '" + selectedTheatre + "' AND show_time = '" + selectedShowTime + "'");
 
             while (reader.Read())
             {
@@ -130,6 +130,9 @@ namespace Cinema_City.User_Controls
 
                     Ticket ticket = new Ticket(selectedMovie, selectedTheatre, ticketNumber, selectedShowTime, seatSelection, datePicker.Value.ToString("dd/MM/yyyy"), totalAmount.ToString());
 
+                    // Insert Data to Database for Analytics
+                    db.SetData("INSERT INTO Analytics VALUES('" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + showTimeComboBox.Text + "','" + theatreComboBox.Text + "','" + totalAmount + "')");
+
                     cName.Text = "";
                     cNumber.Text = "";
                     totalAmount = 0;
@@ -149,7 +152,7 @@ namespace Cinema_City.User_Controls
         public void showSeats()
         {
             string reserved_seat;
-            Guna2Button[] seats = { A1, A2, A3, A4, B1, B2, B3, B4, C1, C2, C3, C4 };
+            Guna2Button[] seats = { A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13, B14, B15, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11, M12, M13, M14, M15 };
             all_seat_available(seats);
 
             if (selectedMovieID != "")
@@ -398,7 +401,6 @@ namespace Cinema_City.User_Controls
         //Function to make all seats available by default
         private void all_seat_available(Guna2Button[] button)
         {
-
             for (int i = 0; i < button.Length; i++)
             {
                 button[i].Enabled = true;

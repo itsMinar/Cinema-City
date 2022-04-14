@@ -42,8 +42,10 @@
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
+            this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.datePanel.SuspendLayout();
@@ -59,6 +61,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.minimizeBtn);
+            this.panel1.Controls.Add(this.exitBtn);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.datePanel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -84,7 +88,7 @@
             this.datePanel.Controls.Add(this.date);
             this.datePanel.Controls.Add(this.day);
             this.datePanel.Controls.Add(this.pictureBox1);
-            this.datePanel.Location = new System.Drawing.Point(493, 19);
+            this.datePanel.Location = new System.Drawing.Point(458, 18);
             this.datePanel.Name = "datePanel";
             this.datePanel.Size = new System.Drawing.Size(286, 148);
             this.datePanel.TabIndex = 0;
@@ -156,10 +160,6 @@
             this.panel2.Size = new System.Drawing.Size(810, 437);
             this.panel2.TabIndex = 1;
             // 
-            // guna2DragControl2
-            // 
-            this.guna2DragControl2.TargetControl = this.panel2;
-            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
@@ -170,6 +170,45 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
+            // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.TargetControl = this.panel2;
+            // 
+            // minimizeBtn
+            // 
+            this.minimizeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeBtn.AnimationHoverSpeed = 0.07F;
+            this.minimizeBtn.AnimationSpeed = 0.03F;
+            this.minimizeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
+            this.minimizeBtn.IconColor = System.Drawing.Color.Black;
+            this.minimizeBtn.IconSize = 12F;
+            this.minimizeBtn.Location = new System.Drawing.Point(757, 10);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Name = "minimizeBtn";
+            this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
+            this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.TabIndex = 2;
+            // 
+            // exitBtn
+            // 
+            this.exitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBtn.AnimationHoverSpeed = 0.07F;
+            this.exitBtn.AnimationSpeed = 0.03F;
+            this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.IconColor = System.Drawing.Color.Black;
+            this.exitBtn.IconSize = 12F;
+            this.exitBtn.Location = new System.Drawing.Point(781, 10);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
+            this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
+            this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
+            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.TabIndex = 3;
             // 
             // user_Dashboard
             // 
@@ -209,5 +248,7 @@
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI.WinForms.GunaControlBox minimizeBtn;
+        private Guna.UI.WinForms.GunaControlBox exitBtn;
     }
 }
