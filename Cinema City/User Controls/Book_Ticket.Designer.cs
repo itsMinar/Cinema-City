@@ -129,7 +129,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.seatPanel.SuspendLayout();
             this.customerPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -2132,12 +2131,6 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Movie:";
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // Book_Ticket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2255,7 +2248,6 @@
         private Guna.UI2.WinForms.Guna2Button C1;
         private Guna.UI2.WinForms.Guna2Button B2;
         private Guna.UI2.WinForms.Guna2Button B1;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label totalPrice;
         private System.Windows.Forms.Label seatNumber;
         private System.Windows.Forms.Label label8;

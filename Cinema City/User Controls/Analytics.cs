@@ -23,8 +23,15 @@ namespace Cinema_City.User_Controls
             InitializeComponent();
         }
 
-        private void Analytics_Load(object sender, EventArgs e)
+        private void checkNowBtn_Click(object sender, EventArgs e)
         {
+            showChart();
+        }
+
+        private void Analytics_VisibleChanged(object sender, EventArgs e)
+        {
+            fromDate.Value = DateTime.Now;
+            toDate.Value = DateTime.Now;
             showChart();
         }
 
@@ -37,10 +44,13 @@ namespace Cinema_City.User_Controls
 
         private void fillChart(Chart chartName, string theatre, string show1, string show2, string show3, string show4)
         {
-            var reader12 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show1 + "'");
-            var reader3 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show2 + "'");
-            var reader6 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show3 + "'");
-            var reader9 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show4 + "'");
+            chartName.Series["Total Income"].Points.Clear();
+            chartName.Titles.Clear();
+
+            var reader12 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show1 + "' AND date BETWEEN '" + fromDate.Value.ToString("yyyy-MM-dd") + "' AND '" + toDate.Value.ToString("yyyy-MM-dd") + "'");
+            var reader3 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show2 + "' AND date BETWEEN '" + fromDate.Value.ToString("yyyy-MM-dd") + "' AND '" + toDate.Value.ToString("yyyy-MM-dd") + "'");
+            var reader6 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show3 + "' AND date BETWEEN '" + fromDate.Value.ToString("yyyy-MM-dd") + "' AND '" + toDate.Value.ToString("yyyy-MM-dd") + "'");
+            var reader9 = db.GetData("SELECT * FROM Analytics WHERE theatre_name = '" + theatre + "' AND show_time = '" + show4 + "' AND date BETWEEN '" + fromDate.Value.ToString("yyyy-MM-dd") + "' AND '" + toDate.Value.ToString("yyyy-MM-dd") + "'");
 
             double totalData12 = reader(reader12, total12);
             double totalData3 = reader(reader3, total3);
