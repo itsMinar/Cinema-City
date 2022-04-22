@@ -31,6 +31,7 @@ namespace Cinema_City
             addMoviesBtn.Checked = false;
             runningMoviesBtn.Checked = false;
             bookingBtn.Checked = false;
+            movieReportBtn.Checked = false;
             analyticsBtn.Checked = false;
         }
 
@@ -40,6 +41,7 @@ namespace Cinema_City
             add_Movies1.Visible = false;
             running_Movies1.Visible=false;
             book_Ticket1.Visible = false;
+            movie_Report1.Visible = false;
             analytics1.Visible = false;
         }
         private void showUserControl(UserControl x, Guna2Button y)
@@ -80,6 +82,11 @@ namespace Cinema_City
         private void bookingBtn_Click(object sender, EventArgs e)
         {
             showUserControl(book_Ticket1, bookingBtn);
+        }
+
+        private void movieReportBtn_Click(object sender, EventArgs e)
+        {
+            showUserControl(movie_Report1, movieReportBtn);
         }
 
         private void analyticsBtn_Click(object sender, EventArgs e)

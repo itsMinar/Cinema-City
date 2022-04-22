@@ -40,14 +40,16 @@
             this.dashboardBtn = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.analytics1 = new Cinema_City.User_Controls.Analytics();
             this.book_Ticket1 = new Cinema_City.User_Controls.Book_Ticket();
             this.running_Movies1 = new Cinema_City.User_Controls.Running_Movies();
             this.add_Movies1 = new Cinema_City.User_Controls.Add_Movies();
             this.user_Dashboard1 = new Cinema_City.User_Controls.user_Dashboard();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.movieReportBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.movie_Report1 = new Cinema_City.User_Controls.Movie_Report();
+            this.analytics1 = new Cinema_City.User_Controls.Analytics();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -60,6 +62,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.movieReportBtn);
             this.panel1.Controls.Add(this.logoutBtn);
             this.panel1.Controls.Add(this.analyticsBtn);
             this.panel1.Controls.Add(this.bookingBtn);
@@ -117,7 +120,7 @@
             this.analyticsBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.analyticsBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.analyticsBtn.HoverState.Parent = this.analyticsBtn;
-            this.analyticsBtn.Location = new System.Drawing.Point(34, 421);
+            this.analyticsBtn.Location = new System.Drawing.Point(34, 453);
             this.analyticsBtn.Margin = new System.Windows.Forms.Padding(0);
             this.analyticsBtn.Name = "analyticsBtn";
             this.analyticsBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -143,7 +146,7 @@
             this.bookingBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.bookingBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.bookingBtn.HoverState.Parent = this.bookingBtn;
-            this.bookingBtn.Location = new System.Drawing.Point(34, 291);
+            this.bookingBtn.Location = new System.Drawing.Point(34, 270);
             this.bookingBtn.Margin = new System.Windows.Forms.Padding(0);
             this.bookingBtn.Name = "bookingBtn";
             this.bookingBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -169,7 +172,7 @@
             this.runningMoviesBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.runningMoviesBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.runningMoviesBtn.HoverState.Parent = this.runningMoviesBtn;
-            this.runningMoviesBtn.Location = new System.Drawing.Point(34, 226);
+            this.runningMoviesBtn.Location = new System.Drawing.Point(34, 209);
             this.runningMoviesBtn.Margin = new System.Windows.Forms.Padding(0);
             this.runningMoviesBtn.Name = "runningMoviesBtn";
             this.runningMoviesBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -195,7 +198,7 @@
             this.addMoviesBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.addMoviesBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.addMoviesBtn.HoverState.Parent = this.addMoviesBtn;
-            this.addMoviesBtn.Location = new System.Drawing.Point(34, 356);
+            this.addMoviesBtn.Location = new System.Drawing.Point(34, 331);
             this.addMoviesBtn.Margin = new System.Windows.Forms.Padding(0);
             this.addMoviesBtn.Name = "addMoviesBtn";
             this.addMoviesBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -221,7 +224,7 @@
             this.dashboardBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.dashboardBtn.HoverState.Parent = this.dashboardBtn;
-            this.dashboardBtn.Location = new System.Drawing.Point(34, 161);
+            this.dashboardBtn.Location = new System.Drawing.Point(34, 148);
             this.dashboardBtn.Margin = new System.Windows.Forms.Padding(0);
             this.dashboardBtn.Name = "dashboardBtn";
             this.dashboardBtn.PressedColor = System.Drawing.Color.Firebrick;
@@ -245,6 +248,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.analytics1);
+            this.panel2.Controls.Add(this.movie_Report1);
             this.panel2.Controls.Add(this.book_Ticket1);
             this.panel2.Controls.Add(this.running_Movies1);
             this.panel2.Controls.Add(this.add_Movies1);
@@ -255,26 +259,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(833, 630);
             this.panel2.TabIndex = 6;
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this;
-            // 
-            // guna2DragControl2
-            // 
-            this.guna2DragControl2.TargetControl = this.panel1;
-            // 
-            // guna2DragControl3
-            // 
-            this.guna2DragControl3.TargetControl = this.panel2;
-            // 
-            // analytics1
-            // 
-            this.analytics1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
-            this.analytics1.Location = new System.Drawing.Point(10, 8);
-            this.analytics1.Name = "analytics1";
-            this.analytics1.Size = new System.Drawing.Size(810, 610);
-            this.analytics1.TabIndex = 4;
             // 
             // book_Ticket1
             // 
@@ -309,6 +293,60 @@
             this.user_Dashboard1.Name = "user_Dashboard1";
             this.user_Dashboard1.Size = new System.Drawing.Size(810, 610);
             this.user_Dashboard1.TabIndex = 0;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.TargetControl = this.panel1;
+            // 
+            // guna2DragControl3
+            // 
+            this.guna2DragControl3.TargetControl = this.panel2;
+            // 
+            // movieReportBtn
+            // 
+            this.movieReportBtn.BackColor = System.Drawing.Color.Transparent;
+            this.movieReportBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
+            this.movieReportBtn.BorderRadius = 12;
+            this.movieReportBtn.BorderThickness = 2;
+            this.movieReportBtn.CheckedState.Parent = this.movieReportBtn;
+            this.movieReportBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.movieReportBtn.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.movieReportBtn.CustomImages.Parent = this.movieReportBtn;
+            this.movieReportBtn.FillColor = System.Drawing.Color.Transparent;
+            this.movieReportBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.movieReportBtn.ForeColor = System.Drawing.Color.White;
+            this.movieReportBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
+            this.movieReportBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.movieReportBtn.HoverState.Parent = this.movieReportBtn;
+            this.movieReportBtn.Location = new System.Drawing.Point(34, 392);
+            this.movieReportBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.movieReportBtn.Name = "movieReportBtn";
+            this.movieReportBtn.PressedColor = System.Drawing.Color.Firebrick;
+            this.movieReportBtn.ShadowDecoration.Parent = this.movieReportBtn;
+            this.movieReportBtn.Size = new System.Drawing.Size(116, 32);
+            this.movieReportBtn.TabIndex = 8;
+            this.movieReportBtn.Text = "Movie Report";
+            this.movieReportBtn.Click += new System.EventHandler(this.movieReportBtn_Click);
+            // 
+            // movie_Report1
+            // 
+            this.movie_Report1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.movie_Report1.Location = new System.Drawing.Point(10, 8);
+            this.movie_Report1.Name = "movie_Report1";
+            this.movie_Report1.Size = new System.Drawing.Size(810, 610);
+            this.movie_Report1.TabIndex = 4;
+            // 
+            // analytics1
+            // 
+            this.analytics1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.analytics1.Location = new System.Drawing.Point(10, 8);
+            this.analytics1.Name = "analytics1";
+            this.analytics1.Size = new System.Drawing.Size(810, 610);
+            this.analytics1.TabIndex = 5;
             // 
             // Dashboard
             // 
@@ -351,6 +389,8 @@
         private User_Controls.Add_Movies add_Movies1;
         private User_Controls.Running_Movies running_Movies1;
         private User_Controls.Book_Ticket book_Ticket1;
+        private Guna.UI2.WinForms.Guna2Button movieReportBtn;
         private User_Controls.Analytics analytics1;
+        private User_Controls.Movie_Report movie_Report1;
     }
 }

@@ -130,6 +130,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dashboard.cs">
@@ -171,6 +174,12 @@
     <Compile Include="User Controls\Book_Ticket.Designer.cs">
       <DependentUpon>Book_Ticket.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Controls\Movie_Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Movie_Report.Designer.cs">
+      <DependentUpon>Movie_Report.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\Running_Movies.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -211,12 +220,16 @@
     <EmbeddedResource Include="User Controls\Book_Ticket.resx">
       <DependentUpon>Book_Ticket.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Movie_Report.resx">
+      <DependentUpon>Movie_Report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Controls\Running_Movies.resx">
       <DependentUpon>Running_Movies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controls\User_Dashboard.resx">
       <DependentUpon>User_Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

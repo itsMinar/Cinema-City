@@ -34,6 +34,8 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.barCodeBox = new System.Windows.Forms.PictureBox();
+            this.qrCodeBox = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -56,6 +58,8 @@
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.mainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.barCodeBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qrCodeBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PrintBtn)).BeginInit();
@@ -89,6 +93,8 @@
             // 
             // mainPanel
             // 
+            this.mainPanel.Controls.Add(this.barCodeBox);
+            this.mainPanel.Controls.Add(this.qrCodeBox);
             this.mainPanel.Controls.Add(this.label8);
             this.mainPanel.Controls.Add(this.label5);
             this.mainPanel.Controls.Add(this.label4);
@@ -111,12 +117,30 @@
             this.mainPanel.Size = new System.Drawing.Size(531, 305);
             this.mainPanel.TabIndex = 4;
             // 
+            // barCodeBox
+            // 
+            this.barCodeBox.Location = new System.Drawing.Point(277, 236);
+            this.barCodeBox.Name = "barCodeBox";
+            this.barCodeBox.Size = new System.Drawing.Size(213, 61);
+            this.barCodeBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.barCodeBox.TabIndex = 13;
+            this.barCodeBox.TabStop = false;
+            // 
+            // qrCodeBox
+            // 
+            this.qrCodeBox.Location = new System.Drawing.Point(176, 236);
+            this.qrCodeBox.Name = "qrCodeBox";
+            this.qrCodeBox.Size = new System.Drawing.Size(65, 61);
+            this.qrCodeBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.qrCodeBox.TabIndex = 13;
+            this.qrCodeBox.TabStop = false;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(216, 224);
+            this.label8.Location = new System.Drawing.Point(216, 178);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(95, 21);
             this.label8.TabIndex = 12;
@@ -127,7 +151,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(237, 194);
+            this.label5.Location = new System.Drawing.Point(237, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 21);
             this.label5.TabIndex = 12;
@@ -138,7 +162,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(180, 254);
+            this.label4.Location = new System.Drawing.Point(180, 208);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 21);
             this.label4.TabIndex = 12;
@@ -149,7 +173,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(223, 164);
+            this.label7.Location = new System.Drawing.Point(223, 118);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(88, 21);
             this.label7.TabIndex = 12;
@@ -160,7 +184,7 @@
             this.pTotalPrice.AutoSize = true;
             this.pTotalPrice.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pTotalPrice.ForeColor = System.Drawing.Color.White;
-            this.pTotalPrice.Location = new System.Drawing.Point(321, 224);
+            this.pTotalPrice.Location = new System.Drawing.Point(321, 178);
             this.pTotalPrice.Name = "pTotalPrice";
             this.pTotalPrice.Size = new System.Drawing.Size(18, 21);
             this.pTotalPrice.TabIndex = 12;
@@ -171,7 +195,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(212, 134);
+            this.label3.Location = new System.Drawing.Point(212, 88);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 21);
             this.label3.TabIndex = 12;
@@ -182,7 +206,7 @@
             this.pSeat.AutoSize = true;
             this.pSeat.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pSeat.ForeColor = System.Drawing.Color.White;
-            this.pSeat.Location = new System.Drawing.Point(321, 194);
+            this.pSeat.Location = new System.Drawing.Point(321, 148);
             this.pSeat.Name = "pSeat";
             this.pSeat.Size = new System.Drawing.Size(18, 21);
             this.pSeat.TabIndex = 12;
@@ -193,7 +217,7 @@
             this.pTicketNumber.AutoSize = true;
             this.pTicketNumber.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pTicketNumber.ForeColor = System.Drawing.Color.White;
-            this.pTicketNumber.Location = new System.Drawing.Point(322, 164);
+            this.pTicketNumber.Location = new System.Drawing.Point(322, 118);
             this.pTicketNumber.Name = "pTicketNumber";
             this.pTicketNumber.Size = new System.Drawing.Size(18, 21);
             this.pTicketNumber.TabIndex = 12;
@@ -204,7 +228,7 @@
             this.pDate.AutoSize = true;
             this.pDate.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pDate.ForeColor = System.Drawing.Color.White;
-            this.pDate.Location = new System.Drawing.Point(321, 254);
+            this.pDate.Location = new System.Drawing.Point(321, 208);
             this.pDate.Name = "pDate";
             this.pDate.Size = new System.Drawing.Size(18, 21);
             this.pDate.TabIndex = 12;
@@ -215,7 +239,7 @@
             this.pTime.AutoSize = true;
             this.pTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pTime.ForeColor = System.Drawing.Color.White;
-            this.pTime.Location = new System.Drawing.Point(321, 134);
+            this.pTime.Location = new System.Drawing.Point(321, 88);
             this.pTime.Name = "pTime";
             this.pTime.Size = new System.Drawing.Size(18, 21);
             this.pTime.TabIndex = 12;
@@ -226,7 +250,7 @@
             this.pTheatre.AutoSize = true;
             this.pTheatre.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pTheatre.ForeColor = System.Drawing.Color.White;
-            this.pTheatre.Location = new System.Drawing.Point(321, 104);
+            this.pTheatre.Location = new System.Drawing.Point(321, 58);
             this.pTheatre.Name = "pTheatre";
             this.pTheatre.Size = new System.Drawing.Size(18, 21);
             this.pTheatre.TabIndex = 12;
@@ -237,7 +261,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(213, 104);
+            this.label2.Location = new System.Drawing.Point(213, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 21);
             this.label2.TabIndex = 12;
@@ -246,22 +270,22 @@
             // pMovie
             // 
             this.pMovie.AutoSize = true;
-            this.pMovie.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pMovie.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pMovie.ForeColor = System.Drawing.Color.White;
-            this.pMovie.Location = new System.Drawing.Point(318, 52);
+            this.pMovie.Location = new System.Drawing.Point(320, 21);
             this.pMovie.Name = "pMovie";
-            this.pMovie.Size = new System.Drawing.Size(28, 31);
+            this.pMovie.Size = new System.Drawing.Size(24, 26);
             this.pMovie.TabIndex = 12;
             this.pMovie.Text = "?";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(137, 52);
+            this.label1.Location = new System.Drawing.Point(164, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 31);
+            this.label1.Size = new System.Drawing.Size(157, 26);
             this.label1.TabIndex = 12;
             this.label1.Text = "Movie Name:-";
             // 
@@ -293,6 +317,7 @@
             // 
             // PrintBtn
             // 
+            this.PrintBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PrintBtn.Image = ((System.Drawing.Image)(resources.GetObject("PrintBtn.Image")));
             this.PrintBtn.Location = new System.Drawing.Point(550, 243);
             this.PrintBtn.Name = "PrintBtn";
@@ -338,6 +363,8 @@
             this.Load += new System.EventHandler(this.Ticket_Load);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.barCodeBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qrCodeBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PrintBtn)).EndInit();
@@ -372,5 +399,7 @@
         private System.Windows.Forms.Label pTicketNumber;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.PictureBox barCodeBox;
+        private System.Windows.Forms.PictureBox qrCodeBox;
     }
 }

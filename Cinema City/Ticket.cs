@@ -51,6 +51,13 @@ namespace Cinema_City
             pSeat.Text = seat;
             pDate.Text = date;
             pTotalPrice.Text = price;
+
+            //Generate Bar Code
+            Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
+            barCodeBox.Image = barcode.Draw(ticketNumber, 50);
+            //Generate QR Code
+            Zen.Barcode.CodeQrBarcodeDraw qrcode = Zen.Barcode.BarcodeDrawFactory.CodeQr;
+            qrCodeBox.Image = qrcode.Draw(ticketNumber, 50);
         }
 
         //painting the ticket

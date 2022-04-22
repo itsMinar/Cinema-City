@@ -14,21 +14,8 @@ namespace Cinema_City
         public SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=MMM\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True";
+            con.ConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True";
             return con;
-        }
-
-        public DataTable getData(string query)
-        {
-            SqlConnection con = GetConnection();
-            con.Open();
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataReader dr = cmd.ExecuteReader();
-            DataTable dt = new DataTable();
-            dt.Load(dr);
-            dr.Close();
-            con.Close();
-            return dt;
         }
 
         //Method to Get Data from Database (SELECT)

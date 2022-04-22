@@ -67,7 +67,7 @@ namespace Cinema_City.User_Controls
         private void Book_Ticket_VisibleChanged(object sender, EventArgs e)
         {
             datePicker.Value = DateTime.Now;
-            var reader = db.GetData("SELECT * FROM Movies");
+            var reader = db.GetData("SELECT distinct name FROM Movies");
             movieComboBox.Items.Clear();
             while (reader.Read())
             {
@@ -128,7 +128,7 @@ namespace Cinema_City.User_Controls
                     Ticket ticket = new Ticket(selectedMovie, selectedTheatre, ticketNumber, selectedShowTime, seatSelection, datePicker.Value.ToString("dd/MM/yyyy"), totalAmount.ToString());
 
                     // Insert Data to Database for Analytics
-                    db.SetData("INSERT INTO Analytics VALUES('" + datePicker.Value.ToString("yyyy-MM-dd") + "','" + showTimeComboBox.Text + "','" + theatreComboBox.Text + "','" + totalAmount + "')");
+                    db.SetData("INSERT INTO Analytics VALUES('" + selectedMovie + "','" + datePicker.Value.ToString("yyyy-MM-dd") + "','" + showTimeComboBox.Text + "','" + theatreComboBox.Text + "','" + totalAmount + "')");
 
                     cName.Text = "";
                     cNumber.Text = "";
