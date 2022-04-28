@@ -104,7 +104,8 @@
             this.runningMoviesGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.runningMoviesGrid.EnableHeadersVisualStyles = false;
             this.runningMoviesGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.runningMoviesGrid.Location = new System.Drawing.Point(0, 31);
+            this.runningMoviesGrid.Location = new System.Drawing.Point(0, 38);
+            this.runningMoviesGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.runningMoviesGrid.Name = "runningMoviesGrid";
             this.runningMoviesGrid.ReadOnly = true;
             this.runningMoviesGrid.RowHeadersVisible = false;
@@ -113,7 +114,7 @@
             this.runningMoviesGrid.RowTemplate.Height = 80;
             this.runningMoviesGrid.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.runningMoviesGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.runningMoviesGrid.Size = new System.Drawing.Size(810, 579);
+            this.runningMoviesGrid.Size = new System.Drawing.Size(1080, 713);
             this.runningMoviesGrid.TabIndex = 0;
             this.runningMoviesGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt;
             this.runningMoviesGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
@@ -142,6 +143,7 @@
             // Column1
             // 
             this.Column1.HeaderText = "Column1";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.Visible = false;
@@ -151,6 +153,7 @@
             this.Column2.FillWeight = 85F;
             this.Column2.HeaderText = "Poster";
             this.Column2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -160,6 +163,7 @@
             // 
             this.Column3.FillWeight = 130F;
             this.Column3.HeaderText = "Name";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             // 
@@ -167,6 +171,7 @@
             // 
             this.Column4.FillWeight = 70F;
             this.Column4.HeaderText = "Year";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
@@ -174,6 +179,7 @@
             // 
             this.Column5.FillWeight = 80F;
             this.Column5.HeaderText = "Language";
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
@@ -181,6 +187,7 @@
             // 
             this.Column6.FillWeight = 80F;
             this.Column6.HeaderText = "Theatre";
+            this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
             // 
@@ -188,6 +195,7 @@
             // 
             this.Column7.FillWeight = 90F;
             this.Column7.HeaderText = "Show Time";
+            this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
             this.Column7.ReadOnly = true;
             // 
@@ -197,6 +205,7 @@
             this.deleteBtn.HeaderText = "";
             this.deleteBtn.Image = ((System.Drawing.Image)(resources.GetObject("deleteBtn.Image")));
             this.deleteBtn.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.deleteBtn.MinimumWidth = 6;
             this.deleteBtn.Name = "deleteBtn";
             this.deleteBtn.ReadOnly = true;
             this.deleteBtn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -211,13 +220,13 @@
             this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.minimizeBtn.IconColor = System.Drawing.Color.Black;
             this.minimizeBtn.IconSize = 12F;
-            this.minimizeBtn.Location = new System.Drawing.Point(758, 8);
-            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Location = new System.Drawing.Point(1011, 10);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.minimizeBtn.Name = "minimizeBtn";
             this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
             this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.Size = new System.Drawing.Size(24, 22);
             this.minimizeBtn.TabIndex = 4;
             // 
             // exitBtn
@@ -228,25 +237,26 @@
             this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.IconColor = System.Drawing.Color.Black;
             this.exitBtn.IconSize = 12F;
-            this.exitBtn.Location = new System.Drawing.Point(782, 8);
-            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Location = new System.Drawing.Point(1043, 10);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.Size = new System.Drawing.Size(24, 22);
             this.exitBtn.TabIndex = 5;
             // 
             // Running_Movies
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.Controls.Add(this.minimizeBtn);
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.runningMoviesGrid);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Running_Movies";
-            this.Size = new System.Drawing.Size(810, 610);
+            this.Size = new System.Drawing.Size(1080, 751);
             this.VisibleChanged += new System.EventHandler(this.Running_Movies_VisibleChanged);
             ((System.ComponentModel.ISupportInitialize)(this.runningMoviesGrid)).EndInit();
             this.ResumeLayout(false);

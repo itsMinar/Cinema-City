@@ -23,6 +23,8 @@ namespace Cinema_City.User_Controls
         string seatSelection;
 
         float totalAmount = 0, basicSeatAmount = 300, vipSeatAmount = 500;
+
+        int ticketCount = 1;
         public Book_Ticket()
         {
             InitializeComponent();
@@ -50,6 +52,12 @@ namespace Cinema_City.User_Controls
                 {
                     seatPanel.Visible = true;
                     customerPanel.Visible = true;
+
+                    ticketCount = 1;
+                    cName.Text = "";
+                    cNumber.Text = "";
+                    totalAmount = 0;
+                    totalPrice.Text = "0 TAKA";
 
                     showSeats();
                 }
@@ -130,6 +138,7 @@ namespace Cinema_City.User_Controls
                     // Insert Data to Database for Analytics
                     db.SetData("INSERT INTO Analytics VALUES('" + selectedMovie + "','" + datePicker.Value.ToString("yyyy-MM-dd") + "','" + showTimeComboBox.Text + "','" + theatreComboBox.Text + "','" + totalAmount + "')");
 
+                    ticketCount = 1;
                     cName.Text = "";
                     cNumber.Text = "";
                     totalAmount = 0;
@@ -422,9 +431,11 @@ namespace Cinema_City.User_Controls
             {
                 seatSelection += seat_no + ",";
                 totalAmount += basicSeatAmount;
+                ticketCount++;
             }
             else
             {
+                ticketCount--;
                 seatSelection = seatSelection.Remove(seatSelection.IndexOf(seat_no), 3);
                 if (totalAmount > 0)
                 {
@@ -440,9 +451,11 @@ namespace Cinema_City.User_Controls
             {
                 seatSelection += seat_no + ",";
                 totalAmount += vipSeatAmount;
+                ticketCount++;
             }
             else
             {
+                ticketCount--;
                 seatSelection = seatSelection.Remove(seatSelection.IndexOf(seat_no), 3);
                 if (totalAmount > 0)
                 {
@@ -453,20 +466,38 @@ namespace Cinema_City.User_Controls
 
         private void basicSeatClick(object sender, EventArgs e)
         {
-            Guna2Button button = (Guna2Button)sender;
-            basicSeatBtnToggle(button, button.Text);
-            seatNumber.Text = seatSelection;
+            if (ticketCount <= 5)
+            {
+                Guna2Button button = (Guna2Button)sender;
+                basicSeatBtnToggle(button, button.Text);
+                seatNumber.Text = seatSelection;
 
-            totalPrice.Text = totalAmount.ToString() + " TAKA";
+                totalPrice.Text = totalAmount.ToString() + " TAKA";
+            }
+            else
+            {
+                Guna2Button button = (Guna2Button)sender;
+                button.Checked = false;
+                MessageBox.Show("Customer Can't Buy more than 5 Tickets", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void vipSeatClick(object sender, EventArgs e)
         {
-            Guna2Button button = (Guna2Button)sender;
-            vipSeatBtnToggle(button, button.Text);
-            seatNumber.Text = seatSelection;
+            if (ticketCount <= 5)
+            {
+                Guna2Button button = (Guna2Button)sender;
+                vipSeatBtnToggle(button, button.Text);
+                seatNumber.Text = seatSelection;
 
-            totalPrice.Text = totalAmount.ToString() + " TAKA";
+                totalPrice.Text = totalAmount.ToString() + " TAKA";
+            }
+            else
+            {
+                Guna2Button button = (Guna2Button)sender;
+                button.Checked = false;
+                MessageBox.Show("Customer Can't Buy more than 5 Tickets", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

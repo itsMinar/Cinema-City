@@ -1,0 +1,94 @@
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.AssemblyReference.cache
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.SuggestedBindingRedirects.cache
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.exe.config
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.Dashboard.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.logIn.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.Properties.Resources.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Add_Movies.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Analytics.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Book_Ticket.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Running_Movies.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.user_Dashboard.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.GenerateResource.cache
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.CoreCompileInputs.cache
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Cinema City.exe.config
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Cinema City.exe
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Cinema City.pdb
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.Core.dll
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.CopyComplete
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.exe
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.pdb
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.Ticket.resources
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Minar\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Movie_Report.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Cinema City.exe.config
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Cinema City.exe
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Cinema City.pdb
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.Core.dll
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.AssemblyReference.cache
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.SuggestedBindingRedirects.cache
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.exe.config
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.Dashboard.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.logIn.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.Properties.Resources.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.Ticket.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Add_Movies.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Analytics.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Book_Ticket.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Movie_Report.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.Running_Movies.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema_City.User_Controls.user_Dashboard.resources
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.GenerateResource.cache
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.CoreCompileInputs.cache
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.CopyComplete
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.exe
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.pdb

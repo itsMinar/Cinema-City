@@ -56,7 +56,7 @@
             // 
             // nameBox
             // 
-            this.nameBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.nameBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.nameBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.nameBox.BorderRadius = 6;
             this.nameBox.BorderThickness = 2;
@@ -75,15 +75,15 @@
             this.nameBox.ForeColor = System.Drawing.Color.White;
             this.nameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nameBox.HoverState.Parent = this.nameBox;
-            this.nameBox.Location = new System.Drawing.Point(197, 79);
-            this.nameBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nameBox.Location = new System.Drawing.Point(263, 97);
+            this.nameBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.nameBox.Name = "nameBox";
             this.nameBox.PasswordChar = '\0';
             this.nameBox.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.nameBox.PlaceholderText = "";
             this.nameBox.SelectedText = "";
             this.nameBox.ShadowDecoration.Parent = this.nameBox;
-            this.nameBox.Size = new System.Drawing.Size(182, 37);
+            this.nameBox.Size = new System.Drawing.Size(243, 46);
             this.nameBox.TabIndex = 10;
             this.nameBox.TextOffset = new System.Drawing.Point(5, 0);
             // 
@@ -92,9 +92,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(105, 89);
+            this.label1.Location = new System.Drawing.Point(140, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 27);
+            this.label1.Size = new System.Drawing.Size(98, 34);
             this.label1.TabIndex = 11;
             this.label1.Text = "Name:";
             // 
@@ -111,7 +112,7 @@
             this.yearBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.yearBox.DisabledState.Parent = this.yearBox;
             this.yearBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.yearBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.yearBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.yearBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.yearBox.FocusedState.FillColor = System.Drawing.Color.Transparent;
             this.yearBox.FocusedState.Parent = this.yearBox;
@@ -119,15 +120,15 @@
             this.yearBox.ForeColor = System.Drawing.Color.White;
             this.yearBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.yearBox.HoverState.Parent = this.yearBox;
-            this.yearBox.Location = new System.Drawing.Point(197, 144);
-            this.yearBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.yearBox.Location = new System.Drawing.Point(263, 177);
+            this.yearBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.yearBox.Name = "yearBox";
             this.yearBox.PasswordChar = '\0';
             this.yearBox.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.yearBox.PlaceholderText = "";
             this.yearBox.SelectedText = "";
             this.yearBox.ShadowDecoration.Parent = this.yearBox;
-            this.yearBox.Size = new System.Drawing.Size(182, 37);
+            this.yearBox.Size = new System.Drawing.Size(243, 46);
             this.yearBox.TabIndex = 10;
             this.yearBox.TextOffset = new System.Drawing.Point(5, 0);
             // 
@@ -136,9 +137,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(28, 154);
+            this.label2.Location = new System.Drawing.Point(37, 190);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 27);
+            this.label2.Size = new System.Drawing.Size(201, 34);
             this.label2.TabIndex = 11;
             this.label2.Text = "Released Year:";
             // 
@@ -155,7 +157,7 @@
             this.langBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.langBox.DisabledState.Parent = this.langBox;
             this.langBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.langBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.langBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.langBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.langBox.FocusedState.FillColor = System.Drawing.Color.Transparent;
             this.langBox.FocusedState.Parent = this.langBox;
@@ -163,15 +165,15 @@
             this.langBox.ForeColor = System.Drawing.Color.White;
             this.langBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.langBox.HoverState.Parent = this.langBox;
-            this.langBox.Location = new System.Drawing.Point(197, 209);
-            this.langBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.langBox.Location = new System.Drawing.Point(263, 257);
+            this.langBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.langBox.Name = "langBox";
             this.langBox.PasswordChar = '\0';
             this.langBox.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.langBox.PlaceholderText = "";
             this.langBox.SelectedText = "";
             this.langBox.ShadowDecoration.Parent = this.langBox;
-            this.langBox.Size = new System.Drawing.Size(182, 37);
+            this.langBox.Size = new System.Drawing.Size(243, 46);
             this.langBox.TabIndex = 10;
             this.langBox.TextOffset = new System.Drawing.Point(5, 0);
             // 
@@ -180,9 +182,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(67, 219);
+            this.label3.Location = new System.Drawing.Point(89, 270);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 27);
+            this.label3.Size = new System.Drawing.Size(147, 34);
             this.label3.TabIndex = 11;
             this.label3.Text = "Language:";
             // 
@@ -194,7 +197,7 @@
             this.theatreBox.BorderThickness = 2;
             this.theatreBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.theatreBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.theatreBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.theatreBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.theatreBox.FocusedColor = System.Drawing.Color.Empty;
             this.theatreBox.FocusedState.Parent = this.theatreBox;
             this.theatreBox.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -208,10 +211,11 @@
             "CCity-02",
             "CCity-03"});
             this.theatreBox.ItemsAppearance.Parent = this.theatreBox;
-            this.theatreBox.Location = new System.Drawing.Point(197, 274);
+            this.theatreBox.Location = new System.Drawing.Point(263, 337);
+            this.theatreBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.theatreBox.Name = "theatreBox";
             this.theatreBox.ShadowDecoration.Parent = this.theatreBox;
-            this.theatreBox.Size = new System.Drawing.Size(183, 36);
+            this.theatreBox.Size = new System.Drawing.Size(243, 36);
             this.theatreBox.TabIndex = 12;
             this.theatreBox.SelectedValueChanged += new System.EventHandler(this.theatreBox_SelectedValueChanged);
             // 
@@ -220,9 +224,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(89, 283);
+            this.label4.Location = new System.Drawing.Point(119, 348);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 27);
+            this.label4.Size = new System.Drawing.Size(121, 34);
             this.label4.TabIndex = 11;
             this.label4.Text = "Theatre:";
             // 
@@ -231,9 +236,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(54, 347);
+            this.label5.Location = new System.Drawing.Point(72, 427);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 27);
+            this.label5.Size = new System.Drawing.Size(163, 34);
             this.label5.TabIndex = 11;
             this.label5.Text = "Show Time:";
             // 
@@ -244,10 +250,11 @@
             // imgBox
             // 
             this.imgBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imgBox.Location = new System.Drawing.Point(550, 119);
+            this.imgBox.Location = new System.Drawing.Point(733, 146);
+            this.imgBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.imgBox.Name = "imgBox";
             this.imgBox.ShadowDecoration.Parent = this.imgBox;
-            this.imgBox.Size = new System.Drawing.Size(205, 221);
+            this.imgBox.Size = new System.Drawing.Size(273, 272);
             this.imgBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgBox.TabIndex = 14;
             this.imgBox.TabStop = false;
@@ -258,9 +265,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(464, 203);
+            this.label6.Location = new System.Drawing.Point(619, 250);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 27);
+            this.label6.Size = new System.Drawing.Size(105, 34);
             this.label6.TabIndex = 11;
             this.label6.Text = "Poster:";
             // 
@@ -281,12 +289,12 @@
             this.addMovieBtn.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.addMovieBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.addMovieBtn.HoverState.Parent = this.addMovieBtn;
-            this.addMovieBtn.Location = new System.Drawing.Point(335, 455);
+            this.addMovieBtn.Location = new System.Drawing.Point(447, 560);
             this.addMovieBtn.Margin = new System.Windows.Forms.Padding(0);
             this.addMovieBtn.Name = "addMovieBtn";
             this.addMovieBtn.PressedColor = System.Drawing.Color.Transparent;
             this.addMovieBtn.ShadowDecoration.Parent = this.addMovieBtn;
-            this.addMovieBtn.Size = new System.Drawing.Size(148, 45);
+            this.addMovieBtn.Size = new System.Drawing.Size(197, 55);
             this.addMovieBtn.TabIndex = 15;
             this.addMovieBtn.Text = "ADD MOVIE";
             this.addMovieBtn.Click += new System.EventHandler(this.addMovieBtn_Click);
@@ -299,7 +307,7 @@
             this.timeBox.BorderThickness = 2;
             this.timeBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.timeBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.timeBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.timeBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.timeBox.FocusedColor = System.Drawing.Color.Empty;
             this.timeBox.FocusedState.Parent = this.timeBox;
             this.timeBox.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -314,10 +322,11 @@
             "06:00 PM",
             "09:00 PM"});
             this.timeBox.ItemsAppearance.Parent = this.timeBox;
-            this.timeBox.Location = new System.Drawing.Point(196, 338);
+            this.timeBox.Location = new System.Drawing.Point(261, 416);
+            this.timeBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.timeBox.Name = "timeBox";
             this.timeBox.ShadowDecoration.Parent = this.timeBox;
-            this.timeBox.Size = new System.Drawing.Size(183, 36);
+            this.timeBox.Size = new System.Drawing.Size(243, 36);
             this.timeBox.TabIndex = 12;
             this.timeBox.SelectedValueChanged += new System.EventHandler(this.timeBox_SelectedValueChanged);
             // 
@@ -330,13 +339,13 @@
             this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.minimizeBtn.IconColor = System.Drawing.Color.Black;
             this.minimizeBtn.IconSize = 12F;
-            this.minimizeBtn.Location = new System.Drawing.Point(757, 9);
-            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Location = new System.Drawing.Point(1009, 11);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.minimizeBtn.Name = "minimizeBtn";
             this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
             this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.Size = new System.Drawing.Size(24, 22);
             this.minimizeBtn.TabIndex = 16;
             // 
             // exitBtn
@@ -347,20 +356,20 @@
             this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.IconColor = System.Drawing.Color.Black;
             this.exitBtn.IconSize = 12F;
-            this.exitBtn.Location = new System.Drawing.Point(781, 9);
-            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Location = new System.Drawing.Point(1041, 11);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.Size = new System.Drawing.Size(24, 22);
             this.exitBtn.TabIndex = 17;
             // 
             // Add_Movies
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.Controls.Add(this.minimizeBtn);
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.addMovieBtn);
@@ -376,8 +385,9 @@
             this.Controls.Add(this.langBox);
             this.Controls.Add(this.yearBox);
             this.Controls.Add(this.nameBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Add_Movies";
-            this.Size = new System.Drawing.Size(810, 610);
+            this.Size = new System.Drawing.Size(1080, 751);
             ((System.ComponentModel.ISupportInitialize)(this.imgBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
