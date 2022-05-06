@@ -92,3 +92,4 @@ C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.Core
 C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.csproj.CopyComplete
 C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.exe
 C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\obj\Debug\Cinema City.pdb
+C:\Users\M1N4R\Desktop\Cinema-City\Cinema City\bin\Debug\BouncyCastle.Crypto.dll

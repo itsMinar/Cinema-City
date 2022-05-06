@@ -89,12 +89,16 @@
             this.exitBtn.Size = new System.Drawing.Size(27, 25);
             this.exitBtn.TabIndex = 3;
             // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.TargetControl = null;
+            // 
             // PrintBtn
             // 
             this.PrintBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PrintBtn.Image = ((System.Drawing.Image)(resources.GetObject("PrintBtn.Image")));
-            this.PrintBtn.Location = new System.Drawing.Point(734, 418);
-            this.PrintBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PrintBtn.Location = new System.Drawing.Point(734, 401);
+            this.PrintBtn.Margin = new System.Windows.Forms.Padding(4);
             this.PrintBtn.Name = "PrintBtn";
             this.PrintBtn.ShadowDecoration.Parent = this.PrintBtn;
             this.PrintBtn.Size = new System.Drawing.Size(48, 41);
@@ -123,7 +127,7 @@
             // 
             // barCodeBox
             // 
-            this.barCodeBox.Location = new System.Drawing.Point(351, 330);
+            this.barCodeBox.Location = new System.Drawing.Point(351, 319);
             this.barCodeBox.Margin = new System.Windows.Forms.Padding(4);
             this.barCodeBox.Name = "barCodeBox";
             this.barCodeBox.Size = new System.Drawing.Size(351, 108);
@@ -133,7 +137,7 @@
             // 
             // qrCodeBox
             // 
-            this.qrCodeBox.Location = new System.Drawing.Point(177, 314);
+            this.qrCodeBox.Location = new System.Drawing.Point(177, 303);
             this.qrCodeBox.Margin = new System.Windows.Forms.Padding(4);
             this.qrCodeBox.Name = "qrCodeBox";
             this.qrCodeBox.Size = new System.Drawing.Size(155, 155);
@@ -312,7 +316,7 @@
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(-3, 363);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(-3, 346);
             this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
@@ -338,7 +342,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(44)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(796, 495);
+            this.ClientSize = new System.Drawing.Size(796, 484);
             this.Controls.Add(this.barCodeBox);
             this.Controls.Add(this.qrCodeBox);
             this.Controls.Add(this.label8);
@@ -360,7 +364,7 @@
             this.Controls.Add(this.PrintBtn);
             this.Controls.Add(this.exitBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ticket";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ticket";

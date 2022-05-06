@@ -67,7 +67,7 @@
             this.nameBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.nameBox.DisabledState.Parent = this.nameBox;
             this.nameBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nameBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.nameBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.nameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nameBox.FocusedState.FillColor = System.Drawing.Color.Transparent;
             this.nameBox.FocusedState.Parent = this.nameBox;
@@ -76,7 +76,7 @@
             this.nameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nameBox.HoverState.Parent = this.nameBox;
             this.nameBox.Location = new System.Drawing.Point(263, 97);
-            this.nameBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.nameBox.Margin = new System.Windows.Forms.Padding(5);
             this.nameBox.Name = "nameBox";
             this.nameBox.PasswordChar = '\0';
             this.nameBox.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -121,7 +121,7 @@
             this.yearBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.yearBox.HoverState.Parent = this.yearBox;
             this.yearBox.Location = new System.Drawing.Point(263, 177);
-            this.yearBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.yearBox.Margin = new System.Windows.Forms.Padding(5);
             this.yearBox.Name = "yearBox";
             this.yearBox.PasswordChar = '\0';
             this.yearBox.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -166,7 +166,7 @@
             this.langBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.langBox.HoverState.Parent = this.langBox;
             this.langBox.Location = new System.Drawing.Point(263, 257);
-            this.langBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.langBox.Margin = new System.Windows.Forms.Padding(5);
             this.langBox.Name = "langBox";
             this.langBox.PasswordChar = '\0';
             this.langBox.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -212,7 +212,7 @@
             "CCity-03"});
             this.theatreBox.ItemsAppearance.Parent = this.theatreBox;
             this.theatreBox.Location = new System.Drawing.Point(263, 337);
-            this.theatreBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.theatreBox.Margin = new System.Windows.Forms.Padding(4);
             this.theatreBox.Name = "theatreBox";
             this.theatreBox.ShadowDecoration.Parent = this.theatreBox;
             this.theatreBox.Size = new System.Drawing.Size(243, 36);
@@ -251,7 +251,7 @@
             // 
             this.imgBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgBox.Location = new System.Drawing.Point(733, 146);
-            this.imgBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.imgBox.Margin = new System.Windows.Forms.Padding(4);
             this.imgBox.Name = "imgBox";
             this.imgBox.ShadowDecoration.Parent = this.imgBox;
             this.imgBox.Size = new System.Drawing.Size(273, 272);
@@ -323,7 +323,7 @@
             "09:00 PM"});
             this.timeBox.ItemsAppearance.Parent = this.timeBox;
             this.timeBox.Location = new System.Drawing.Point(261, 416);
-            this.timeBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.timeBox.Margin = new System.Windows.Forms.Padding(4);
             this.timeBox.Name = "timeBox";
             this.timeBox.ShadowDecoration.Parent = this.timeBox;
             this.timeBox.Size = new System.Drawing.Size(243, 36);
@@ -385,7 +385,7 @@
             this.Controls.Add(this.langBox);
             this.Controls.Add(this.yearBox);
             this.Controls.Add(this.nameBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Add_Movies";
             this.Size = new System.Drawing.Size(1080, 751);
             ((System.ComponentModel.ISupportInitialize)(this.imgBox)).EndInit();

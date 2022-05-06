@@ -28,7 +28,7 @@ namespace Cinema_City.User_Controls
             string from = fromDate.Value.ToString("yyyy-MM-dd");
             string to = toDate.Value.ToString("yyyy-MM-dd");
             string movie, income;
-            var dataReader = db.GetData("select movie_name as movie, sum(total_price) as income from Analytics where date between '" + from + "' and '" + to + "' group by movie_name");
+            var dataReader = db.GetData("SELECT movie_name as movie, SUM(total_price) as income FROM Analytics WHERE DATE BETWEEN '" + from + "' AND '" + to + "' GROUP BY movie_name");
 
             while (dataReader.Read())
             {

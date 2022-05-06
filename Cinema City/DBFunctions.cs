@@ -14,7 +14,7 @@ namespace Cinema_City
         public SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=X530FN\SQLEXPRESS;Initial Catalog=CinemaCity;Integrated Security=True";
+            con.ConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=CinemaCityMain;Integrated Security=True";
             return con;
         }
 

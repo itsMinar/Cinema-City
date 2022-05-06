@@ -158,7 +158,7 @@ namespace Cinema_City.User_Controls
         public void showSeats()
         {
             string reserved_seat;
-            Guna2Button[] seats = { A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13, B14, B15, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11, M12, M13, M14, M15 };
+            Guna2Button[] seats = { A1, A2, A3, A4, A5, A6, A7, B1, B2, B3, B4, B5, B6, B7, C1, C2, C3, C4, C5, C6, C7, D1, D2, D3, D4, D5, D6, D7, E1, E2, E3, E4, E5, E6, E7, F1, F2, F3, F4, F5, F6, F7, M1, M2, M3, M4, M5, M6, M7, N1, N2, N3, N4, N5, N6, N7, P1, P2, P3, P4, P5, P6, P7, Q1, Q2, Q3, Q4, Q5, Q6, Q7};
             all_seat_available(seats);
 
             if (selectedMovieID != "")
@@ -193,30 +193,6 @@ namespace Cinema_City.User_Controls
                             case "A7":
                                 reserved_status(A7);
                                 break;
-                            case "A8":
-                                reserved_status(A8);
-                                break;
-                            case "A9":
-                                reserved_status(A9);
-                                break;
-                            case "A10":
-                                reserved_status(A10);
-                                break;
-                            case "A11":
-                                reserved_status(A11);
-                                break;
-                            case "A12":
-                                reserved_status(A12);
-                                break;
-                            case "A13":
-                                reserved_status(A13);
-                                break;
-                            case "A14":
-                                reserved_status(A14);
-                                break;
-                            case "A15":
-                                reserved_status(A15);
-                                break;
                             case "B1":
                                 reserved_status(B1);
                                 break;
@@ -237,30 +213,6 @@ namespace Cinema_City.User_Controls
                                 break;
                             case "B7":
                                 reserved_status(B7);
-                                break;
-                            case "B8":
-                                reserved_status(B8);
-                                break;
-                            case "B9":
-                                reserved_status(B9);
-                                break;
-                            case "B10":
-                                reserved_status(B10);
-                                break;
-                            case "B11":
-                                reserved_status(B11);
-                                break;
-                            case "B12":
-                                reserved_status(B12);
-                                break;
-                            case "B13":
-                                reserved_status(B13);
-                                break;
-                            case "B14":
-                                reserved_status(B14);
-                                break;
-                            case "B15":
-                                reserved_status(B15);
                                 break;
                             case "C1":
                                 reserved_status(C1);
@@ -283,76 +235,70 @@ namespace Cinema_City.User_Controls
                             case "C7":
                                 reserved_status(C7);
                                 break;
-                            case "C8":
-                                reserved_status(C8);
+                            case "D1":
+                                reserved_status(D1);
                                 break;
-                            case "C9":
-                                reserved_status(C9);
+                            case "D2":
+                                reserved_status(D2);
                                 break;
-                            case "C10":
-                                reserved_status(C10);
+                            case "D3":
+                                reserved_status(D3);
                                 break;
-                            case "C11":
-                                reserved_status(C11);
+                            case "D4":
+                                reserved_status(D4);
                                 break;
-                            case "C12":
-                                reserved_status(C12);
+                            case "D5":
+                                reserved_status(D5);
                                 break;
-                            case "C13":
-                                reserved_status(C13);
+                            case "D6":
+                                reserved_status(D6);
                                 break;
-                            case "C14":
-                                reserved_status(C14);
+                            case "D7":
+                                reserved_status(D7);
                                 break;
-                            case "C15":
-                                reserved_status(C15);
+                            case "E1":
+                                reserved_status(E1);
+                                break;
+                            case "E2":
+                                reserved_status(E2);
+                                break;
+                            case "E3":
+                                reserved_status(E3);
+                                break;
+                            case "E4":
+                                reserved_status(E4);
+                                break;
+                            case "E5":
+                                reserved_status(E5);
+                                break;
+                            case "E6":
+                                reserved_status(E6);
+                                break;
+                            case "E7":
+                                reserved_status(E7);
+                                break;
+                            case "F1":
+                                reserved_status(F1);
+                                break;
+                            case "F2":
+                                reserved_status(F2);
+                                break;
+                            case "F3":
+                                reserved_status(F3);
+                                break;
+                            case "F4":
+                                reserved_status(F4);
+                                break;
+                            case "F5":
+                                reserved_status(F5);
+                                break;
+                            case "F6":
+                                reserved_status(F6);
+                                break;
+                            case "F7":
+                                reserved_status(F7);
                                 break;
 
-                            case "R1":
-                                reserved_status(R1);
-                                break;
-                            case "R2":
-                                reserved_status(R2);
-                                break;
-                            case "R3":
-                                reserved_status(R3);
-                                break;
-                            case "R4":
-                                reserved_status(R4);
-                                break;
-                            case "R5":
-                                reserved_status(R5);
-                                break;
-                            case "R6":
-                                reserved_status(R6);
-                                break;
-                            case "R7":
-                                reserved_status(R7);
-                                break;
-                            case "R8":
-                                reserved_status(R8);
-                                break;
-                            case "R9":
-                                reserved_status(R9);
-                                break;
-                            case "R10":
-                                reserved_status(R10);
-                                break;
-                            case "R11":
-                                reserved_status(R11);
-                                break;
-                            case "R12":
-                                reserved_status(R12);
-                                break;
-                            case "R13":
-                                reserved_status(R13);
-                                break;
-                            case "R14":
-                                reserved_status(R14);
-                                break;
-                            case "R15":
-                                reserved_status(R15);
-                                break;
                             case "M1":
                                 reserved_status(M1);
                                 break;
@@ -374,29 +320,68 @@ namespace Cinema_City.User_Controls
                             case "M7":
                                 reserved_status(M7);
                                 break;
-                            case "M8":
-                                reserved_status(M8);
+                            case "N1":
+                                reserved_status(N1);
                                 break;
-                            case "M9":
-                                reserved_status(M9);
+                            case "N2":
+                                reserved_status(N2);
                                 break;
-                            case "M10":
-                                reserved_status(M10);
+                            case "N3":
+                                reserved_status(N3);
                                 break;
-                            case "M11":
-                                reserved_status(M11);
+                            case "N4":
+                                reserved_status(N4);
                                 break;
-                            case "M12":
-                                reserved_status(M12);
+                            case "N5":
+                                reserved_status(N5);
                                 break;
-                            case "M13":
-                                reserved_status(M13);
+                            case "N6":
+                                reserved_status(N6);
                                 break;
-                            case "M14":
-                                reserved_status(M14);
+                            case "N7":
+                                reserved_status(N7);
                                 break;
-                            case "M15":
-                                reserved_status(M15);
+                            case "P1":
+                                reserved_status(P1);
+                                break;
+                            case "P2":
+                                reserved_status(P2);
+                                break;
+                            case "P3":
+                                reserved_status(P3);
+                                break;
+                            case "P4":
+                                reserved_status(P4);
+                                break;
+                            case "P5":
+                                reserved_status(P5);
+                                break;
+                            case "P6":
+                                reserved_status(P6);
+                                break;
+                            case "P7":
+                                reserved_status(P7);
+                                break;
+                            case "Q1":
+                                reserved_status(Q1);
+                                break;
+                            case "Q2":
+                                reserved_status(Q2);
+                                break;
+                            case "Q3":
+                                reserved_status(Q3);
+                                break;
+                            case "Q4":
+                                reserved_status(Q4);
+                                break;
+                            case "Q5":
+                                reserved_status(Q5);
+                                break;
+                            case "Q6":
+                                reserved_status(Q6);
+                                break;
+                            case "Q7":
+                                reserved_status(Q7);
                                 break;
                         }
                     }
@@ -466,9 +451,17 @@ namespace Cinema_City.User_Controls
 
         private void basicSeatClick(object sender, EventArgs e)
         {
+            Guna2Button button = (Guna2Button)sender;
+
             if (ticketCount <= 5)
             {
-                Guna2Button button = (Guna2Button)sender;
+                basicSeatBtnToggle(button, button.Text);
+                seatNumber.Text = seatSelection;
+
+                totalPrice.Text = totalAmount.ToString() + " TAKA";
+            }
+            else if (ticketCount > 5 && button.Checked==false)
+            {
                 basicSeatBtnToggle(button, button.Text);
                 seatNumber.Text = seatSelection;
 
@@ -476,7 +469,6 @@ namespace Cinema_City.User_Controls
             }
             else
             {
-                Guna2Button button = (Guna2Button)sender;
                 button.Checked = false;
                 MessageBox.Show("Customer Can't Buy more than 5 Tickets", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -484,9 +476,17 @@ namespace Cinema_City.User_Controls
 
         private void vipSeatClick(object sender, EventArgs e)
         {
+            Guna2Button button = (Guna2Button)sender;
+
             if (ticketCount <= 5)
             {
-                Guna2Button button = (Guna2Button)sender;
+                vipSeatBtnToggle(button, button.Text);
+                seatNumber.Text = seatSelection;
+
+                totalPrice.Text = totalAmount.ToString() + " TAKA";
+            }
+            else if (ticketCount > 5 && button.Checked == false)
+            {
                 vipSeatBtnToggle(button, button.Text);
                 seatNumber.Text = seatSelection;
 
@@ -494,7 +494,6 @@ namespace Cinema_City.User_Controls
             }
             else
             {
-                Guna2Button button = (Guna2Button)sender;
                 button.Checked = false;
                 MessageBox.Show("Customer Can't Buy more than 5 Tickets", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }

@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
             this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
             this.Movie_Income = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
-            this.fromDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.toDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.checkNowBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.fromDate = new System.Windows.Forms.DateTimePicker();
+            this.toDate = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.Movie_Income)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,13 +64,13 @@
             this.minimizeBtn.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.minimizeBtn.IconColor = System.Drawing.Color.Black;
             this.minimizeBtn.IconSize = 12F;
-            this.minimizeBtn.Location = new System.Drawing.Point(755, 10);
-            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.minimizeBtn.Location = new System.Drawing.Point(1007, 12);
+            this.minimizeBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.minimizeBtn.Name = "minimizeBtn";
             this.minimizeBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(68)))));
             this.minimizeBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.minimizeBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.minimizeBtn.Size = new System.Drawing.Size(18, 18);
+            this.minimizeBtn.Size = new System.Drawing.Size(24, 22);
             this.minimizeBtn.TabIndex = 6;
             // 
             // exitBtn
@@ -81,30 +81,31 @@
             this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.IconColor = System.Drawing.Color.Black;
             this.exitBtn.IconSize = 12F;
-            this.exitBtn.Location = new System.Drawing.Point(779, 10);
-            this.exitBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitBtn.Location = new System.Drawing.Point(1039, 12);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(96)))), ((int)(((byte)(92)))));
             this.exitBtn.OnHoverIconColor = System.Drawing.Color.White;
             this.exitBtn.OnPressedColor = System.Drawing.Color.Black;
-            this.exitBtn.Size = new System.Drawing.Size(18, 18);
+            this.exitBtn.Size = new System.Drawing.Size(24, 22);
             this.exitBtn.TabIndex = 7;
             // 
             // Movie_Income
             // 
-            chartArea1.Name = "ChartArea1";
-            this.Movie_Income.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.Movie_Income.Legends.Add(legend1);
-            this.Movie_Income.Location = new System.Drawing.Point(38, 40);
+            chartArea5.Name = "ChartArea1";
+            this.Movie_Income.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.Movie_Income.Legends.Add(legend5);
+            this.Movie_Income.Location = new System.Drawing.Point(51, 49);
+            this.Movie_Income.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Movie_Income.Name = "Movie_Income";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series1.IsValueShownAsLabel = true;
-            series1.Legend = "Legend1";
-            series1.Name = "movie_income";
-            this.Movie_Income.Series.Add(series1);
-            this.Movie_Income.Size = new System.Drawing.Size(460, 379);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series5.IsValueShownAsLabel = true;
+            series5.Legend = "Legend1";
+            series5.Name = "movie_income";
+            this.Movie_Income.Series.Add(series5);
+            this.Movie_Income.Size = new System.Drawing.Size(613, 466);
             this.Movie_Income.TabIndex = 8;
             this.Movie_Income.Text = "chart1";
             // 
@@ -113,58 +114,22 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(549, 104);
+            this.label1.Location = new System.Drawing.Point(746, 131);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 27);
+            this.label1.Size = new System.Drawing.Size(88, 34);
             this.label1.TabIndex = 10;
             this.label1.Text = "From:";
-            // 
-            // fromDate
-            // 
-            this.fromDate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.fromDate.BorderRadius = 6;
-            this.fromDate.BorderThickness = 2;
-            this.fromDate.CheckedState.Parent = this.fromDate;
-            this.fromDate.FillColor = System.Drawing.Color.Transparent;
-            this.fromDate.ForeColor = System.Drawing.Color.White;
-            this.fromDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.fromDate.HoverState.Parent = this.fromDate;
-            this.fromDate.Location = new System.Drawing.Point(549, 137);
-            this.fromDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.fromDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.fromDate.Name = "fromDate";
-            this.fromDate.ShadowDecoration.Parent = this.fromDate;
-            this.fromDate.Size = new System.Drawing.Size(217, 36);
-            this.fromDate.TabIndex = 9;
-            this.fromDate.Value = new System.DateTime(2022, 4, 15, 21, 55, 9, 455);
-            // 
-            // toDate
-            // 
-            this.toDate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.toDate.BorderRadius = 6;
-            this.toDate.BorderThickness = 2;
-            this.toDate.CheckedState.Parent = this.toDate;
-            this.toDate.FillColor = System.Drawing.Color.Transparent;
-            this.toDate.ForeColor = System.Drawing.Color.White;
-            this.toDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.toDate.HoverState.Parent = this.toDate;
-            this.toDate.Location = new System.Drawing.Point(549, 228);
-            this.toDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.toDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.toDate.Name = "toDate";
-            this.toDate.ShadowDecoration.Parent = this.toDate;
-            this.toDate.Size = new System.Drawing.Size(217, 36);
-            this.toDate.TabIndex = 9;
-            this.toDate.Value = new System.DateTime(2022, 4, 15, 21, 55, 9, 455);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(549, 195);
+            this.label2.Location = new System.Drawing.Point(746, 243);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 27);
+            this.label2.Size = new System.Drawing.Size(55, 34);
             this.label2.TabIndex = 10;
             this.label2.Text = "To:";
             // 
@@ -185,12 +150,12 @@
             this.checkNowBtn.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.checkNowBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.checkNowBtn.HoverState.Parent = this.checkNowBtn;
-            this.checkNowBtn.Location = new System.Drawing.Point(587, 302);
+            this.checkNowBtn.Location = new System.Drawing.Point(779, 375);
             this.checkNowBtn.Margin = new System.Windows.Forms.Padding(0);
             this.checkNowBtn.Name = "checkNowBtn";
             this.checkNowBtn.PressedColor = System.Drawing.Color.Transparent;
             this.checkNowBtn.ShadowDecoration.Parent = this.checkNowBtn;
-            this.checkNowBtn.Size = new System.Drawing.Size(140, 40);
+            this.checkNowBtn.Size = new System.Drawing.Size(187, 49);
             this.checkNowBtn.TabIndex = 14;
             this.checkNowBtn.Text = "CHECK NOW";
             this.checkNowBtn.Click += new System.EventHandler(this.checkNowBtn_Click);
@@ -200,28 +165,50 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(130, 482);
+            this.label3.Location = new System.Drawing.Point(173, 593);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(569, 55);
+            this.label3.Size = new System.Drawing.Size(729, 68);
             this.label3.TabIndex = 10;
             this.label3.Text = "Individual Income of Movies";
             // 
+            // fromDate
+            // 
+            this.fromDate.CustomFormat = "dd-MM-yyyy";
+            this.fromDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.fromDate.Location = new System.Drawing.Point(746, 174);
+            this.fromDate.Name = "fromDate";
+            this.fromDate.Size = new System.Drawing.Size(253, 41);
+            this.fromDate.TabIndex = 15;
+            // 
+            // toDate
+            // 
+            this.toDate.CustomFormat = "dd-MM-yyyy";
+            this.toDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.toDate.Location = new System.Drawing.Point(746, 280);
+            this.toDate.Name = "toDate";
+            this.toDate.Size = new System.Drawing.Size(253, 41);
+            this.toDate.TabIndex = 15;
+            // 
             // Movie_Report
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
+            this.Controls.Add(this.toDate);
+            this.Controls.Add(this.fromDate);
             this.Controls.Add(this.checkNowBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.toDate);
-            this.Controls.Add(this.fromDate);
             this.Controls.Add(this.Movie_Income);
             this.Controls.Add(this.minimizeBtn);
             this.Controls.Add(this.exitBtn);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Movie_Report";
-            this.Size = new System.Drawing.Size(810, 610);
+            this.Size = new System.Drawing.Size(1080, 751);
             this.Load += new System.EventHandler(this.Movie_Report_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Movie_Income)).EndInit();
             this.ResumeLayout(false);
@@ -238,9 +225,9 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart Movie_Income;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker toDate;
-        private Guna.UI2.WinForms.Guna2DateTimePicker fromDate;
         private Guna.UI2.WinForms.Guna2Button checkNowBtn;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker fromDate;
+        private System.Windows.Forms.DateTimePicker toDate;
     }
 }

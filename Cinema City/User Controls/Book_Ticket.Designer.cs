@@ -34,79 +34,74 @@
             this.seatPanel = new System.Windows.Forms.Panel();
             this.minimizeBtn = new Guna.UI.WinForms.GunaControlBox();
             this.exitBtn = new Guna.UI.WinForms.GunaControlBox();
-            this.M8 = new Guna.UI2.WinForms.Guna2Button();
-            this.R8 = new Guna.UI2.WinForms.Guna2Button();
-            this.C8 = new Guna.UI2.WinForms.Guna2Button();
-            this.B8 = new Guna.UI2.WinForms.Guna2Button();
-            this.A8 = new Guna.UI2.WinForms.Guna2Button();
-            this.M15 = new Guna.UI2.WinForms.Guna2Button();
-            this.R15 = new Guna.UI2.WinForms.Guna2Button();
-            this.C15 = new Guna.UI2.WinForms.Guna2Button();
-            this.B15 = new Guna.UI2.WinForms.Guna2Button();
+            this.D1 = new Guna.UI2.WinForms.Guna2Button();
+            this.F1 = new Guna.UI2.WinForms.Guna2Button();
+            this.P7 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q7 = new Guna.UI2.WinForms.Guna2Button();
+            this.N7 = new Guna.UI2.WinForms.Guna2Button();
             this.M7 = new Guna.UI2.WinForms.Guna2Button();
-            this.A15 = new Guna.UI2.WinForms.Guna2Button();
-            this.R7 = new Guna.UI2.WinForms.Guna2Button();
-            this.C7 = new Guna.UI2.WinForms.Guna2Button();
+            this.E7 = new Guna.UI2.WinForms.Guna2Button();
             this.B7 = new Guna.UI2.WinForms.Guna2Button();
-            this.M12 = new Guna.UI2.WinForms.Guna2Button();
+            this.C7 = new Guna.UI2.WinForms.Guna2Button();
             this.A7 = new Guna.UI2.WinForms.Guna2Button();
-            this.R12 = new Guna.UI2.WinForms.Guna2Button();
-            this.C12 = new Guna.UI2.WinForms.Guna2Button();
-            this.B12 = new Guna.UI2.WinForms.Guna2Button();
-            this.M14 = new Guna.UI2.WinForms.Guna2Button();
-            this.A12 = new Guna.UI2.WinForms.Guna2Button();
-            this.R14 = new Guna.UI2.WinForms.Guna2Button();
-            this.C14 = new Guna.UI2.WinForms.Guna2Button();
+            this.D5 = new Guna.UI2.WinForms.Guna2Button();
+            this.F5 = new Guna.UI2.WinForms.Guna2Button();
+            this.P4 = new Guna.UI2.WinForms.Guna2Button();
+            this.D7 = new Guna.UI2.WinForms.Guna2Button();
+            this.F7 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q4 = new Guna.UI2.WinForms.Guna2Button();
+            this.N4 = new Guna.UI2.WinForms.Guna2Button();
             this.M4 = new Guna.UI2.WinForms.Guna2Button();
-            this.B14 = new Guna.UI2.WinForms.Guna2Button();
-            this.R4 = new Guna.UI2.WinForms.Guna2Button();
-            this.A14 = new Guna.UI2.WinForms.Guna2Button();
+            this.E4 = new Guna.UI2.WinForms.Guna2Button();
             this.C4 = new Guna.UI2.WinForms.Guna2Button();
-            this.M11 = new Guna.UI2.WinForms.Guna2Button();
             this.B4 = new Guna.UI2.WinForms.Guna2Button();
-            this.R11 = new Guna.UI2.WinForms.Guna2Button();
             this.A4 = new Guna.UI2.WinForms.Guna2Button();
-            this.C11 = new Guna.UI2.WinForms.Guna2Button();
+            this.D4 = new Guna.UI2.WinForms.Guna2Button();
+            this.P6 = new Guna.UI2.WinForms.Guna2Button();
+            this.F4 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q6 = new Guna.UI2.WinForms.Guna2Button();
+            this.N6 = new Guna.UI2.WinForms.Guna2Button();
             this.M6 = new Guna.UI2.WinForms.Guna2Button();
-            this.B11 = new Guna.UI2.WinForms.Guna2Button();
-            this.R6 = new Guna.UI2.WinForms.Guna2Button();
-            this.A11 = new Guna.UI2.WinForms.Guna2Button();
+            this.E6 = new Guna.UI2.WinForms.Guna2Button();
             this.C6 = new Guna.UI2.WinForms.Guna2Button();
-            this.M13 = new Guna.UI2.WinForms.Guna2Button();
             this.B6 = new Guna.UI2.WinForms.Guna2Button();
-            this.R13 = new Guna.UI2.WinForms.Guna2Button();
             this.A6 = new Guna.UI2.WinForms.Guna2Button();
-            this.C13 = new Guna.UI2.WinForms.Guna2Button();
+            this.D6 = new Guna.UI2.WinForms.Guna2Button();
+            this.P3 = new Guna.UI2.WinForms.Guna2Button();
+            this.F6 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q3 = new Guna.UI2.WinForms.Guna2Button();
+            this.N3 = new Guna.UI2.WinForms.Guna2Button();
             this.M3 = new Guna.UI2.WinForms.Guna2Button();
-            this.B13 = new Guna.UI2.WinForms.Guna2Button();
-            this.R3 = new Guna.UI2.WinForms.Guna2Button();
-            this.A13 = new Guna.UI2.WinForms.Guna2Button();
+            this.E3 = new Guna.UI2.WinForms.Guna2Button();
             this.C3 = new Guna.UI2.WinForms.Guna2Button();
-            this.M10 = new Guna.UI2.WinForms.Guna2Button();
             this.B3 = new Guna.UI2.WinForms.Guna2Button();
-            this.R10 = new Guna.UI2.WinForms.Guna2Button();
             this.A3 = new Guna.UI2.WinForms.Guna2Button();
-            this.C10 = new Guna.UI2.WinForms.Guna2Button();
+            this.D3 = new Guna.UI2.WinForms.Guna2Button();
+            this.P5 = new Guna.UI2.WinForms.Guna2Button();
+            this.F3 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q5 = new Guna.UI2.WinForms.Guna2Button();
+            this.N5 = new Guna.UI2.WinForms.Guna2Button();
             this.M5 = new Guna.UI2.WinForms.Guna2Button();
-            this.B10 = new Guna.UI2.WinForms.Guna2Button();
-            this.R5 = new Guna.UI2.WinForms.Guna2Button();
-            this.A10 = new Guna.UI2.WinForms.Guna2Button();
+            this.E5 = new Guna.UI2.WinForms.Guna2Button();
             this.C5 = new Guna.UI2.WinForms.Guna2Button();
-            this.M9 = new Guna.UI2.WinForms.Guna2Button();
             this.B5 = new Guna.UI2.WinForms.Guna2Button();
-            this.R9 = new Guna.UI2.WinForms.Guna2Button();
             this.A5 = new Guna.UI2.WinForms.Guna2Button();
-            this.C9 = new Guna.UI2.WinForms.Guna2Button();
+            this.P2 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q2 = new Guna.UI2.WinForms.Guna2Button();
+            this.D2 = new Guna.UI2.WinForms.Guna2Button();
+            this.N2 = new Guna.UI2.WinForms.Guna2Button();
+            this.F2 = new Guna.UI2.WinForms.Guna2Button();
             this.M2 = new Guna.UI2.WinForms.Guna2Button();
-            this.B9 = new Guna.UI2.WinForms.Guna2Button();
-            this.R2 = new Guna.UI2.WinForms.Guna2Button();
+            this.P1 = new Guna.UI2.WinForms.Guna2Button();
+            this.Q1 = new Guna.UI2.WinForms.Guna2Button();
+            this.N1 = new Guna.UI2.WinForms.Guna2Button();
             this.M1 = new Guna.UI2.WinForms.Guna2Button();
-            this.A9 = new Guna.UI2.WinForms.Guna2Button();
-            this.R1 = new Guna.UI2.WinForms.Guna2Button();
-            this.C2 = new Guna.UI2.WinForms.Guna2Button();
-            this.C1 = new Guna.UI2.WinForms.Guna2Button();
+            this.E2 = new Guna.UI2.WinForms.Guna2Button();
+            this.E1 = new Guna.UI2.WinForms.Guna2Button();
             this.B2 = new Guna.UI2.WinForms.Guna2Button();
+            this.C2 = new Guna.UI2.WinForms.Guna2Button();
             this.B1 = new Guna.UI2.WinForms.Guna2Button();
+            this.C1 = new Guna.UI2.WinForms.Guna2Button();
             this.A2 = new Guna.UI2.WinForms.Guna2Button();
             this.A1 = new Guna.UI2.WinForms.Guna2Button();
             this.customerPanel = new System.Windows.Forms.Panel();
@@ -120,7 +115,6 @@
             this.cName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.datePicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.checkNowBtn = new Guna.UI2.WinForms.Guna2Button();
             this.showTimeComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.theatreComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -129,6 +123,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.seatPanel.SuspendLayout();
             this.customerPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -147,79 +142,74 @@
             // 
             this.seatPanel.Controls.Add(this.minimizeBtn);
             this.seatPanel.Controls.Add(this.exitBtn);
-            this.seatPanel.Controls.Add(this.M8);
-            this.seatPanel.Controls.Add(this.R8);
-            this.seatPanel.Controls.Add(this.C8);
-            this.seatPanel.Controls.Add(this.B8);
-            this.seatPanel.Controls.Add(this.A8);
-            this.seatPanel.Controls.Add(this.M15);
-            this.seatPanel.Controls.Add(this.R15);
-            this.seatPanel.Controls.Add(this.C15);
-            this.seatPanel.Controls.Add(this.B15);
+            this.seatPanel.Controls.Add(this.D1);
+            this.seatPanel.Controls.Add(this.F1);
+            this.seatPanel.Controls.Add(this.P7);
+            this.seatPanel.Controls.Add(this.Q7);
+            this.seatPanel.Controls.Add(this.N7);
             this.seatPanel.Controls.Add(this.M7);
-            this.seatPanel.Controls.Add(this.A15);
-            this.seatPanel.Controls.Add(this.R7);
-            this.seatPanel.Controls.Add(this.C7);
+            this.seatPanel.Controls.Add(this.E7);
             this.seatPanel.Controls.Add(this.B7);
-            this.seatPanel.Controls.Add(this.M12);
+            this.seatPanel.Controls.Add(this.C7);
             this.seatPanel.Controls.Add(this.A7);
-            this.seatPanel.Controls.Add(this.R12);
-            this.seatPanel.Controls.Add(this.C12);
-            this.seatPanel.Controls.Add(this.B12);
-            this.seatPanel.Controls.Add(this.M14);
-            this.seatPanel.Controls.Add(this.A12);
-            this.seatPanel.Controls.Add(this.R14);
-            this.seatPanel.Controls.Add(this.C14);
+            this.seatPanel.Controls.Add(this.D5);
+            this.seatPanel.Controls.Add(this.F5);
+            this.seatPanel.Controls.Add(this.P4);
+            this.seatPanel.Controls.Add(this.D7);
+            this.seatPanel.Controls.Add(this.F7);
+            this.seatPanel.Controls.Add(this.Q4);
+            this.seatPanel.Controls.Add(this.N4);
             this.seatPanel.Controls.Add(this.M4);
-            this.seatPanel.Controls.Add(this.B14);
-            this.seatPanel.Controls.Add(this.R4);
-            this.seatPanel.Controls.Add(this.A14);
+            this.seatPanel.Controls.Add(this.E4);
             this.seatPanel.Controls.Add(this.C4);
-            this.seatPanel.Controls.Add(this.M11);
             this.seatPanel.Controls.Add(this.B4);
-            this.seatPanel.Controls.Add(this.R11);
             this.seatPanel.Controls.Add(this.A4);
-            this.seatPanel.Controls.Add(this.C11);
+            this.seatPanel.Controls.Add(this.D4);
+            this.seatPanel.Controls.Add(this.P6);
+            this.seatPanel.Controls.Add(this.F4);
+            this.seatPanel.Controls.Add(this.Q6);
+            this.seatPanel.Controls.Add(this.N6);
             this.seatPanel.Controls.Add(this.M6);
-            this.seatPanel.Controls.Add(this.B11);
-            this.seatPanel.Controls.Add(this.R6);
-            this.seatPanel.Controls.Add(this.A11);
+            this.seatPanel.Controls.Add(this.E6);
             this.seatPanel.Controls.Add(this.C6);
-            this.seatPanel.Controls.Add(this.M13);
             this.seatPanel.Controls.Add(this.B6);
-            this.seatPanel.Controls.Add(this.R13);
             this.seatPanel.Controls.Add(this.A6);
-            this.seatPanel.Controls.Add(this.C13);
+            this.seatPanel.Controls.Add(this.D6);
+            this.seatPanel.Controls.Add(this.P3);
+            this.seatPanel.Controls.Add(this.F6);
+            this.seatPanel.Controls.Add(this.Q3);
+            this.seatPanel.Controls.Add(this.N3);
             this.seatPanel.Controls.Add(this.M3);
-            this.seatPanel.Controls.Add(this.B13);
-            this.seatPanel.Controls.Add(this.R3);
-            this.seatPanel.Controls.Add(this.A13);
+            this.seatPanel.Controls.Add(this.E3);
             this.seatPanel.Controls.Add(this.C3);
-            this.seatPanel.Controls.Add(this.M10);
             this.seatPanel.Controls.Add(this.B3);
-            this.seatPanel.Controls.Add(this.R10);
             this.seatPanel.Controls.Add(this.A3);
-            this.seatPanel.Controls.Add(this.C10);
+            this.seatPanel.Controls.Add(this.D3);
+            this.seatPanel.Controls.Add(this.P5);
+            this.seatPanel.Controls.Add(this.F3);
+            this.seatPanel.Controls.Add(this.Q5);
+            this.seatPanel.Controls.Add(this.N5);
             this.seatPanel.Controls.Add(this.M5);
-            this.seatPanel.Controls.Add(this.B10);
-            this.seatPanel.Controls.Add(this.R5);
-            this.seatPanel.Controls.Add(this.A10);
+            this.seatPanel.Controls.Add(this.E5);
             this.seatPanel.Controls.Add(this.C5);
-            this.seatPanel.Controls.Add(this.M9);
             this.seatPanel.Controls.Add(this.B5);
-            this.seatPanel.Controls.Add(this.R9);
             this.seatPanel.Controls.Add(this.A5);
-            this.seatPanel.Controls.Add(this.C9);
+            this.seatPanel.Controls.Add(this.P2);
+            this.seatPanel.Controls.Add(this.Q2);
+            this.seatPanel.Controls.Add(this.D2);
+            this.seatPanel.Controls.Add(this.N2);
+            this.seatPanel.Controls.Add(this.F2);
             this.seatPanel.Controls.Add(this.M2);
-            this.seatPanel.Controls.Add(this.B9);
-            this.seatPanel.Controls.Add(this.R2);
+            this.seatPanel.Controls.Add(this.P1);
+            this.seatPanel.Controls.Add(this.Q1);
+            this.seatPanel.Controls.Add(this.N1);
             this.seatPanel.Controls.Add(this.M1);
-            this.seatPanel.Controls.Add(this.A9);
-            this.seatPanel.Controls.Add(this.R1);
-            this.seatPanel.Controls.Add(this.C2);
-            this.seatPanel.Controls.Add(this.C1);
+            this.seatPanel.Controls.Add(this.E2);
+            this.seatPanel.Controls.Add(this.E1);
             this.seatPanel.Controls.Add(this.B2);
+            this.seatPanel.Controls.Add(this.C2);
             this.seatPanel.Controls.Add(this.B1);
+            this.seatPanel.Controls.Add(this.C1);
             this.seatPanel.Controls.Add(this.A2);
             this.seatPanel.Controls.Add(this.A1);
             this.seatPanel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -265,194 +255,110 @@
             this.exitBtn.Size = new System.Drawing.Size(24, 22);
             this.exitBtn.TabIndex = 5;
             // 
-            // M8
+            // D1
             // 
-            this.M8.Animated = true;
-            this.M8.BorderRadius = 5;
-            this.M8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M8.CheckedState.Parent = this.M8;
-            this.M8.CustomImages.Parent = this.M8;
-            this.M8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M8.ForeColor = System.Drawing.Color.White;
-            this.M8.HoverState.Parent = this.M8;
-            this.M8.Location = new System.Drawing.Point(520, 321);
-            this.M8.Margin = new System.Windows.Forms.Padding(4);
-            this.M8.Name = "M8";
-            this.M8.ShadowDecoration.Parent = this.M8;
-            this.M8.Size = new System.Drawing.Size(53, 49);
-            this.M8.TabIndex = 1;
-            this.M8.Text = "M8";
-            this.M8.Click += new System.EventHandler(this.vipSeatClick);
+            this.D1.Animated = true;
+            this.D1.BorderRadius = 5;
+            this.D1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D1.CheckedState.Parent = this.D1;
+            this.D1.CustomImages.Parent = this.D1;
+            this.D1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D1.ForeColor = System.Drawing.Color.White;
+            this.D1.HoverState.Parent = this.D1;
+            this.D1.Location = new System.Drawing.Point(571, 116);
+            this.D1.Margin = new System.Windows.Forms.Padding(4);
+            this.D1.Name = "D1";
+            this.D1.ShadowDecoration.Parent = this.D1;
+            this.D1.Size = new System.Drawing.Size(49, 46);
+            this.D1.TabIndex = 1;
+            this.D1.Text = "D1";
+            this.D1.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // R8
+            // F1
             // 
-            this.R8.Animated = true;
-            this.R8.BorderRadius = 5;
-            this.R8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R8.CheckedState.Parent = this.R8;
-            this.R8.CustomImages.Parent = this.R8;
-            this.R8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R8.ForeColor = System.Drawing.Color.White;
-            this.R8.HoverState.Parent = this.R8;
-            this.R8.Location = new System.Drawing.Point(520, 258);
-            this.R8.Margin = new System.Windows.Forms.Padding(4);
-            this.R8.Name = "R8";
-            this.R8.ShadowDecoration.Parent = this.R8;
-            this.R8.Size = new System.Drawing.Size(53, 49);
-            this.R8.TabIndex = 1;
-            this.R8.Text = "R8";
-            this.R8.Click += new System.EventHandler(this.vipSeatClick);
+            this.F1.Animated = true;
+            this.F1.BorderRadius = 5;
+            this.F1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F1.CheckedState.Parent = this.F1;
+            this.F1.CustomImages.Parent = this.F1;
+            this.F1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F1.ForeColor = System.Drawing.Color.White;
+            this.F1.HoverState.Parent = this.F1;
+            this.F1.Location = new System.Drawing.Point(571, 171);
+            this.F1.Margin = new System.Windows.Forms.Padding(4);
+            this.F1.Name = "F1";
+            this.F1.ShadowDecoration.Parent = this.F1;
+            this.F1.Size = new System.Drawing.Size(49, 46);
+            this.F1.TabIndex = 1;
+            this.F1.Text = "F1";
+            this.F1.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // C8
+            // P7
             // 
-            this.C8.Animated = true;
-            this.C8.BorderRadius = 5;
-            this.C8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C8.CheckedState.Parent = this.C8;
-            this.C8.CustomImages.Parent = this.C8;
-            this.C8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C8.ForeColor = System.Drawing.Color.White;
-            this.C8.HoverState.Parent = this.C8;
-            this.C8.Location = new System.Drawing.Point(512, 171);
-            this.C8.Margin = new System.Windows.Forms.Padding(4);
-            this.C8.Name = "C8";
-            this.C8.ShadowDecoration.Parent = this.C8;
-            this.C8.Size = new System.Drawing.Size(49, 46);
-            this.C8.TabIndex = 1;
-            this.C8.Text = "C8";
-            this.C8.Click += new System.EventHandler(this.basicSeatClick);
+            this.P7.Animated = true;
+            this.P7.BorderRadius = 5;
+            this.P7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P7.CheckedState.Parent = this.P7;
+            this.P7.CustomImages.Parent = this.P7;
+            this.P7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P7.ForeColor = System.Drawing.Color.White;
+            this.P7.HoverState.Parent = this.P7;
+            this.P7.Location = new System.Drawing.Point(457, 316);
+            this.P7.Margin = new System.Windows.Forms.Padding(4);
+            this.P7.Name = "P7";
+            this.P7.ShadowDecoration.Parent = this.P7;
+            this.P7.Size = new System.Drawing.Size(53, 49);
+            this.P7.TabIndex = 1;
+            this.P7.Text = "P7";
+            this.P7.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // B8
+            // Q7
             // 
-            this.B8.Animated = true;
-            this.B8.BorderRadius = 5;
-            this.B8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B8.CheckedState.Parent = this.B8;
-            this.B8.CustomImages.Parent = this.B8;
-            this.B8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B8.ForeColor = System.Drawing.Color.White;
-            this.B8.HoverState.Parent = this.B8;
-            this.B8.Location = new System.Drawing.Point(512, 116);
-            this.B8.Margin = new System.Windows.Forms.Padding(4);
-            this.B8.Name = "B8";
-            this.B8.ShadowDecoration.Parent = this.B8;
-            this.B8.Size = new System.Drawing.Size(49, 46);
-            this.B8.TabIndex = 1;
-            this.B8.Text = "B8";
-            this.B8.Click += new System.EventHandler(this.basicSeatClick);
+            this.Q7.Animated = true;
+            this.Q7.BorderRadius = 5;
+            this.Q7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q7.CheckedState.Parent = this.Q7;
+            this.Q7.CustomImages.Parent = this.Q7;
+            this.Q7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q7.ForeColor = System.Drawing.Color.White;
+            this.Q7.HoverState.Parent = this.Q7;
+            this.Q7.Location = new System.Drawing.Point(947, 316);
+            this.Q7.Margin = new System.Windows.Forms.Padding(4);
+            this.Q7.Name = "Q7";
+            this.Q7.ShadowDecoration.Parent = this.Q7;
+            this.Q7.Size = new System.Drawing.Size(53, 49);
+            this.Q7.TabIndex = 1;
+            this.Q7.Text = "Q7";
+            this.Q7.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // A8
+            // N7
             // 
-            this.A8.Animated = true;
-            this.A8.BorderRadius = 5;
-            this.A8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A8.CheckedState.Parent = this.A8;
-            this.A8.CustomImages.Parent = this.A8;
-            this.A8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A8.ForeColor = System.Drawing.Color.White;
-            this.A8.HoverState.Parent = this.A8;
-            this.A8.Location = new System.Drawing.Point(512, 60);
-            this.A8.Margin = new System.Windows.Forms.Padding(4);
-            this.A8.Name = "A8";
-            this.A8.ShadowDecoration.Parent = this.A8;
-            this.A8.Size = new System.Drawing.Size(49, 46);
-            this.A8.TabIndex = 1;
-            this.A8.Text = "A8";
-            this.A8.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // M15
-            // 
-            this.M15.Animated = true;
-            this.M15.BorderRadius = 5;
-            this.M15.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M15.CheckedState.Parent = this.M15;
-            this.M15.CustomImages.Parent = this.M15;
-            this.M15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M15.ForeColor = System.Drawing.Color.White;
-            this.M15.HoverState.Parent = this.M15;
-            this.M15.Location = new System.Drawing.Point(959, 321);
-            this.M15.Margin = new System.Windows.Forms.Padding(4);
-            this.M15.Name = "M15";
-            this.M15.ShadowDecoration.Parent = this.M15;
-            this.M15.Size = new System.Drawing.Size(53, 49);
-            this.M15.TabIndex = 1;
-            this.M15.Text = "M15";
-            this.M15.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // R15
-            // 
-            this.R15.Animated = true;
-            this.R15.BorderRadius = 5;
-            this.R15.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R15.CheckedState.Parent = this.R15;
-            this.R15.CustomImages.Parent = this.R15;
-            this.R15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R15.ForeColor = System.Drawing.Color.White;
-            this.R15.HoverState.Parent = this.R15;
-            this.R15.Location = new System.Drawing.Point(959, 258);
-            this.R15.Margin = new System.Windows.Forms.Padding(4);
-            this.R15.Name = "R15";
-            this.R15.ShadowDecoration.Parent = this.R15;
-            this.R15.Size = new System.Drawing.Size(53, 49);
-            this.R15.TabIndex = 1;
-            this.R15.Text = "R15";
-            this.R15.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // C15
-            // 
-            this.C15.Animated = true;
-            this.C15.BorderRadius = 5;
-            this.C15.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C15.CheckedState.Parent = this.C15;
-            this.C15.CustomImages.Parent = this.C15;
-            this.C15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C15.ForeColor = System.Drawing.Color.White;
-            this.C15.HoverState.Parent = this.C15;
-            this.C15.Location = new System.Drawing.Point(895, 171);
-            this.C15.Margin = new System.Windows.Forms.Padding(4);
-            this.C15.Name = "C15";
-            this.C15.ShadowDecoration.Parent = this.C15;
-            this.C15.Size = new System.Drawing.Size(49, 46);
-            this.C15.TabIndex = 1;
-            this.C15.Text = "C15";
-            this.C15.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // B15
-            // 
-            this.B15.Animated = true;
-            this.B15.BorderRadius = 5;
-            this.B15.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B15.CheckedState.Parent = this.B15;
-            this.B15.CustomImages.Parent = this.B15;
-            this.B15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B15.ForeColor = System.Drawing.Color.White;
-            this.B15.HoverState.Parent = this.B15;
-            this.B15.Location = new System.Drawing.Point(895, 116);
-            this.B15.Margin = new System.Windows.Forms.Padding(4);
-            this.B15.Name = "B15";
-            this.B15.ShadowDecoration.Parent = this.B15;
-            this.B15.Size = new System.Drawing.Size(49, 46);
-            this.B15.TabIndex = 1;
-            this.B15.Text = "B15";
-            this.B15.Click += new System.EventHandler(this.basicSeatClick);
+            this.N7.Animated = true;
+            this.N7.BorderRadius = 5;
+            this.N7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N7.CheckedState.Parent = this.N7;
+            this.N7.CustomImages.Parent = this.N7;
+            this.N7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N7.ForeColor = System.Drawing.Color.White;
+            this.N7.HoverState.Parent = this.N7;
+            this.N7.Location = new System.Drawing.Point(946, 253);
+            this.N7.Margin = new System.Windows.Forms.Padding(4);
+            this.N7.Name = "N7";
+            this.N7.ShadowDecoration.Parent = this.N7;
+            this.N7.Size = new System.Drawing.Size(53, 49);
+            this.N7.TabIndex = 1;
+            this.N7.Text = "N7";
+            this.N7.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M7
             // 
@@ -466,7 +372,7 @@
             this.M7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M7.ForeColor = System.Drawing.Color.White;
             this.M7.HoverState.Parent = this.M7;
-            this.M7.Location = new System.Drawing.Point(457, 321);
+            this.M7.Location = new System.Drawing.Point(455, 253);
             this.M7.Margin = new System.Windows.Forms.Padding(4);
             this.M7.Name = "M7";
             this.M7.ShadowDecoration.Parent = this.M7;
@@ -475,68 +381,26 @@
             this.M7.Text = "M7";
             this.M7.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // A15
+            // E7
             // 
-            this.A15.Animated = true;
-            this.A15.BorderRadius = 5;
-            this.A15.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A15.CheckedState.Parent = this.A15;
-            this.A15.CustomImages.Parent = this.A15;
-            this.A15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A15.ForeColor = System.Drawing.Color.White;
-            this.A15.HoverState.Parent = this.A15;
-            this.A15.Location = new System.Drawing.Point(895, 60);
-            this.A15.Margin = new System.Windows.Forms.Padding(4);
-            this.A15.Name = "A15";
-            this.A15.ShadowDecoration.Parent = this.A15;
-            this.A15.Size = new System.Drawing.Size(49, 46);
-            this.A15.TabIndex = 1;
-            this.A15.Text = "A15";
-            this.A15.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R7
-            // 
-            this.R7.Animated = true;
-            this.R7.BorderRadius = 5;
-            this.R7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R7.CheckedState.Parent = this.R7;
-            this.R7.CustomImages.Parent = this.R7;
-            this.R7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R7.ForeColor = System.Drawing.Color.White;
-            this.R7.HoverState.Parent = this.R7;
-            this.R7.Location = new System.Drawing.Point(457, 258);
-            this.R7.Margin = new System.Windows.Forms.Padding(4);
-            this.R7.Name = "R7";
-            this.R7.ShadowDecoration.Parent = this.R7;
-            this.R7.Size = new System.Drawing.Size(53, 49);
-            this.R7.TabIndex = 1;
-            this.R7.Text = "R7";
-            this.R7.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // C7
-            // 
-            this.C7.Animated = true;
-            this.C7.BorderRadius = 5;
-            this.C7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C7.CheckedState.Parent = this.C7;
-            this.C7.CustomImages.Parent = this.C7;
-            this.C7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C7.ForeColor = System.Drawing.Color.White;
-            this.C7.HoverState.Parent = this.C7;
-            this.C7.Location = new System.Drawing.Point(457, 171);
-            this.C7.Margin = new System.Windows.Forms.Padding(4);
-            this.C7.Name = "C7";
-            this.C7.ShadowDecoration.Parent = this.C7;
-            this.C7.Size = new System.Drawing.Size(49, 46);
-            this.C7.TabIndex = 1;
-            this.C7.Text = "C7";
-            this.C7.Click += new System.EventHandler(this.basicSeatClick);
+            this.E7.Animated = true;
+            this.E7.BorderRadius = 5;
+            this.E7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E7.CheckedState.Parent = this.E7;
+            this.E7.CustomImages.Parent = this.E7;
+            this.E7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E7.ForeColor = System.Drawing.Color.White;
+            this.E7.HoverState.Parent = this.E7;
+            this.E7.Location = new System.Drawing.Point(457, 171);
+            this.E7.Margin = new System.Windows.Forms.Padding(4);
+            this.E7.Name = "E7";
+            this.E7.ShadowDecoration.Parent = this.E7;
+            this.E7.Size = new System.Drawing.Size(49, 46);
+            this.E7.TabIndex = 1;
+            this.E7.Text = "E7";
+            this.E7.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B7
             // 
@@ -550,7 +414,7 @@
             this.B7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B7.ForeColor = System.Drawing.Color.White;
             this.B7.HoverState.Parent = this.B7;
-            this.B7.Location = new System.Drawing.Point(457, 116);
+            this.B7.Location = new System.Drawing.Point(899, 60);
             this.B7.Margin = new System.Windows.Forms.Padding(4);
             this.B7.Name = "B7";
             this.B7.ShadowDecoration.Parent = this.B7;
@@ -559,26 +423,26 @@
             this.B7.Text = "B7";
             this.B7.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // M12
+            // C7
             // 
-            this.M12.Animated = true;
-            this.M12.BorderRadius = 5;
-            this.M12.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M12.CheckedState.Parent = this.M12;
-            this.M12.CustomImages.Parent = this.M12;
-            this.M12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M12.ForeColor = System.Drawing.Color.White;
-            this.M12.HoverState.Parent = this.M12;
-            this.M12.Location = new System.Drawing.Point(771, 321);
-            this.M12.Margin = new System.Windows.Forms.Padding(4);
-            this.M12.Name = "M12";
-            this.M12.ShadowDecoration.Parent = this.M12;
-            this.M12.Size = new System.Drawing.Size(53, 49);
-            this.M12.TabIndex = 1;
-            this.M12.Text = "M12";
-            this.M12.Click += new System.EventHandler(this.vipSeatClick);
+            this.C7.Animated = true;
+            this.C7.BorderRadius = 5;
+            this.C7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.C7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.C7.CheckedState.Parent = this.C7;
+            this.C7.CustomImages.Parent = this.C7;
+            this.C7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.C7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.C7.ForeColor = System.Drawing.Color.White;
+            this.C7.HoverState.Parent = this.C7;
+            this.C7.Location = new System.Drawing.Point(457, 116);
+            this.C7.Margin = new System.Windows.Forms.Padding(4);
+            this.C7.Name = "C7";
+            this.C7.ShadowDecoration.Parent = this.C7;
+            this.C7.Size = new System.Drawing.Size(49, 46);
+            this.C7.TabIndex = 1;
+            this.C7.Text = "C7";
+            this.C7.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // A7
             // 
@@ -601,152 +465,152 @@
             this.A7.Text = "A7";
             this.A7.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // R12
+            // D5
             // 
-            this.R12.Animated = true;
-            this.R12.BorderRadius = 5;
-            this.R12.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R12.CheckedState.Parent = this.R12;
-            this.R12.CustomImages.Parent = this.R12;
-            this.R12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R12.ForeColor = System.Drawing.Color.White;
-            this.R12.HoverState.Parent = this.R12;
-            this.R12.Location = new System.Drawing.Point(771, 258);
-            this.R12.Margin = new System.Windows.Forms.Padding(4);
-            this.R12.Name = "R12";
-            this.R12.ShadowDecoration.Parent = this.R12;
-            this.R12.Size = new System.Drawing.Size(53, 49);
-            this.R12.TabIndex = 1;
-            this.R12.Text = "R12";
-            this.R12.Click += new System.EventHandler(this.vipSeatClick);
+            this.D5.Animated = true;
+            this.D5.BorderRadius = 5;
+            this.D5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D5.CheckedState.Parent = this.D5;
+            this.D5.CustomImages.Parent = this.D5;
+            this.D5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D5.ForeColor = System.Drawing.Color.White;
+            this.D5.HoverState.Parent = this.D5;
+            this.D5.Location = new System.Drawing.Point(790, 116);
+            this.D5.Margin = new System.Windows.Forms.Padding(4);
+            this.D5.Name = "D5";
+            this.D5.ShadowDecoration.Parent = this.D5;
+            this.D5.Size = new System.Drawing.Size(49, 46);
+            this.D5.TabIndex = 1;
+            this.D5.Text = "D5";
+            this.D5.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // C12
+            // F5
             // 
-            this.C12.Animated = true;
-            this.C12.BorderRadius = 5;
-            this.C12.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C12.CheckedState.Parent = this.C12;
-            this.C12.CustomImages.Parent = this.C12;
-            this.C12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C12.ForeColor = System.Drawing.Color.White;
-            this.C12.HoverState.Parent = this.C12;
-            this.C12.Location = new System.Drawing.Point(731, 171);
-            this.C12.Margin = new System.Windows.Forms.Padding(4);
-            this.C12.Name = "C12";
-            this.C12.ShadowDecoration.Parent = this.C12;
-            this.C12.Size = new System.Drawing.Size(49, 46);
-            this.C12.TabIndex = 1;
-            this.C12.Text = "C12";
-            this.C12.Click += new System.EventHandler(this.basicSeatClick);
+            this.F5.Animated = true;
+            this.F5.BorderRadius = 5;
+            this.F5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F5.CheckedState.Parent = this.F5;
+            this.F5.CustomImages.Parent = this.F5;
+            this.F5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F5.ForeColor = System.Drawing.Color.White;
+            this.F5.HoverState.Parent = this.F5;
+            this.F5.Location = new System.Drawing.Point(790, 171);
+            this.F5.Margin = new System.Windows.Forms.Padding(4);
+            this.F5.Name = "F5";
+            this.F5.ShadowDecoration.Parent = this.F5;
+            this.F5.Size = new System.Drawing.Size(49, 46);
+            this.F5.TabIndex = 1;
+            this.F5.Text = "F5";
+            this.F5.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // B12
+            // P4
             // 
-            this.B12.Animated = true;
-            this.B12.BorderRadius = 5;
-            this.B12.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B12.CheckedState.Parent = this.B12;
-            this.B12.CustomImages.Parent = this.B12;
-            this.B12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B12.ForeColor = System.Drawing.Color.White;
-            this.B12.HoverState.Parent = this.B12;
-            this.B12.Location = new System.Drawing.Point(731, 116);
-            this.B12.Margin = new System.Windows.Forms.Padding(4);
-            this.B12.Name = "B12";
-            this.B12.ShadowDecoration.Parent = this.B12;
-            this.B12.Size = new System.Drawing.Size(49, 46);
-            this.B12.TabIndex = 1;
-            this.B12.Text = "B12";
-            this.B12.Click += new System.EventHandler(this.basicSeatClick);
+            this.P4.Animated = true;
+            this.P4.BorderRadius = 5;
+            this.P4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P4.CheckedState.Parent = this.P4;
+            this.P4.CustomImages.Parent = this.P4;
+            this.P4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P4.ForeColor = System.Drawing.Color.White;
+            this.P4.HoverState.Parent = this.P4;
+            this.P4.Location = new System.Drawing.Point(269, 316);
+            this.P4.Margin = new System.Windows.Forms.Padding(4);
+            this.P4.Name = "P4";
+            this.P4.ShadowDecoration.Parent = this.P4;
+            this.P4.Size = new System.Drawing.Size(53, 49);
+            this.P4.TabIndex = 1;
+            this.P4.Text = "P4";
+            this.P4.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // M14
+            // D7
             // 
-            this.M14.Animated = true;
-            this.M14.BorderRadius = 5;
-            this.M14.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M14.CheckedState.Parent = this.M14;
-            this.M14.CustomImages.Parent = this.M14;
-            this.M14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M14.ForeColor = System.Drawing.Color.White;
-            this.M14.HoverState.Parent = this.M14;
-            this.M14.Location = new System.Drawing.Point(896, 321);
-            this.M14.Margin = new System.Windows.Forms.Padding(4);
-            this.M14.Name = "M14";
-            this.M14.ShadowDecoration.Parent = this.M14;
-            this.M14.Size = new System.Drawing.Size(53, 49);
-            this.M14.TabIndex = 1;
-            this.M14.Text = "M14";
-            this.M14.Click += new System.EventHandler(this.vipSeatClick);
+            this.D7.Animated = true;
+            this.D7.BorderRadius = 5;
+            this.D7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D7.CheckedState.Parent = this.D7;
+            this.D7.CustomImages.Parent = this.D7;
+            this.D7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D7.ForeColor = System.Drawing.Color.White;
+            this.D7.HoverState.Parent = this.D7;
+            this.D7.Location = new System.Drawing.Point(899, 116);
+            this.D7.Margin = new System.Windows.Forms.Padding(4);
+            this.D7.Name = "D7";
+            this.D7.ShadowDecoration.Parent = this.D7;
+            this.D7.Size = new System.Drawing.Size(49, 46);
+            this.D7.TabIndex = 1;
+            this.D7.Text = "D7";
+            this.D7.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // A12
+            // F7
             // 
-            this.A12.Animated = true;
-            this.A12.BorderRadius = 5;
-            this.A12.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A12.CheckedState.Parent = this.A12;
-            this.A12.CustomImages.Parent = this.A12;
-            this.A12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A12.ForeColor = System.Drawing.Color.White;
-            this.A12.HoverState.Parent = this.A12;
-            this.A12.Location = new System.Drawing.Point(731, 60);
-            this.A12.Margin = new System.Windows.Forms.Padding(4);
-            this.A12.Name = "A12";
-            this.A12.ShadowDecoration.Parent = this.A12;
-            this.A12.Size = new System.Drawing.Size(49, 46);
-            this.A12.TabIndex = 1;
-            this.A12.Text = "A12";
-            this.A12.Click += new System.EventHandler(this.basicSeatClick);
+            this.F7.Animated = true;
+            this.F7.BorderRadius = 5;
+            this.F7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F7.CheckedState.Parent = this.F7;
+            this.F7.CustomImages.Parent = this.F7;
+            this.F7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F7.ForeColor = System.Drawing.Color.White;
+            this.F7.HoverState.Parent = this.F7;
+            this.F7.Location = new System.Drawing.Point(899, 171);
+            this.F7.Margin = new System.Windows.Forms.Padding(4);
+            this.F7.Name = "F7";
+            this.F7.ShadowDecoration.Parent = this.F7;
+            this.F7.Size = new System.Drawing.Size(49, 46);
+            this.F7.TabIndex = 1;
+            this.F7.Text = "F7";
+            this.F7.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // R14
+            // Q4
             // 
-            this.R14.Animated = true;
-            this.R14.BorderRadius = 5;
-            this.R14.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R14.CheckedState.Parent = this.R14;
-            this.R14.CustomImages.Parent = this.R14;
-            this.R14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R14.ForeColor = System.Drawing.Color.White;
-            this.R14.HoverState.Parent = this.R14;
-            this.R14.Location = new System.Drawing.Point(896, 258);
-            this.R14.Margin = new System.Windows.Forms.Padding(4);
-            this.R14.Name = "R14";
-            this.R14.ShadowDecoration.Parent = this.R14;
-            this.R14.Size = new System.Drawing.Size(53, 49);
-            this.R14.TabIndex = 1;
-            this.R14.Text = "R14";
-            this.R14.Click += new System.EventHandler(this.vipSeatClick);
+            this.Q4.Animated = true;
+            this.Q4.BorderRadius = 5;
+            this.Q4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q4.CheckedState.Parent = this.Q4;
+            this.Q4.CustomImages.Parent = this.Q4;
+            this.Q4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q4.ForeColor = System.Drawing.Color.White;
+            this.Q4.HoverState.Parent = this.Q4;
+            this.Q4.Location = new System.Drawing.Point(759, 316);
+            this.Q4.Margin = new System.Windows.Forms.Padding(4);
+            this.Q4.Name = "Q4";
+            this.Q4.ShadowDecoration.Parent = this.Q4;
+            this.Q4.Size = new System.Drawing.Size(53, 49);
+            this.Q4.TabIndex = 1;
+            this.Q4.Text = "Q4";
+            this.Q4.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // C14
+            // N4
             // 
-            this.C14.Animated = true;
-            this.C14.BorderRadius = 5;
-            this.C14.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C14.CheckedState.Parent = this.C14;
-            this.C14.CustomImages.Parent = this.C14;
-            this.C14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C14.ForeColor = System.Drawing.Color.White;
-            this.C14.HoverState.Parent = this.C14;
-            this.C14.Location = new System.Drawing.Point(840, 171);
-            this.C14.Margin = new System.Windows.Forms.Padding(4);
-            this.C14.Name = "C14";
-            this.C14.ShadowDecoration.Parent = this.C14;
-            this.C14.Size = new System.Drawing.Size(49, 46);
-            this.C14.TabIndex = 1;
-            this.C14.Text = "C14";
-            this.C14.Click += new System.EventHandler(this.basicSeatClick);
+            this.N4.Animated = true;
+            this.N4.BorderRadius = 5;
+            this.N4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N4.CheckedState.Parent = this.N4;
+            this.N4.CustomImages.Parent = this.N4;
+            this.N4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N4.ForeColor = System.Drawing.Color.White;
+            this.N4.HoverState.Parent = this.N4;
+            this.N4.Location = new System.Drawing.Point(758, 253);
+            this.N4.Margin = new System.Windows.Forms.Padding(4);
+            this.N4.Name = "N4";
+            this.N4.ShadowDecoration.Parent = this.N4;
+            this.N4.Size = new System.Drawing.Size(53, 49);
+            this.N4.TabIndex = 1;
+            this.N4.Text = "N4";
+            this.N4.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M4
             // 
@@ -760,7 +624,7 @@
             this.M4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M4.ForeColor = System.Drawing.Color.White;
             this.M4.HoverState.Parent = this.M4;
-            this.M4.Location = new System.Drawing.Point(269, 321);
+            this.M4.Location = new System.Drawing.Point(267, 253);
             this.M4.Margin = new System.Windows.Forms.Padding(4);
             this.M4.Name = "M4";
             this.M4.ShadowDecoration.Parent = this.M4;
@@ -769,68 +633,26 @@
             this.M4.Text = "M4";
             this.M4.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // B14
+            // E4
             // 
-            this.B14.Animated = true;
-            this.B14.BorderRadius = 5;
-            this.B14.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B14.CheckedState.Parent = this.B14;
-            this.B14.CustomImages.Parent = this.B14;
-            this.B14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B14.ForeColor = System.Drawing.Color.White;
-            this.B14.HoverState.Parent = this.B14;
-            this.B14.Location = new System.Drawing.Point(840, 116);
-            this.B14.Margin = new System.Windows.Forms.Padding(4);
-            this.B14.Name = "B14";
-            this.B14.ShadowDecoration.Parent = this.B14;
-            this.B14.Size = new System.Drawing.Size(49, 46);
-            this.B14.TabIndex = 1;
-            this.B14.Text = "B14";
-            this.B14.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R4
-            // 
-            this.R4.Animated = true;
-            this.R4.BorderRadius = 5;
-            this.R4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R4.CheckedState.Parent = this.R4;
-            this.R4.CustomImages.Parent = this.R4;
-            this.R4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R4.ForeColor = System.Drawing.Color.White;
-            this.R4.HoverState.Parent = this.R4;
-            this.R4.Location = new System.Drawing.Point(269, 258);
-            this.R4.Margin = new System.Windows.Forms.Padding(4);
-            this.R4.Name = "R4";
-            this.R4.ShadowDecoration.Parent = this.R4;
-            this.R4.Size = new System.Drawing.Size(53, 49);
-            this.R4.TabIndex = 1;
-            this.R4.Text = "R4";
-            this.R4.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // A14
-            // 
-            this.A14.Animated = true;
-            this.A14.BorderRadius = 5;
-            this.A14.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A14.CheckedState.Parent = this.A14;
-            this.A14.CustomImages.Parent = this.A14;
-            this.A14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A14.ForeColor = System.Drawing.Color.White;
-            this.A14.HoverState.Parent = this.A14;
-            this.A14.Location = new System.Drawing.Point(840, 60);
-            this.A14.Margin = new System.Windows.Forms.Padding(4);
-            this.A14.Name = "A14";
-            this.A14.ShadowDecoration.Parent = this.A14;
-            this.A14.Size = new System.Drawing.Size(49, 46);
-            this.A14.TabIndex = 1;
-            this.A14.Text = "A14";
-            this.A14.Click += new System.EventHandler(this.basicSeatClick);
+            this.E4.Animated = true;
+            this.E4.BorderRadius = 5;
+            this.E4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E4.CheckedState.Parent = this.E4;
+            this.E4.CustomImages.Parent = this.E4;
+            this.E4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E4.ForeColor = System.Drawing.Color.White;
+            this.E4.HoverState.Parent = this.E4;
+            this.E4.Location = new System.Drawing.Point(293, 171);
+            this.E4.Margin = new System.Windows.Forms.Padding(4);
+            this.E4.Name = "E4";
+            this.E4.ShadowDecoration.Parent = this.E4;
+            this.E4.Size = new System.Drawing.Size(49, 46);
+            this.E4.TabIndex = 1;
+            this.E4.Text = "E4";
+            this.E4.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C4
             // 
@@ -844,7 +666,7 @@
             this.C4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.C4.ForeColor = System.Drawing.Color.White;
             this.C4.HoverState.Parent = this.C4;
-            this.C4.Location = new System.Drawing.Point(293, 171);
+            this.C4.Location = new System.Drawing.Point(293, 116);
             this.C4.Margin = new System.Windows.Forms.Padding(4);
             this.C4.Name = "C4";
             this.C4.ShadowDecoration.Parent = this.C4;
@@ -852,27 +674,6 @@
             this.C4.TabIndex = 1;
             this.C4.Text = "C4";
             this.C4.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // M11
-            // 
-            this.M11.Animated = true;
-            this.M11.BorderRadius = 5;
-            this.M11.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M11.CheckedState.Parent = this.M11;
-            this.M11.CustomImages.Parent = this.M11;
-            this.M11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M11.ForeColor = System.Drawing.Color.White;
-            this.M11.HoverState.Parent = this.M11;
-            this.M11.Location = new System.Drawing.Point(708, 321);
-            this.M11.Margin = new System.Windows.Forms.Padding(4);
-            this.M11.Name = "M11";
-            this.M11.ShadowDecoration.Parent = this.M11;
-            this.M11.Size = new System.Drawing.Size(53, 49);
-            this.M11.TabIndex = 1;
-            this.M11.Text = "M11";
-            this.M11.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B4
             // 
@@ -886,7 +687,7 @@
             this.B4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B4.ForeColor = System.Drawing.Color.White;
             this.B4.HoverState.Parent = this.B4;
-            this.B4.Location = new System.Drawing.Point(293, 116);
+            this.B4.Location = new System.Drawing.Point(735, 60);
             this.B4.Margin = new System.Windows.Forms.Padding(4);
             this.B4.Name = "B4";
             this.B4.ShadowDecoration.Parent = this.B4;
@@ -894,27 +695,6 @@
             this.B4.TabIndex = 1;
             this.B4.Text = "B4";
             this.B4.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R11
-            // 
-            this.R11.Animated = true;
-            this.R11.BorderRadius = 5;
-            this.R11.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R11.CheckedState.Parent = this.R11;
-            this.R11.CustomImages.Parent = this.R11;
-            this.R11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R11.ForeColor = System.Drawing.Color.White;
-            this.R11.HoverState.Parent = this.R11;
-            this.R11.Location = new System.Drawing.Point(708, 258);
-            this.R11.Margin = new System.Windows.Forms.Padding(4);
-            this.R11.Name = "R11";
-            this.R11.ShadowDecoration.Parent = this.R11;
-            this.R11.Size = new System.Drawing.Size(53, 49);
-            this.R11.TabIndex = 1;
-            this.R11.Text = "R11";
-            this.R11.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A4
             // 
@@ -937,26 +717,110 @@
             this.A4.Text = "A4";
             this.A4.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // C11
+            // D4
             // 
-            this.C11.Animated = true;
-            this.C11.BorderRadius = 5;
-            this.C11.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C11.CheckedState.Parent = this.C11;
-            this.C11.CustomImages.Parent = this.C11;
-            this.C11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C11.ForeColor = System.Drawing.Color.White;
-            this.C11.HoverState.Parent = this.C11;
-            this.C11.Location = new System.Drawing.Point(676, 171);
-            this.C11.Margin = new System.Windows.Forms.Padding(4);
-            this.C11.Name = "C11";
-            this.C11.ShadowDecoration.Parent = this.C11;
-            this.C11.Size = new System.Drawing.Size(49, 46);
-            this.C11.TabIndex = 1;
-            this.C11.Text = "C11";
-            this.C11.Click += new System.EventHandler(this.basicSeatClick);
+            this.D4.Animated = true;
+            this.D4.BorderRadius = 5;
+            this.D4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D4.CheckedState.Parent = this.D4;
+            this.D4.CustomImages.Parent = this.D4;
+            this.D4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D4.ForeColor = System.Drawing.Color.White;
+            this.D4.HoverState.Parent = this.D4;
+            this.D4.Location = new System.Drawing.Point(735, 116);
+            this.D4.Margin = new System.Windows.Forms.Padding(4);
+            this.D4.Name = "D4";
+            this.D4.ShadowDecoration.Parent = this.D4;
+            this.D4.Size = new System.Drawing.Size(49, 46);
+            this.D4.TabIndex = 1;
+            this.D4.Text = "D4";
+            this.D4.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // P6
+            // 
+            this.P6.Animated = true;
+            this.P6.BorderRadius = 5;
+            this.P6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P6.CheckedState.Parent = this.P6;
+            this.P6.CustomImages.Parent = this.P6;
+            this.P6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P6.ForeColor = System.Drawing.Color.White;
+            this.P6.HoverState.Parent = this.P6;
+            this.P6.Location = new System.Drawing.Point(395, 316);
+            this.P6.Margin = new System.Windows.Forms.Padding(4);
+            this.P6.Name = "P6";
+            this.P6.ShadowDecoration.Parent = this.P6;
+            this.P6.Size = new System.Drawing.Size(53, 49);
+            this.P6.TabIndex = 1;
+            this.P6.Text = "P6";
+            this.P6.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // F4
+            // 
+            this.F4.Animated = true;
+            this.F4.BorderRadius = 5;
+            this.F4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F4.CheckedState.Parent = this.F4;
+            this.F4.CustomImages.Parent = this.F4;
+            this.F4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F4.ForeColor = System.Drawing.Color.White;
+            this.F4.HoverState.Parent = this.F4;
+            this.F4.Location = new System.Drawing.Point(735, 171);
+            this.F4.Margin = new System.Windows.Forms.Padding(4);
+            this.F4.Name = "F4";
+            this.F4.ShadowDecoration.Parent = this.F4;
+            this.F4.Size = new System.Drawing.Size(49, 46);
+            this.F4.TabIndex = 1;
+            this.F4.Text = "F4";
+            this.F4.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // Q6
+            // 
+            this.Q6.Animated = true;
+            this.Q6.BorderRadius = 5;
+            this.Q6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q6.CheckedState.Parent = this.Q6;
+            this.Q6.CustomImages.Parent = this.Q6;
+            this.Q6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q6.ForeColor = System.Drawing.Color.White;
+            this.Q6.HoverState.Parent = this.Q6;
+            this.Q6.Location = new System.Drawing.Point(885, 316);
+            this.Q6.Margin = new System.Windows.Forms.Padding(4);
+            this.Q6.Name = "Q6";
+            this.Q6.ShadowDecoration.Parent = this.Q6;
+            this.Q6.Size = new System.Drawing.Size(53, 49);
+            this.Q6.TabIndex = 1;
+            this.Q6.Text = "Q6";
+            this.Q6.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // N6
+            // 
+            this.N6.Animated = true;
+            this.N6.BorderRadius = 5;
+            this.N6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N6.CheckedState.Parent = this.N6;
+            this.N6.CustomImages.Parent = this.N6;
+            this.N6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N6.ForeColor = System.Drawing.Color.White;
+            this.N6.HoverState.Parent = this.N6;
+            this.N6.Location = new System.Drawing.Point(884, 253);
+            this.N6.Margin = new System.Windows.Forms.Padding(4);
+            this.N6.Name = "N6";
+            this.N6.ShadowDecoration.Parent = this.N6;
+            this.N6.Size = new System.Drawing.Size(53, 49);
+            this.N6.TabIndex = 1;
+            this.N6.Text = "N6";
+            this.N6.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M6
             // 
@@ -970,7 +834,7 @@
             this.M6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M6.ForeColor = System.Drawing.Color.White;
             this.M6.HoverState.Parent = this.M6;
-            this.M6.Location = new System.Drawing.Point(395, 321);
+            this.M6.Location = new System.Drawing.Point(393, 253);
             this.M6.Margin = new System.Windows.Forms.Padding(4);
             this.M6.Name = "M6";
             this.M6.ShadowDecoration.Parent = this.M6;
@@ -979,68 +843,26 @@
             this.M6.Text = "M6";
             this.M6.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // B11
+            // E6
             // 
-            this.B11.Animated = true;
-            this.B11.BorderRadius = 5;
-            this.B11.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B11.CheckedState.Parent = this.B11;
-            this.B11.CustomImages.Parent = this.B11;
-            this.B11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B11.ForeColor = System.Drawing.Color.White;
-            this.B11.HoverState.Parent = this.B11;
-            this.B11.Location = new System.Drawing.Point(676, 116);
-            this.B11.Margin = new System.Windows.Forms.Padding(4);
-            this.B11.Name = "B11";
-            this.B11.ShadowDecoration.Parent = this.B11;
-            this.B11.Size = new System.Drawing.Size(49, 46);
-            this.B11.TabIndex = 1;
-            this.B11.Text = "B11";
-            this.B11.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R6
-            // 
-            this.R6.Animated = true;
-            this.R6.BorderRadius = 5;
-            this.R6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R6.CheckedState.Parent = this.R6;
-            this.R6.CustomImages.Parent = this.R6;
-            this.R6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R6.ForeColor = System.Drawing.Color.White;
-            this.R6.HoverState.Parent = this.R6;
-            this.R6.Location = new System.Drawing.Point(395, 258);
-            this.R6.Margin = new System.Windows.Forms.Padding(4);
-            this.R6.Name = "R6";
-            this.R6.ShadowDecoration.Parent = this.R6;
-            this.R6.Size = new System.Drawing.Size(53, 49);
-            this.R6.TabIndex = 1;
-            this.R6.Text = "R6";
-            this.R6.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // A11
-            // 
-            this.A11.Animated = true;
-            this.A11.BorderRadius = 5;
-            this.A11.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A11.CheckedState.Parent = this.A11;
-            this.A11.CustomImages.Parent = this.A11;
-            this.A11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A11.ForeColor = System.Drawing.Color.White;
-            this.A11.HoverState.Parent = this.A11;
-            this.A11.Location = new System.Drawing.Point(676, 60);
-            this.A11.Margin = new System.Windows.Forms.Padding(4);
-            this.A11.Name = "A11";
-            this.A11.ShadowDecoration.Parent = this.A11;
-            this.A11.Size = new System.Drawing.Size(49, 46);
-            this.A11.TabIndex = 1;
-            this.A11.Text = "A11";
-            this.A11.Click += new System.EventHandler(this.basicSeatClick);
+            this.E6.Animated = true;
+            this.E6.BorderRadius = 5;
+            this.E6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E6.CheckedState.Parent = this.E6;
+            this.E6.CustomImages.Parent = this.E6;
+            this.E6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E6.ForeColor = System.Drawing.Color.White;
+            this.E6.HoverState.Parent = this.E6;
+            this.E6.Location = new System.Drawing.Point(403, 171);
+            this.E6.Margin = new System.Windows.Forms.Padding(4);
+            this.E6.Name = "E6";
+            this.E6.ShadowDecoration.Parent = this.E6;
+            this.E6.Size = new System.Drawing.Size(49, 46);
+            this.E6.TabIndex = 1;
+            this.E6.Text = "E6";
+            this.E6.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C6
             // 
@@ -1054,7 +876,7 @@
             this.C6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.C6.ForeColor = System.Drawing.Color.White;
             this.C6.HoverState.Parent = this.C6;
-            this.C6.Location = new System.Drawing.Point(403, 171);
+            this.C6.Location = new System.Drawing.Point(403, 116);
             this.C6.Margin = new System.Windows.Forms.Padding(4);
             this.C6.Name = "C6";
             this.C6.ShadowDecoration.Parent = this.C6;
@@ -1062,27 +884,6 @@
             this.C6.TabIndex = 1;
             this.C6.Text = "C6";
             this.C6.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // M13
-            // 
-            this.M13.Animated = true;
-            this.M13.BorderRadius = 5;
-            this.M13.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M13.CheckedState.Parent = this.M13;
-            this.M13.CustomImages.Parent = this.M13;
-            this.M13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M13.ForeColor = System.Drawing.Color.White;
-            this.M13.HoverState.Parent = this.M13;
-            this.M13.Location = new System.Drawing.Point(833, 321);
-            this.M13.Margin = new System.Windows.Forms.Padding(4);
-            this.M13.Name = "M13";
-            this.M13.ShadowDecoration.Parent = this.M13;
-            this.M13.Size = new System.Drawing.Size(53, 49);
-            this.M13.TabIndex = 1;
-            this.M13.Text = "M13";
-            this.M13.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B6
             // 
@@ -1096,7 +897,7 @@
             this.B6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B6.ForeColor = System.Drawing.Color.White;
             this.B6.HoverState.Parent = this.B6;
-            this.B6.Location = new System.Drawing.Point(403, 116);
+            this.B6.Location = new System.Drawing.Point(845, 60);
             this.B6.Margin = new System.Windows.Forms.Padding(4);
             this.B6.Name = "B6";
             this.B6.ShadowDecoration.Parent = this.B6;
@@ -1104,27 +905,6 @@
             this.B6.TabIndex = 1;
             this.B6.Text = "B6";
             this.B6.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R13
-            // 
-            this.R13.Animated = true;
-            this.R13.BorderRadius = 5;
-            this.R13.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R13.CheckedState.Parent = this.R13;
-            this.R13.CustomImages.Parent = this.R13;
-            this.R13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R13.ForeColor = System.Drawing.Color.White;
-            this.R13.HoverState.Parent = this.R13;
-            this.R13.Location = new System.Drawing.Point(833, 258);
-            this.R13.Margin = new System.Windows.Forms.Padding(4);
-            this.R13.Name = "R13";
-            this.R13.ShadowDecoration.Parent = this.R13;
-            this.R13.Size = new System.Drawing.Size(53, 49);
-            this.R13.TabIndex = 1;
-            this.R13.Text = "R13";
-            this.R13.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A6
             // 
@@ -1147,26 +927,110 @@
             this.A6.Text = "A6";
             this.A6.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // C13
+            // D6
             // 
-            this.C13.Animated = true;
-            this.C13.BorderRadius = 5;
-            this.C13.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C13.CheckedState.Parent = this.C13;
-            this.C13.CustomImages.Parent = this.C13;
-            this.C13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C13.ForeColor = System.Drawing.Color.White;
-            this.C13.HoverState.Parent = this.C13;
-            this.C13.Location = new System.Drawing.Point(785, 171);
-            this.C13.Margin = new System.Windows.Forms.Padding(4);
-            this.C13.Name = "C13";
-            this.C13.ShadowDecoration.Parent = this.C13;
-            this.C13.Size = new System.Drawing.Size(49, 46);
-            this.C13.TabIndex = 1;
-            this.C13.Text = "C13";
-            this.C13.Click += new System.EventHandler(this.basicSeatClick);
+            this.D6.Animated = true;
+            this.D6.BorderRadius = 5;
+            this.D6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D6.CheckedState.Parent = this.D6;
+            this.D6.CustomImages.Parent = this.D6;
+            this.D6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D6.ForeColor = System.Drawing.Color.White;
+            this.D6.HoverState.Parent = this.D6;
+            this.D6.Location = new System.Drawing.Point(844, 116);
+            this.D6.Margin = new System.Windows.Forms.Padding(4);
+            this.D6.Name = "D6";
+            this.D6.ShadowDecoration.Parent = this.D6;
+            this.D6.Size = new System.Drawing.Size(49, 46);
+            this.D6.TabIndex = 1;
+            this.D6.Text = "D6";
+            this.D6.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // P3
+            // 
+            this.P3.Animated = true;
+            this.P3.BorderRadius = 5;
+            this.P3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P3.CheckedState.Parent = this.P3;
+            this.P3.CustomImages.Parent = this.P3;
+            this.P3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P3.ForeColor = System.Drawing.Color.White;
+            this.P3.HoverState.Parent = this.P3;
+            this.P3.Location = new System.Drawing.Point(207, 316);
+            this.P3.Margin = new System.Windows.Forms.Padding(4);
+            this.P3.Name = "P3";
+            this.P3.ShadowDecoration.Parent = this.P3;
+            this.P3.Size = new System.Drawing.Size(53, 49);
+            this.P3.TabIndex = 1;
+            this.P3.Text = "P3";
+            this.P3.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // F6
+            // 
+            this.F6.Animated = true;
+            this.F6.BorderRadius = 5;
+            this.F6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F6.CheckedState.Parent = this.F6;
+            this.F6.CustomImages.Parent = this.F6;
+            this.F6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F6.ForeColor = System.Drawing.Color.White;
+            this.F6.HoverState.Parent = this.F6;
+            this.F6.Location = new System.Drawing.Point(844, 171);
+            this.F6.Margin = new System.Windows.Forms.Padding(4);
+            this.F6.Name = "F6";
+            this.F6.ShadowDecoration.Parent = this.F6;
+            this.F6.Size = new System.Drawing.Size(49, 46);
+            this.F6.TabIndex = 1;
+            this.F6.Text = "F6";
+            this.F6.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // Q3
+            // 
+            this.Q3.Animated = true;
+            this.Q3.BorderRadius = 5;
+            this.Q3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q3.CheckedState.Parent = this.Q3;
+            this.Q3.CustomImages.Parent = this.Q3;
+            this.Q3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q3.ForeColor = System.Drawing.Color.White;
+            this.Q3.HoverState.Parent = this.Q3;
+            this.Q3.Location = new System.Drawing.Point(697, 316);
+            this.Q3.Margin = new System.Windows.Forms.Padding(4);
+            this.Q3.Name = "Q3";
+            this.Q3.ShadowDecoration.Parent = this.Q3;
+            this.Q3.Size = new System.Drawing.Size(53, 49);
+            this.Q3.TabIndex = 1;
+            this.Q3.Text = "Q3";
+            this.Q3.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // N3
+            // 
+            this.N3.Animated = true;
+            this.N3.BorderRadius = 5;
+            this.N3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N3.CheckedState.Parent = this.N3;
+            this.N3.CustomImages.Parent = this.N3;
+            this.N3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N3.ForeColor = System.Drawing.Color.White;
+            this.N3.HoverState.Parent = this.N3;
+            this.N3.Location = new System.Drawing.Point(696, 253);
+            this.N3.Margin = new System.Windows.Forms.Padding(4);
+            this.N3.Name = "N3";
+            this.N3.ShadowDecoration.Parent = this.N3;
+            this.N3.Size = new System.Drawing.Size(53, 49);
+            this.N3.TabIndex = 1;
+            this.N3.Text = "N3";
+            this.N3.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M3
             // 
@@ -1180,7 +1044,7 @@
             this.M3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M3.ForeColor = System.Drawing.Color.White;
             this.M3.HoverState.Parent = this.M3;
-            this.M3.Location = new System.Drawing.Point(207, 321);
+            this.M3.Location = new System.Drawing.Point(205, 253);
             this.M3.Margin = new System.Windows.Forms.Padding(4);
             this.M3.Name = "M3";
             this.M3.ShadowDecoration.Parent = this.M3;
@@ -1189,68 +1053,26 @@
             this.M3.Text = "M3";
             this.M3.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // B13
+            // E3
             // 
-            this.B13.Animated = true;
-            this.B13.BorderRadius = 5;
-            this.B13.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B13.CheckedState.Parent = this.B13;
-            this.B13.CustomImages.Parent = this.B13;
-            this.B13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B13.ForeColor = System.Drawing.Color.White;
-            this.B13.HoverState.Parent = this.B13;
-            this.B13.Location = new System.Drawing.Point(785, 116);
-            this.B13.Margin = new System.Windows.Forms.Padding(4);
-            this.B13.Name = "B13";
-            this.B13.ShadowDecoration.Parent = this.B13;
-            this.B13.Size = new System.Drawing.Size(49, 46);
-            this.B13.TabIndex = 1;
-            this.B13.Text = "B13";
-            this.B13.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R3
-            // 
-            this.R3.Animated = true;
-            this.R3.BorderRadius = 5;
-            this.R3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R3.CheckedState.Parent = this.R3;
-            this.R3.CustomImages.Parent = this.R3;
-            this.R3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R3.ForeColor = System.Drawing.Color.White;
-            this.R3.HoverState.Parent = this.R3;
-            this.R3.Location = new System.Drawing.Point(207, 258);
-            this.R3.Margin = new System.Windows.Forms.Padding(4);
-            this.R3.Name = "R3";
-            this.R3.ShadowDecoration.Parent = this.R3;
-            this.R3.Size = new System.Drawing.Size(53, 49);
-            this.R3.TabIndex = 1;
-            this.R3.Text = "R3";
-            this.R3.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // A13
-            // 
-            this.A13.Animated = true;
-            this.A13.BorderRadius = 5;
-            this.A13.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A13.CheckedState.Parent = this.A13;
-            this.A13.CustomImages.Parent = this.A13;
-            this.A13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A13.ForeColor = System.Drawing.Color.White;
-            this.A13.HoverState.Parent = this.A13;
-            this.A13.Location = new System.Drawing.Point(785, 60);
-            this.A13.Margin = new System.Windows.Forms.Padding(4);
-            this.A13.Name = "A13";
-            this.A13.ShadowDecoration.Parent = this.A13;
-            this.A13.Size = new System.Drawing.Size(49, 46);
-            this.A13.TabIndex = 1;
-            this.A13.Text = "A13";
-            this.A13.Click += new System.EventHandler(this.basicSeatClick);
+            this.E3.Animated = true;
+            this.E3.BorderRadius = 5;
+            this.E3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E3.CheckedState.Parent = this.E3;
+            this.E3.CustomImages.Parent = this.E3;
+            this.E3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E3.ForeColor = System.Drawing.Color.White;
+            this.E3.HoverState.Parent = this.E3;
+            this.E3.Location = new System.Drawing.Point(239, 171);
+            this.E3.Margin = new System.Windows.Forms.Padding(4);
+            this.E3.Name = "E3";
+            this.E3.ShadowDecoration.Parent = this.E3;
+            this.E3.Size = new System.Drawing.Size(49, 46);
+            this.E3.TabIndex = 1;
+            this.E3.Text = "E3";
+            this.E3.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C3
             // 
@@ -1264,7 +1086,7 @@
             this.C3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.C3.ForeColor = System.Drawing.Color.White;
             this.C3.HoverState.Parent = this.C3;
-            this.C3.Location = new System.Drawing.Point(239, 171);
+            this.C3.Location = new System.Drawing.Point(239, 116);
             this.C3.Margin = new System.Windows.Forms.Padding(4);
             this.C3.Name = "C3";
             this.C3.ShadowDecoration.Parent = this.C3;
@@ -1272,27 +1094,6 @@
             this.C3.TabIndex = 1;
             this.C3.Text = "C3";
             this.C3.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // M10
-            // 
-            this.M10.Animated = true;
-            this.M10.BorderRadius = 5;
-            this.M10.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M10.CheckedState.Parent = this.M10;
-            this.M10.CustomImages.Parent = this.M10;
-            this.M10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M10.ForeColor = System.Drawing.Color.White;
-            this.M10.HoverState.Parent = this.M10;
-            this.M10.Location = new System.Drawing.Point(645, 321);
-            this.M10.Margin = new System.Windows.Forms.Padding(4);
-            this.M10.Name = "M10";
-            this.M10.ShadowDecoration.Parent = this.M10;
-            this.M10.Size = new System.Drawing.Size(53, 49);
-            this.M10.TabIndex = 1;
-            this.M10.Text = "M10";
-            this.M10.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B3
             // 
@@ -1306,7 +1107,7 @@
             this.B3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B3.ForeColor = System.Drawing.Color.White;
             this.B3.HoverState.Parent = this.B3;
-            this.B3.Location = new System.Drawing.Point(239, 116);
+            this.B3.Location = new System.Drawing.Point(681, 60);
             this.B3.Margin = new System.Windows.Forms.Padding(4);
             this.B3.Name = "B3";
             this.B3.ShadowDecoration.Parent = this.B3;
@@ -1314,27 +1115,6 @@
             this.B3.TabIndex = 1;
             this.B3.Text = "B3";
             this.B3.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R10
-            // 
-            this.R10.Animated = true;
-            this.R10.BorderRadius = 5;
-            this.R10.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R10.CheckedState.Parent = this.R10;
-            this.R10.CustomImages.Parent = this.R10;
-            this.R10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R10.ForeColor = System.Drawing.Color.White;
-            this.R10.HoverState.Parent = this.R10;
-            this.R10.Location = new System.Drawing.Point(645, 258);
-            this.R10.Margin = new System.Windows.Forms.Padding(4);
-            this.R10.Name = "R10";
-            this.R10.ShadowDecoration.Parent = this.R10;
-            this.R10.Size = new System.Drawing.Size(53, 49);
-            this.R10.TabIndex = 1;
-            this.R10.Text = "R10";
-            this.R10.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A3
             // 
@@ -1357,26 +1137,110 @@
             this.A3.Text = "A3";
             this.A3.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // C10
+            // D3
             // 
-            this.C10.Animated = true;
-            this.C10.BorderRadius = 5;
-            this.C10.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C10.CheckedState.Parent = this.C10;
-            this.C10.CustomImages.Parent = this.C10;
-            this.C10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C10.ForeColor = System.Drawing.Color.White;
-            this.C10.HoverState.Parent = this.C10;
-            this.C10.Location = new System.Drawing.Point(621, 171);
-            this.C10.Margin = new System.Windows.Forms.Padding(4);
-            this.C10.Name = "C10";
-            this.C10.ShadowDecoration.Parent = this.C10;
-            this.C10.Size = new System.Drawing.Size(49, 46);
-            this.C10.TabIndex = 1;
-            this.C10.Text = "C10";
-            this.C10.Click += new System.EventHandler(this.basicSeatClick);
+            this.D3.Animated = true;
+            this.D3.BorderRadius = 5;
+            this.D3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D3.CheckedState.Parent = this.D3;
+            this.D3.CustomImages.Parent = this.D3;
+            this.D3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D3.ForeColor = System.Drawing.Color.White;
+            this.D3.HoverState.Parent = this.D3;
+            this.D3.Location = new System.Drawing.Point(680, 116);
+            this.D3.Margin = new System.Windows.Forms.Padding(4);
+            this.D3.Name = "D3";
+            this.D3.ShadowDecoration.Parent = this.D3;
+            this.D3.Size = new System.Drawing.Size(49, 46);
+            this.D3.TabIndex = 1;
+            this.D3.Text = "D3";
+            this.D3.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // P5
+            // 
+            this.P5.Animated = true;
+            this.P5.BorderRadius = 5;
+            this.P5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P5.CheckedState.Parent = this.P5;
+            this.P5.CustomImages.Parent = this.P5;
+            this.P5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P5.ForeColor = System.Drawing.Color.White;
+            this.P5.HoverState.Parent = this.P5;
+            this.P5.Location = new System.Drawing.Point(332, 316);
+            this.P5.Margin = new System.Windows.Forms.Padding(4);
+            this.P5.Name = "P5";
+            this.P5.ShadowDecoration.Parent = this.P5;
+            this.P5.Size = new System.Drawing.Size(53, 49);
+            this.P5.TabIndex = 1;
+            this.P5.Text = "P5";
+            this.P5.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // F3
+            // 
+            this.F3.Animated = true;
+            this.F3.BorderRadius = 5;
+            this.F3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F3.CheckedState.Parent = this.F3;
+            this.F3.CustomImages.Parent = this.F3;
+            this.F3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F3.ForeColor = System.Drawing.Color.White;
+            this.F3.HoverState.Parent = this.F3;
+            this.F3.Location = new System.Drawing.Point(680, 171);
+            this.F3.Margin = new System.Windows.Forms.Padding(4);
+            this.F3.Name = "F3";
+            this.F3.ShadowDecoration.Parent = this.F3;
+            this.F3.Size = new System.Drawing.Size(49, 46);
+            this.F3.TabIndex = 1;
+            this.F3.Text = "F3";
+            this.F3.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // Q5
+            // 
+            this.Q5.Animated = true;
+            this.Q5.BorderRadius = 5;
+            this.Q5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q5.CheckedState.Parent = this.Q5;
+            this.Q5.CustomImages.Parent = this.Q5;
+            this.Q5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q5.ForeColor = System.Drawing.Color.White;
+            this.Q5.HoverState.Parent = this.Q5;
+            this.Q5.Location = new System.Drawing.Point(822, 316);
+            this.Q5.Margin = new System.Windows.Forms.Padding(4);
+            this.Q5.Name = "Q5";
+            this.Q5.ShadowDecoration.Parent = this.Q5;
+            this.Q5.Size = new System.Drawing.Size(53, 49);
+            this.Q5.TabIndex = 1;
+            this.Q5.Text = "Q5";
+            this.Q5.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // N5
+            // 
+            this.N5.Animated = true;
+            this.N5.BorderRadius = 5;
+            this.N5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N5.CheckedState.Parent = this.N5;
+            this.N5.CustomImages.Parent = this.N5;
+            this.N5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N5.ForeColor = System.Drawing.Color.White;
+            this.N5.HoverState.Parent = this.N5;
+            this.N5.Location = new System.Drawing.Point(821, 253);
+            this.N5.Margin = new System.Windows.Forms.Padding(4);
+            this.N5.Name = "N5";
+            this.N5.ShadowDecoration.Parent = this.N5;
+            this.N5.Size = new System.Drawing.Size(53, 49);
+            this.N5.TabIndex = 1;
+            this.N5.Text = "N5";
+            this.N5.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M5
             // 
@@ -1390,7 +1254,7 @@
             this.M5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M5.ForeColor = System.Drawing.Color.White;
             this.M5.HoverState.Parent = this.M5;
-            this.M5.Location = new System.Drawing.Point(332, 321);
+            this.M5.Location = new System.Drawing.Point(330, 253);
             this.M5.Margin = new System.Windows.Forms.Padding(4);
             this.M5.Name = "M5";
             this.M5.ShadowDecoration.Parent = this.M5;
@@ -1399,68 +1263,26 @@
             this.M5.Text = "M5";
             this.M5.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // B10
+            // E5
             // 
-            this.B10.Animated = true;
-            this.B10.BorderRadius = 5;
-            this.B10.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B10.CheckedState.Parent = this.B10;
-            this.B10.CustomImages.Parent = this.B10;
-            this.B10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B10.ForeColor = System.Drawing.Color.White;
-            this.B10.HoverState.Parent = this.B10;
-            this.B10.Location = new System.Drawing.Point(621, 116);
-            this.B10.Margin = new System.Windows.Forms.Padding(4);
-            this.B10.Name = "B10";
-            this.B10.ShadowDecoration.Parent = this.B10;
-            this.B10.Size = new System.Drawing.Size(49, 46);
-            this.B10.TabIndex = 1;
-            this.B10.Text = "B10";
-            this.B10.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R5
-            // 
-            this.R5.Animated = true;
-            this.R5.BorderRadius = 5;
-            this.R5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R5.CheckedState.Parent = this.R5;
-            this.R5.CustomImages.Parent = this.R5;
-            this.R5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R5.ForeColor = System.Drawing.Color.White;
-            this.R5.HoverState.Parent = this.R5;
-            this.R5.Location = new System.Drawing.Point(332, 258);
-            this.R5.Margin = new System.Windows.Forms.Padding(4);
-            this.R5.Name = "R5";
-            this.R5.ShadowDecoration.Parent = this.R5;
-            this.R5.Size = new System.Drawing.Size(53, 49);
-            this.R5.TabIndex = 1;
-            this.R5.Text = "R5";
-            this.R5.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // A10
-            // 
-            this.A10.Animated = true;
-            this.A10.BorderRadius = 5;
-            this.A10.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A10.CheckedState.Parent = this.A10;
-            this.A10.CustomImages.Parent = this.A10;
-            this.A10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A10.ForeColor = System.Drawing.Color.White;
-            this.A10.HoverState.Parent = this.A10;
-            this.A10.Location = new System.Drawing.Point(621, 60);
-            this.A10.Margin = new System.Windows.Forms.Padding(4);
-            this.A10.Name = "A10";
-            this.A10.ShadowDecoration.Parent = this.A10;
-            this.A10.Size = new System.Drawing.Size(49, 46);
-            this.A10.TabIndex = 1;
-            this.A10.Text = "A10";
-            this.A10.Click += new System.EventHandler(this.basicSeatClick);
+            this.E5.Animated = true;
+            this.E5.BorderRadius = 5;
+            this.E5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E5.CheckedState.Parent = this.E5;
+            this.E5.CustomImages.Parent = this.E5;
+            this.E5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E5.ForeColor = System.Drawing.Color.White;
+            this.E5.HoverState.Parent = this.E5;
+            this.E5.Location = new System.Drawing.Point(348, 171);
+            this.E5.Margin = new System.Windows.Forms.Padding(4);
+            this.E5.Name = "E5";
+            this.E5.ShadowDecoration.Parent = this.E5;
+            this.E5.Size = new System.Drawing.Size(49, 46);
+            this.E5.TabIndex = 1;
+            this.E5.Text = "E5";
+            this.E5.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // C5
             // 
@@ -1474,7 +1296,7 @@
             this.C5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.C5.ForeColor = System.Drawing.Color.White;
             this.C5.HoverState.Parent = this.C5;
-            this.C5.Location = new System.Drawing.Point(348, 171);
+            this.C5.Location = new System.Drawing.Point(348, 116);
             this.C5.Margin = new System.Windows.Forms.Padding(4);
             this.C5.Name = "C5";
             this.C5.ShadowDecoration.Parent = this.C5;
@@ -1482,27 +1304,6 @@
             this.C5.TabIndex = 1;
             this.C5.Text = "C5";
             this.C5.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // M9
-            // 
-            this.M9.Animated = true;
-            this.M9.BorderRadius = 5;
-            this.M9.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.M9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.M9.CheckedState.Parent = this.M9;
-            this.M9.CustomImages.Parent = this.M9;
-            this.M9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.M9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.M9.ForeColor = System.Drawing.Color.White;
-            this.M9.HoverState.Parent = this.M9;
-            this.M9.Location = new System.Drawing.Point(583, 321);
-            this.M9.Margin = new System.Windows.Forms.Padding(4);
-            this.M9.Name = "M9";
-            this.M9.ShadowDecoration.Parent = this.M9;
-            this.M9.Size = new System.Drawing.Size(53, 49);
-            this.M9.TabIndex = 1;
-            this.M9.Text = "M9";
-            this.M9.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // B5
             // 
@@ -1516,7 +1317,7 @@
             this.B5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B5.ForeColor = System.Drawing.Color.White;
             this.B5.HoverState.Parent = this.B5;
-            this.B5.Location = new System.Drawing.Point(348, 116);
+            this.B5.Location = new System.Drawing.Point(790, 60);
             this.B5.Margin = new System.Windows.Forms.Padding(4);
             this.B5.Name = "B5";
             this.B5.ShadowDecoration.Parent = this.B5;
@@ -1524,27 +1325,6 @@
             this.B5.TabIndex = 1;
             this.B5.Text = "B5";
             this.B5.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // R9
-            // 
-            this.R9.Animated = true;
-            this.R9.BorderRadius = 5;
-            this.R9.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R9.CheckedState.Parent = this.R9;
-            this.R9.CustomImages.Parent = this.R9;
-            this.R9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R9.ForeColor = System.Drawing.Color.White;
-            this.R9.HoverState.Parent = this.R9;
-            this.R9.Location = new System.Drawing.Point(583, 258);
-            this.R9.Margin = new System.Windows.Forms.Padding(4);
-            this.R9.Name = "R9";
-            this.R9.ShadowDecoration.Parent = this.R9;
-            this.R9.Size = new System.Drawing.Size(53, 49);
-            this.R9.TabIndex = 1;
-            this.R9.Text = "R9";
-            this.R9.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // A5
             // 
@@ -1567,26 +1347,110 @@
             this.A5.Text = "A5";
             this.A5.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // C9
+            // P2
             // 
-            this.C9.Animated = true;
-            this.C9.BorderRadius = 5;
-            this.C9.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C9.CheckedState.Parent = this.C9;
-            this.C9.CustomImages.Parent = this.C9;
-            this.C9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C9.ForeColor = System.Drawing.Color.White;
-            this.C9.HoverState.Parent = this.C9;
-            this.C9.Location = new System.Drawing.Point(567, 171);
-            this.C9.Margin = new System.Windows.Forms.Padding(4);
-            this.C9.Name = "C9";
-            this.C9.ShadowDecoration.Parent = this.C9;
-            this.C9.Size = new System.Drawing.Size(49, 46);
-            this.C9.TabIndex = 1;
-            this.C9.Text = "C9";
-            this.C9.Click += new System.EventHandler(this.basicSeatClick);
+            this.P2.Animated = true;
+            this.P2.BorderRadius = 5;
+            this.P2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P2.CheckedState.Parent = this.P2;
+            this.P2.CustomImages.Parent = this.P2;
+            this.P2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P2.ForeColor = System.Drawing.Color.White;
+            this.P2.HoverState.Parent = this.P2;
+            this.P2.Location = new System.Drawing.Point(144, 316);
+            this.P2.Margin = new System.Windows.Forms.Padding(4);
+            this.P2.Name = "P2";
+            this.P2.ShadowDecoration.Parent = this.P2;
+            this.P2.Size = new System.Drawing.Size(53, 49);
+            this.P2.TabIndex = 1;
+            this.P2.Text = "P2";
+            this.P2.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // Q2
+            // 
+            this.Q2.Animated = true;
+            this.Q2.BorderRadius = 5;
+            this.Q2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q2.CheckedState.Parent = this.Q2;
+            this.Q2.CustomImages.Parent = this.Q2;
+            this.Q2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q2.ForeColor = System.Drawing.Color.White;
+            this.Q2.HoverState.Parent = this.Q2;
+            this.Q2.Location = new System.Drawing.Point(634, 316);
+            this.Q2.Margin = new System.Windows.Forms.Padding(4);
+            this.Q2.Name = "Q2";
+            this.Q2.ShadowDecoration.Parent = this.Q2;
+            this.Q2.Size = new System.Drawing.Size(53, 49);
+            this.Q2.TabIndex = 1;
+            this.Q2.Text = "Q2";
+            this.Q2.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // D2
+            // 
+            this.D2.Animated = true;
+            this.D2.BorderRadius = 5;
+            this.D2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.D2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.D2.CheckedState.Parent = this.D2;
+            this.D2.CustomImages.Parent = this.D2;
+            this.D2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.D2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.D2.ForeColor = System.Drawing.Color.White;
+            this.D2.HoverState.Parent = this.D2;
+            this.D2.Location = new System.Drawing.Point(626, 116);
+            this.D2.Margin = new System.Windows.Forms.Padding(4);
+            this.D2.Name = "D2";
+            this.D2.ShadowDecoration.Parent = this.D2;
+            this.D2.Size = new System.Drawing.Size(49, 46);
+            this.D2.TabIndex = 1;
+            this.D2.Text = "D2";
+            this.D2.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // N2
+            // 
+            this.N2.Animated = true;
+            this.N2.BorderRadius = 5;
+            this.N2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N2.CheckedState.Parent = this.N2;
+            this.N2.CustomImages.Parent = this.N2;
+            this.N2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N2.ForeColor = System.Drawing.Color.White;
+            this.N2.HoverState.Parent = this.N2;
+            this.N2.Location = new System.Drawing.Point(633, 253);
+            this.N2.Margin = new System.Windows.Forms.Padding(4);
+            this.N2.Name = "N2";
+            this.N2.ShadowDecoration.Parent = this.N2;
+            this.N2.Size = new System.Drawing.Size(53, 49);
+            this.N2.TabIndex = 1;
+            this.N2.Text = "N2";
+            this.N2.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // F2
+            // 
+            this.F2.Animated = true;
+            this.F2.BorderRadius = 5;
+            this.F2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.F2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.F2.CheckedState.Parent = this.F2;
+            this.F2.CustomImages.Parent = this.F2;
+            this.F2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.F2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.F2.ForeColor = System.Drawing.Color.White;
+            this.F2.HoverState.Parent = this.F2;
+            this.F2.Location = new System.Drawing.Point(626, 171);
+            this.F2.Margin = new System.Windows.Forms.Padding(4);
+            this.F2.Name = "F2";
+            this.F2.ShadowDecoration.Parent = this.F2;
+            this.F2.Size = new System.Drawing.Size(49, 46);
+            this.F2.TabIndex = 1;
+            this.F2.Text = "F2";
+            this.F2.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // M2
             // 
@@ -1600,7 +1464,7 @@
             this.M2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M2.ForeColor = System.Drawing.Color.White;
             this.M2.HoverState.Parent = this.M2;
-            this.M2.Location = new System.Drawing.Point(144, 321);
+            this.M2.Location = new System.Drawing.Point(142, 253);
             this.M2.Margin = new System.Windows.Forms.Padding(4);
             this.M2.Name = "M2";
             this.M2.ShadowDecoration.Parent = this.M2;
@@ -1609,48 +1473,68 @@
             this.M2.Text = "M2";
             this.M2.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // B9
+            // P1
             // 
-            this.B9.Animated = true;
-            this.B9.BorderRadius = 5;
-            this.B9.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.B9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.B9.CheckedState.Parent = this.B9;
-            this.B9.CustomImages.Parent = this.B9;
-            this.B9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.B9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.B9.ForeColor = System.Drawing.Color.White;
-            this.B9.HoverState.Parent = this.B9;
-            this.B9.Location = new System.Drawing.Point(567, 116);
-            this.B9.Margin = new System.Windows.Forms.Padding(4);
-            this.B9.Name = "B9";
-            this.B9.ShadowDecoration.Parent = this.B9;
-            this.B9.Size = new System.Drawing.Size(49, 46);
-            this.B9.TabIndex = 1;
-            this.B9.Text = "B9";
-            this.B9.Click += new System.EventHandler(this.basicSeatClick);
+            this.P1.Animated = true;
+            this.P1.BorderRadius = 5;
+            this.P1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.P1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.P1.CheckedState.Parent = this.P1;
+            this.P1.CustomImages.Parent = this.P1;
+            this.P1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.P1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.P1.ForeColor = System.Drawing.Color.White;
+            this.P1.HoverState.Parent = this.P1;
+            this.P1.Location = new System.Drawing.Point(81, 316);
+            this.P1.Margin = new System.Windows.Forms.Padding(4);
+            this.P1.Name = "P1";
+            this.P1.ShadowDecoration.Parent = this.P1;
+            this.P1.Size = new System.Drawing.Size(53, 49);
+            this.P1.TabIndex = 1;
+            this.P1.Text = "P1";
+            this.P1.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // R2
+            // Q1
             // 
-            this.R2.Animated = true;
-            this.R2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
-            this.R2.BorderRadius = 5;
-            this.R2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R2.CheckedState.Parent = this.R2;
-            this.R2.CustomImages.Parent = this.R2;
-            this.R2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R2.ForeColor = System.Drawing.Color.White;
-            this.R2.HoverState.Parent = this.R2;
-            this.R2.Location = new System.Drawing.Point(144, 258);
-            this.R2.Margin = new System.Windows.Forms.Padding(4);
-            this.R2.Name = "R2";
-            this.R2.ShadowDecoration.Parent = this.R2;
-            this.R2.Size = new System.Drawing.Size(53, 49);
-            this.R2.TabIndex = 1;
-            this.R2.Text = "R2";
-            this.R2.Click += new System.EventHandler(this.vipSeatClick);
+            this.Q1.Animated = true;
+            this.Q1.BorderRadius = 5;
+            this.Q1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.Q1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.Q1.CheckedState.Parent = this.Q1;
+            this.Q1.CustomImages.Parent = this.Q1;
+            this.Q1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.Q1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Q1.ForeColor = System.Drawing.Color.White;
+            this.Q1.HoverState.Parent = this.Q1;
+            this.Q1.Location = new System.Drawing.Point(571, 316);
+            this.Q1.Margin = new System.Windows.Forms.Padding(4);
+            this.Q1.Name = "Q1";
+            this.Q1.ShadowDecoration.Parent = this.Q1;
+            this.Q1.Size = new System.Drawing.Size(53, 49);
+            this.Q1.TabIndex = 1;
+            this.Q1.Text = "Q1";
+            this.Q1.Click += new System.EventHandler(this.vipSeatClick);
+            // 
+            // N1
+            // 
+            this.N1.Animated = true;
+            this.N1.BorderRadius = 5;
+            this.N1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.N1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.N1.CheckedState.Parent = this.N1;
+            this.N1.CustomImages.Parent = this.N1;
+            this.N1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.N1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.N1.ForeColor = System.Drawing.Color.White;
+            this.N1.HoverState.Parent = this.N1;
+            this.N1.Location = new System.Drawing.Point(570, 253);
+            this.N1.Margin = new System.Windows.Forms.Padding(4);
+            this.N1.Name = "N1";
+            this.N1.ShadowDecoration.Parent = this.N1;
+            this.N1.Size = new System.Drawing.Size(53, 49);
+            this.N1.TabIndex = 1;
+            this.N1.Text = "N1";
+            this.N1.Click += new System.EventHandler(this.vipSeatClick);
             // 
             // M1
             // 
@@ -1664,7 +1548,7 @@
             this.M1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.M1.ForeColor = System.Drawing.Color.White;
             this.M1.HoverState.Parent = this.M1;
-            this.M1.Location = new System.Drawing.Point(81, 321);
+            this.M1.Location = new System.Drawing.Point(79, 253);
             this.M1.Margin = new System.Windows.Forms.Padding(4);
             this.M1.Name = "M1";
             this.M1.ShadowDecoration.Parent = this.M1;
@@ -1673,90 +1557,47 @@
             this.M1.Text = "M1";
             this.M1.Click += new System.EventHandler(this.vipSeatClick);
             // 
-            // A9
+            // E2
             // 
-            this.A9.Animated = true;
-            this.A9.BorderRadius = 5;
-            this.A9.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.A9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.A9.CheckedState.Parent = this.A9;
-            this.A9.CustomImages.Parent = this.A9;
-            this.A9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.A9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.A9.ForeColor = System.Drawing.Color.White;
-            this.A9.HoverState.Parent = this.A9;
-            this.A9.Location = new System.Drawing.Point(567, 60);
-            this.A9.Margin = new System.Windows.Forms.Padding(4);
-            this.A9.Name = "A9";
-            this.A9.ShadowDecoration.Parent = this.A9;
-            this.A9.Size = new System.Drawing.Size(49, 46);
-            this.A9.TabIndex = 1;
-            this.A9.Text = "A9";
-            this.A9.Click += new System.EventHandler(this.basicSeatClick);
+            this.E2.Animated = true;
+            this.E2.BorderRadius = 5;
+            this.E2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E2.CheckedState.Parent = this.E2;
+            this.E2.CustomImages.Parent = this.E2;
+            this.E2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E2.ForeColor = System.Drawing.Color.White;
+            this.E2.HoverState.Parent = this.E2;
+            this.E2.Location = new System.Drawing.Point(184, 171);
+            this.E2.Margin = new System.Windows.Forms.Padding(4);
+            this.E2.Name = "E2";
+            this.E2.ShadowDecoration.Parent = this.E2;
+            this.E2.Size = new System.Drawing.Size(49, 46);
+            this.E2.TabIndex = 1;
+            this.E2.Text = "E2";
+            this.E2.Click += new System.EventHandler(this.basicSeatClick);
             // 
-            // R1
+            // E1
             // 
-            this.R1.Animated = true;
-            this.R1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
-            this.R1.BorderRadius = 5;
-            this.R1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.R1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.R1.CheckedState.Parent = this.R1;
-            this.R1.CustomImages.Parent = this.R1;
-            this.R1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.R1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.R1.ForeColor = System.Drawing.Color.White;
-            this.R1.HoverState.Parent = this.R1;
-            this.R1.Location = new System.Drawing.Point(81, 258);
-            this.R1.Margin = new System.Windows.Forms.Padding(4);
-            this.R1.Name = "R1";
-            this.R1.ShadowDecoration.Parent = this.R1;
-            this.R1.Size = new System.Drawing.Size(53, 49);
-            this.R1.TabIndex = 1;
-            this.R1.Text = "R1";
-            this.R1.Click += new System.EventHandler(this.vipSeatClick);
-            // 
-            // C2
-            // 
-            this.C2.Animated = true;
-            this.C2.BorderRadius = 5;
-            this.C2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C2.CheckedState.Parent = this.C2;
-            this.C2.CustomImages.Parent = this.C2;
-            this.C2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C2.ForeColor = System.Drawing.Color.White;
-            this.C2.HoverState.Parent = this.C2;
-            this.C2.Location = new System.Drawing.Point(184, 171);
-            this.C2.Margin = new System.Windows.Forms.Padding(4);
-            this.C2.Name = "C2";
-            this.C2.ShadowDecoration.Parent = this.C2;
-            this.C2.Size = new System.Drawing.Size(49, 46);
-            this.C2.TabIndex = 1;
-            this.C2.Text = "C2";
-            this.C2.Click += new System.EventHandler(this.basicSeatClick);
-            // 
-            // C1
-            // 
-            this.C1.Animated = true;
-            this.C1.BorderRadius = 5;
-            this.C1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.C1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.C1.CheckedState.Parent = this.C1;
-            this.C1.CustomImages.Parent = this.C1;
-            this.C1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
-            this.C1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.C1.ForeColor = System.Drawing.Color.White;
-            this.C1.HoverState.Parent = this.C1;
-            this.C1.Location = new System.Drawing.Point(129, 171);
-            this.C1.Margin = new System.Windows.Forms.Padding(4);
-            this.C1.Name = "C1";
-            this.C1.ShadowDecoration.Parent = this.C1;
-            this.C1.Size = new System.Drawing.Size(49, 46);
-            this.C1.TabIndex = 1;
-            this.C1.Text = "C1";
-            this.C1.Click += new System.EventHandler(this.basicSeatClick);
+            this.E1.Animated = true;
+            this.E1.BorderRadius = 5;
+            this.E1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.E1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.E1.CheckedState.Parent = this.E1;
+            this.E1.CustomImages.Parent = this.E1;
+            this.E1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.E1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.E1.ForeColor = System.Drawing.Color.White;
+            this.E1.HoverState.Parent = this.E1;
+            this.E1.Location = new System.Drawing.Point(129, 171);
+            this.E1.Margin = new System.Windows.Forms.Padding(4);
+            this.E1.Name = "E1";
+            this.E1.ShadowDecoration.Parent = this.E1;
+            this.E1.Size = new System.Drawing.Size(49, 46);
+            this.E1.TabIndex = 1;
+            this.E1.Text = "E1";
+            this.E1.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B2
             // 
@@ -1770,7 +1611,7 @@
             this.B2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B2.ForeColor = System.Drawing.Color.White;
             this.B2.HoverState.Parent = this.B2;
-            this.B2.Location = new System.Drawing.Point(184, 116);
+            this.B2.Location = new System.Drawing.Point(626, 60);
             this.B2.Margin = new System.Windows.Forms.Padding(4);
             this.B2.Name = "B2";
             this.B2.ShadowDecoration.Parent = this.B2;
@@ -1778,6 +1619,27 @@
             this.B2.TabIndex = 1;
             this.B2.Text = "B2";
             this.B2.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // C2
+            // 
+            this.C2.Animated = true;
+            this.C2.BorderRadius = 5;
+            this.C2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.C2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.C2.CheckedState.Parent = this.C2;
+            this.C2.CustomImages.Parent = this.C2;
+            this.C2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.C2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.C2.ForeColor = System.Drawing.Color.White;
+            this.C2.HoverState.Parent = this.C2;
+            this.C2.Location = new System.Drawing.Point(184, 116);
+            this.C2.Margin = new System.Windows.Forms.Padding(4);
+            this.C2.Name = "C2";
+            this.C2.ShadowDecoration.Parent = this.C2;
+            this.C2.Size = new System.Drawing.Size(49, 46);
+            this.C2.TabIndex = 1;
+            this.C2.Text = "C2";
+            this.C2.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // B1
             // 
@@ -1791,7 +1653,7 @@
             this.B1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.B1.ForeColor = System.Drawing.Color.White;
             this.B1.HoverState.Parent = this.B1;
-            this.B1.Location = new System.Drawing.Point(129, 116);
+            this.B1.Location = new System.Drawing.Point(571, 60);
             this.B1.Margin = new System.Windows.Forms.Padding(4);
             this.B1.Name = "B1";
             this.B1.ShadowDecoration.Parent = this.B1;
@@ -1799,6 +1661,27 @@
             this.B1.TabIndex = 1;
             this.B1.Text = "B1";
             this.B1.Click += new System.EventHandler(this.basicSeatClick);
+            // 
+            // C1
+            // 
+            this.C1.Animated = true;
+            this.C1.BorderRadius = 5;
+            this.C1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.C1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.C1.CheckedState.Parent = this.C1;
+            this.C1.CustomImages.Parent = this.C1;
+            this.C1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(178)))), ((int)(((byte)(144)))));
+            this.C1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.C1.ForeColor = System.Drawing.Color.White;
+            this.C1.HoverState.Parent = this.C1;
+            this.C1.Location = new System.Drawing.Point(129, 116);
+            this.C1.Margin = new System.Windows.Forms.Padding(4);
+            this.C1.Name = "C1";
+            this.C1.ShadowDecoration.Parent = this.C1;
+            this.C1.Size = new System.Drawing.Size(49, 46);
+            this.C1.TabIndex = 1;
+            this.C1.Text = "C1";
+            this.C1.Click += new System.EventHandler(this.basicSeatClick);
             // 
             // A2
             // 
@@ -1901,7 +1784,7 @@
             this.cNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.cNumber.DisabledState.Parent = this.cNumber;
             this.cNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cNumber.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.cNumber.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.cNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cNumber.FocusedState.FillColor = System.Drawing.Color.Transparent;
             this.cNumber.FocusedState.Parent = this.cNumber;
@@ -1983,7 +1866,7 @@
             // 
             // cName
             // 
-            this.cName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.cName.BackColor = System.Drawing.Color.Transparent;
             this.cName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
             this.cName.BorderRadius = 6;
             this.cName.BorderThickness = 2;
@@ -1994,7 +1877,7 @@
             this.cName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.cName.DisabledState.Parent = this.cName;
             this.cName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.cName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.cName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cName.FocusedState.FillColor = System.Drawing.Color.Transparent;
             this.cName.FocusedState.Parent = this.cName;
@@ -2044,26 +1927,6 @@
             this.panel3.Size = new System.Drawing.Size(587, 362);
             this.panel3.TabIndex = 2;
             // 
-            // datePicker
-            // 
-            this.datePicker.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(62)))), ((int)(((byte)(85)))));
-            this.datePicker.BorderRadius = 6;
-            this.datePicker.BorderThickness = 2;
-            this.datePicker.CheckedState.Parent = this.datePicker;
-            this.datePicker.FillColor = System.Drawing.Color.Transparent;
-            this.datePicker.ForeColor = System.Drawing.Color.White;
-            this.datePicker.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.datePicker.HoverState.Parent = this.datePicker;
-            this.datePicker.Location = new System.Drawing.Point(332, 64);
-            this.datePicker.Margin = new System.Windows.Forms.Padding(4);
-            this.datePicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.datePicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.datePicker.Name = "datePicker";
-            this.datePicker.ShadowDecoration.Parent = this.datePicker;
-            this.datePicker.Size = new System.Drawing.Size(227, 44);
-            this.datePicker.TabIndex = 14;
-            this.datePicker.Value = new System.DateTime(2022, 4, 16, 0, 0, 0, 0);
-            // 
             // checkNowBtn
             // 
             this.checkNowBtn.BackColor = System.Drawing.Color.Transparent;
@@ -2099,7 +1962,7 @@
             this.showTimeComboBox.BorderThickness = 2;
             this.showTimeComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.showTimeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.showTimeComboBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.showTimeComboBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.showTimeComboBox.FocusedColor = System.Drawing.Color.Empty;
             this.showTimeComboBox.FocusedState.Parent = this.showTimeComboBox;
             this.showTimeComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -2129,7 +1992,7 @@
             this.theatreComboBox.BorderThickness = 2;
             this.theatreComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.theatreComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.theatreComboBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.theatreComboBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.theatreComboBox.FocusedColor = System.Drawing.Color.Empty;
             this.theatreComboBox.FocusedState.Parent = this.theatreComboBox;
             this.theatreComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -2158,7 +2021,7 @@
             this.movieComboBox.BorderThickness = 2;
             this.movieComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.movieComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.movieComboBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.movieComboBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(45)))), ((int)(((byte)(67)))));
             this.movieComboBox.FocusedColor = System.Drawing.Color.Empty;
             this.movieComboBox.FocusedState.Parent = this.movieComboBox;
             this.movieComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -2223,6 +2086,16 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Movie:";
             // 
+            // datePicker
+            // 
+            this.datePicker.CustomFormat = "dd-MM-yyyy";
+            this.datePicker.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.datePicker.Location = new System.Drawing.Point(332, 61);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.Size = new System.Drawing.Size(225, 39);
+            this.datePicker.TabIndex = 14;
+            // 
             // Book_Ticket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2266,78 +2139,38 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2Button checkNowBtn;
         private Guna.UI2.WinForms.Guna2Button A1;
-        private Guna.UI2.WinForms.Guna2Button A8;
-        private Guna.UI2.WinForms.Guna2Button A15;
         private Guna.UI2.WinForms.Guna2Button A7;
-        private Guna.UI2.WinForms.Guna2Button A12;
-        private Guna.UI2.WinForms.Guna2Button A14;
         private Guna.UI2.WinForms.Guna2Button A4;
-        private Guna.UI2.WinForms.Guna2Button A11;
         private Guna.UI2.WinForms.Guna2Button A6;
-        private Guna.UI2.WinForms.Guna2Button A13;
         private Guna.UI2.WinForms.Guna2Button A3;
-        private Guna.UI2.WinForms.Guna2Button A10;
         private Guna.UI2.WinForms.Guna2Button A5;
-        private Guna.UI2.WinForms.Guna2Button A9;
         private Guna.UI2.WinForms.Guna2Button A2;
-        private Guna.UI2.WinForms.Guna2Button M8;
-        private Guna.UI2.WinForms.Guna2Button R8;
-        private Guna.UI2.WinForms.Guna2Button C8;
-        private Guna.UI2.WinForms.Guna2Button B8;
-        private Guna.UI2.WinForms.Guna2Button M15;
-        private Guna.UI2.WinForms.Guna2Button R15;
-        private Guna.UI2.WinForms.Guna2Button C15;
-        private Guna.UI2.WinForms.Guna2Button B15;
+        private Guna.UI2.WinForms.Guna2Button F1;
         private Guna.UI2.WinForms.Guna2Button M7;
-        private Guna.UI2.WinForms.Guna2Button R7;
-        private Guna.UI2.WinForms.Guna2Button C7;
+        private Guna.UI2.WinForms.Guna2Button E7;
         private Guna.UI2.WinForms.Guna2Button B7;
-        private Guna.UI2.WinForms.Guna2Button M12;
-        private Guna.UI2.WinForms.Guna2Button R12;
-        private Guna.UI2.WinForms.Guna2Button C12;
-        private Guna.UI2.WinForms.Guna2Button B12;
-        private Guna.UI2.WinForms.Guna2Button M14;
-        private Guna.UI2.WinForms.Guna2Button R14;
-        private Guna.UI2.WinForms.Guna2Button C14;
+        private Guna.UI2.WinForms.Guna2Button F5;
+        private Guna.UI2.WinForms.Guna2Button F7;
         private Guna.UI2.WinForms.Guna2Button M4;
-        private Guna.UI2.WinForms.Guna2Button B14;
-        private Guna.UI2.WinForms.Guna2Button R4;
-        private Guna.UI2.WinForms.Guna2Button C4;
-        private Guna.UI2.WinForms.Guna2Button M11;
+        private Guna.UI2.WinForms.Guna2Button E4;
         private Guna.UI2.WinForms.Guna2Button B4;
-        private Guna.UI2.WinForms.Guna2Button R11;
-        private Guna.UI2.WinForms.Guna2Button C11;
+        private Guna.UI2.WinForms.Guna2Button F4;
         private Guna.UI2.WinForms.Guna2Button M6;
-        private Guna.UI2.WinForms.Guna2Button B11;
-        private Guna.UI2.WinForms.Guna2Button R6;
-        private Guna.UI2.WinForms.Guna2Button C6;
-        private Guna.UI2.WinForms.Guna2Button M13;
+        private Guna.UI2.WinForms.Guna2Button E6;
         private Guna.UI2.WinForms.Guna2Button B6;
-        private Guna.UI2.WinForms.Guna2Button R13;
-        private Guna.UI2.WinForms.Guna2Button C13;
+        private Guna.UI2.WinForms.Guna2Button F6;
         private Guna.UI2.WinForms.Guna2Button M3;
-        private Guna.UI2.WinForms.Guna2Button B13;
-        private Guna.UI2.WinForms.Guna2Button R3;
-        private Guna.UI2.WinForms.Guna2Button C3;
-        private Guna.UI2.WinForms.Guna2Button M10;
+        private Guna.UI2.WinForms.Guna2Button E3;
         private Guna.UI2.WinForms.Guna2Button B3;
-        private Guna.UI2.WinForms.Guna2Button R10;
-        private Guna.UI2.WinForms.Guna2Button C10;
+        private Guna.UI2.WinForms.Guna2Button F3;
         private Guna.UI2.WinForms.Guna2Button M5;
-        private Guna.UI2.WinForms.Guna2Button B10;
-        private Guna.UI2.WinForms.Guna2Button R5;
-        private Guna.UI2.WinForms.Guna2Button C5;
-        private Guna.UI2.WinForms.Guna2Button M9;
+        private Guna.UI2.WinForms.Guna2Button E5;
         private Guna.UI2.WinForms.Guna2Button B5;
-        private Guna.UI2.WinForms.Guna2Button R9;
-        private Guna.UI2.WinForms.Guna2Button C9;
+        private Guna.UI2.WinForms.Guna2Button F2;
         private Guna.UI2.WinForms.Guna2Button M2;
-        private Guna.UI2.WinForms.Guna2Button B9;
-        private Guna.UI2.WinForms.Guna2Button R2;
         private Guna.UI2.WinForms.Guna2Button M1;
-        private Guna.UI2.WinForms.Guna2Button R1;
-        private Guna.UI2.WinForms.Guna2Button C2;
-        private Guna.UI2.WinForms.Guna2Button C1;
+        private Guna.UI2.WinForms.Guna2Button E2;
+        private Guna.UI2.WinForms.Guna2Button E1;
         private Guna.UI2.WinForms.Guna2Button B2;
         private Guna.UI2.WinForms.Guna2Button B1;
         private System.Windows.Forms.Label totalPrice;
@@ -2345,6 +2178,41 @@
         private System.Windows.Forms.Label label8;
         private Guna.UI.WinForms.GunaControlBox minimizeBtn;
         private Guna.UI.WinForms.GunaControlBox exitBtn;
-        private Guna.UI2.WinForms.Guna2DateTimePicker datePicker;
+        private Guna.UI2.WinForms.Guna2Button P7;
+        private Guna.UI2.WinForms.Guna2Button P4;
+        private Guna.UI2.WinForms.Guna2Button P6;
+        private Guna.UI2.WinForms.Guna2Button P3;
+        private Guna.UI2.WinForms.Guna2Button P5;
+        private Guna.UI2.WinForms.Guna2Button P2;
+        private Guna.UI2.WinForms.Guna2Button P1;
+        private Guna.UI2.WinForms.Guna2Button N7;
+        private Guna.UI2.WinForms.Guna2Button N4;
+        private Guna.UI2.WinForms.Guna2Button N6;
+        private Guna.UI2.WinForms.Guna2Button N3;
+        private Guna.UI2.WinForms.Guna2Button N5;
+        private Guna.UI2.WinForms.Guna2Button N2;
+        private Guna.UI2.WinForms.Guna2Button N1;
+        private Guna.UI2.WinForms.Guna2Button Q7;
+        private Guna.UI2.WinForms.Guna2Button Q4;
+        private Guna.UI2.WinForms.Guna2Button Q6;
+        private Guna.UI2.WinForms.Guna2Button Q3;
+        private Guna.UI2.WinForms.Guna2Button Q5;
+        private Guna.UI2.WinForms.Guna2Button Q2;
+        private Guna.UI2.WinForms.Guna2Button Q1;
+        private Guna.UI2.WinForms.Guna2Button D1;
+        private Guna.UI2.WinForms.Guna2Button D5;
+        private Guna.UI2.WinForms.Guna2Button D7;
+        private Guna.UI2.WinForms.Guna2Button D4;
+        private Guna.UI2.WinForms.Guna2Button D6;
+        private Guna.UI2.WinForms.Guna2Button D3;
+        private Guna.UI2.WinForms.Guna2Button D2;
+        private Guna.UI2.WinForms.Guna2Button C7;
+        private Guna.UI2.WinForms.Guna2Button C4;
+        private Guna.UI2.WinForms.Guna2Button C6;
+        private Guna.UI2.WinForms.Guna2Button C3;
+        private Guna.UI2.WinForms.Guna2Button C5;
+        private Guna.UI2.WinForms.Guna2Button C2;
+        private Guna.UI2.WinForms.Guna2Button C1;
+        private System.Windows.Forms.DateTimePicker datePicker;
     }
 }
